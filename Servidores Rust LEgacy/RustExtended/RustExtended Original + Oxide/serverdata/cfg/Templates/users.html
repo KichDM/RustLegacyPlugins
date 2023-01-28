@@ -1,0 +1,56 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>RUST Server - Online players</title>
+</head>
+
+<body>
+<table width="552" border="1" align="center">
+  <tr>
+    <td height="23" colspan="4" align="center">Server - Users</td>
+  </tr>
+  <tr>
+    <td width="25%" height="23" align="right">Total:</td>
+    <td width="25%">%SERVER.USERS%</td>
+  </tr>
+</table>
+</br>
+</br>
+<table width="1000" border="1" align="center">
+  <tr>
+    <td height="23" align="center">Username</td>
+    <td align="center">SteamID</td>
+    <td align="center">Password</td>
+    <td align="center">Comments</td>
+    <td align="center">Flags</td>
+    <td align="center">Rank</td>
+    <td align="center">Clan</td>
+    <td align="center">Balance</td>
+    <td align="center">Position</td>
+    <td align="center">Zone</td>
+    <td align="center">Violations</td>
+    <td align="center">ViolationDate</td>
+    <td align="center">PremiumDate</td>
+    <td align="center">LastConnectIP</td>
+  </tr>
+<USERLIST>
+  <tr>
+    <td align="center">%USER.USERNAME%</td>
+    <td align="center">%USER.STEAM_ID%</td>
+    <td align="center">%USER.PASSWORD%</td>
+    <td align="center">%USER.COMMENTS%</td>
+    <td align="center">%USER.FLAGS%</td>
+    <td align="center">%USER.RANK%</td>
+    <td align="center">%USER.CLAN%</td>
+    <td align="center">%USER.BALANCE%%ECONOMY.CURRENCYSIGN%</td>
+    <td align="center">%USER.POS.X%, %USER.POS.Y%, %USER.POS.Z%</td>
+    <td align="center">%USER.ZONE%</td>
+    <td align="center">%USER.VIOLATIONS%</td>
+    <td align="center">%USER.VIOLATIONDATE%</td>
+    <td align="center">%USER.PREMIUMDATE%</td>
+    <td align="center">%USER.LASTCONNECTIP%</td>
+  </tr>
+</USERLIST>
+</table>
+</body>
+</html>

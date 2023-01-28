@@ -1,0 +1,1 @@
+{"Explosive Charge":{"Buy":100,"Sell":0},"Explosives":{"Buy":30,"Sell":0},"Bolt Action Rifle":{"Buy":15,"Sell":0}}

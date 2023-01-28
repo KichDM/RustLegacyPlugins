@@ -1,0 +1,1 @@
+{"Blood":{"Buy":50,"Sell":5},"Stones":{"Buy":50,"Sell":5},"Animal Fat":{"Buy":20,"Sell":2},"Sulfur":{"Buy":50,"Sell":5},"Cloth":{"Buy":50,"Sell":5},"Wood":{"Buy":10,"Sell":1},"Metal Fragments":{"Buy":50,"Sell":5},"Raw Chicken Breast":{"Buy":20,"Sell":2},"556 Ammo":{"Buy":10,"Sell":10}}

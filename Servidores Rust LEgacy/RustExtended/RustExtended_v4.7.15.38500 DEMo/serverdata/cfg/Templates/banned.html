@@ -1,0 +1,42 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>RUST Server - Online players</title>
+</head>
+
+<body>
+<table width="552" border="1" align="center">
+  <tr>
+    <td height="23" colspan="2" align="center">Server - Banned players</td>
+  </tr>
+  <tr>
+    <td width="50%" height="23" align="right">Total:</td>
+    <td width="50%">%BANLIST.COUNT%</td>
+  </tr>
+</table>
+</br>
+</br>
+<table width="1000" border="1" align="center">
+  <tr>
+    <td height="23" align="center">SteamID</td>
+    <td height="23" align="center">Username</td>
+    <td height="23" align="center">IP</td>
+    <td height="23" align="center">Date</td>
+    <td height="23" align="center">Period</td>
+    <td height="23" align="center">Reason</td>
+    <td height="23" align="center">Details</td>
+  </tr>
+<BANLIST>
+  <tr>
+    <td align="center">%BANNED.STEAM_ID%</td>
+    <td align="center">%BANNED.USERNAME%</td>
+    <td align="center">%BANNED.IP%</td>
+    <td align="center">%BANNED.DATE%</td>
+    <td align="center">%BANNED.PERIOD%</td>
+    <td align="center">%BANNED.REASON%</td>
+    <td align="center">%BANNED.DETAILS%</td>
+  </tr>
+</BANLIST>
+</table>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "Messages": {
+    "ChatHelp": "Use '/ping player' to check target player's ping",
+    "ConsoleHelp": "Use 'ping player' to check target player's ping",
+    "InvalidTarget": "Invalid target player! Please try again",
+    "NoPermission": "You do not have permission to use this command!",
+    "PlayerCheck": "{player} has a ping of {ping}ms",
+    "PlayerExcluded": "{player} is excluded from ping checks!",
+    "PlayerKicked": "{player} was kicked for high ping ({ping}ms)",
+    "Rejected": "Your ping is too high for this server!",
+    "SelfCheck": "You have a ping of {ping}ms"
+  },
+  "Settings": {
+    "BroadcastKick": "true",
+    "Command": "ping",
+    "MaxPing": 1500,
+    "PingKick": "true"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "Message: Empty Spawn file": "The spawnfile is empty, can't find any spawn points. Make sure to create a valid Spawn Database first",
+  "Message: Freed": "You were freed from jail",
+  "Message: Jail Created": "You successfully created/updated the jail zone, use /zone_list for more informations",
+  "Message: KeepIn": "You are not allowed to leave the Jail",
+  "Message: KeepOut": "Keep out, no visitors allowed in the jail",
+  "Message: Loaded Cells": "Jail Plugin: {0} cell spawns were detected and loaded",
+  "Message: No Permission": "You don't have the permission to use this command",
+  "Message: No Player Found": "No Online player with this name was found",
+  "Message: No SpawnDatabase": "No spawns set or no spawns database found http://forum.rustoxide.com/resources/spawns-database.720",
+  "Message: No SpawnFile": "No SpawnFile - You must configure your spawnfile first: /jail_config spawnfile FILENAME",
+  "Message: No ZoneManager": "You can't use the Jail plugin without ZoneManager",
+  "Message: Sent In Jail": "You were arrested and sent to jail",
+  "Message: Welcome ADMIN": "Welcome to the jail {0}",
+  "spawnfile": "jailspawnfile"
+}

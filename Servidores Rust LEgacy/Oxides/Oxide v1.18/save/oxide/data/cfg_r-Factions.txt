@@ -1,0 +1,34 @@
+{
+  "TeleportToFactionCoolDown":5,
+  "ForceFriendlyFireON":false,
+  "DefaultConfigs":{
+    "teamkill":{
+      "editable":true,
+      "default":false
+    },
+    "teamkillpunish":{
+      "editable":true,
+      "default":false
+    },
+    "homefaction":{
+      "editable":true,
+      "default":false
+    },
+    "open":{
+      "editable":true,
+      "default":false
+    },
+    "allowtobecalled":{
+      "editable":true,
+      "default":true
+    }
+  },
+  "AllowFactionCreations":true,
+  "ShowConnectedMessage":true,
+  "ShowDisconnectedMessage":true,
+  "ExportChatPage":"",
+  "FactionNameLenght":10,
+  "ServerName":"Facçoes",
+  "Version":"1.1.1",
+  "TeleportToFactionDelay":5
+}

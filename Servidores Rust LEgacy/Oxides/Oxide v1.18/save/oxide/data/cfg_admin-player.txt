@@ -1,0 +1,27 @@
+{
+  "FastBar":[{
+      "amount":1,
+      "name":"Uber Hatchet"
+    },{
+      "amount":1,
+      "name":"Uber Hunting Bow"
+    },{
+      "amount":5,
+      "name":"Cooked Chicken Breast"
+    },{
+      "amount":5,
+      "name":"Large Medkit"
+    },{
+      "amount":1,
+      "name":"Stone Hatchet"
+    }],
+  "BagPack":[{
+      "amount":100,
+      "name":"Arrow"
+    }],
+  "Armor":["Invisible Helmet","Invisible Vest","Invisible Pants","Invisible Boots"],
+  "Version":"1.3",
+  "Flags_with_flags":false,
+  "flagsplugin_flag":"admin",
+  "Flags_with_oxmin":true
+}

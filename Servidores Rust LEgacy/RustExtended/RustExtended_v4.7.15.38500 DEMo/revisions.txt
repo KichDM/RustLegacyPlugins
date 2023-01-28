@@ -1,0 +1,1277 @@
+> RustExtended revisions file.
+> http://vk.com/rustextended
+> [*] - Fixed/Changed, [+] - Added, [-] Removed.
+
+-- 15.07.2014 (Build: 38500) --
+
+* Enabled again "Airdrop" settings for "Airdrop.Planes", "Airdrop.Drops".
+* Enabled again block attacks from hostile animals for administrators.
+
+* Updated "RustProtect.dll" to version 1.7.15.210. Fixed some problems with protection.
+  Re-Calculated hash for "Truth.RustProtect.CRC32".
+  Now client will be send packets every last frame from amount of "NetCull.sendRate".
+  Now server sends to client key for generate hash, key you can set in config file in 
+  variable "Truth.RustProtect.Key".
+
++ Added "Truth.RustProtect.Key" variable to config file.
+  Key for client to generate hash of all assembly files of client (individually for server)
+
++ Added "Truth.RustProtect.Hash" variable to config file.
+  Hash of all assembly files from client (calculated in clean client, with server.log > 2)
+
+- Removed "Truth.RustProtect.CRC32" from config file.
+
+-- 14.07.2014 (Build: 38400) --
+
+* Updated "RustProtect.dll" to version 1.7.14.110. 
+  Re-Calculated hash for "Truth.RustProtect.CRC32".
+  Now a client checking hashsum of files "Assembly-CSharp.dll" and "RustProtect.dll" once on client load.
+
++ Added messages in "MESSAGES" configuration.
+  Truth.Protect.NoUserdata=You have disconnected from a server. Reason: Your user data not a exists.
+  Truth.Protect.NoUserdata=Please contact to server administrator for correct this problem.
+  Truth.Protect.CheatsFound=You have disconnected from a server. Reason: You can't play with CHEATS on this server.
+  Truth.Protect.CheatsFound=Please do not use cheats programs on this server, otherwise your user account will be banned.
+  Truth.Protect.NotProtected=You have disconnected from a server. Reason: Not a compatible client version or client without a protection.
+  Truth.Protect.NotProtected=Please update your client for play on this server. Visit web site of server for receiving update for your client.
+
+-- 13.07.2014 (Build: 38200) --
+
+* Updated "RustProtect.dll" to version 1.7.13.100.  
+  Re-calculated hash for "Truth.RustProtect.CRC32".
+  Now a client every 5 seconds checking file "Assembly-CSharp.dll" on hashsum.
+
++ Added folder "Client.RustProtect" contains client side 
+  protection files. Supports only last steam version.
+
++ Added "Truth.RustProtect" variable to config file.
+  Enable/Disable checking client by "RustProtect.dll"
+
++ Added "Truth.RustProtect.CRC32" variable to config file.
+  Hash in CRC32 of all assembly files of client, (calculated in clean client, with server.log > 2)
+
+-- 11.07.2014 (Build: 38200) --
+
+* Restored pop ups for player who use voice.
+
++ Added "Announce.KillNotice" variable to config file.
+  Enable/Disable the notice for a killer when he kills victim.
+  You can see below about messages of kills.
+
++ Added messages in "MESSAGES" configuration.
+  NOTICE: This a popup with text after player kill any victim, you 
+  can (un)comment specified line of message for disable or enable.
+  PlayerNotice.Murder=You kill a %VICTIM%
+  PlayerNotice.NPC=You kill a %VICTIM%
+
++ Added new variable "NoCrafting" in loadout's.
+  Now you can forbid crafting blueprints for specific rank.
+  NoCrafting=Camp Fire Blueprint
+
++ Added messages in "MESSAGES" configuration.
+  Player.Crafting.Blueprint.NotKnown=You don't know this blueprint for a crafting
+  Player.Crafting.Blueprint.NotAvailable=This blueprint not is available for you
+
+* Modified "/save" command for save all avatars before save.
+
++ Added "Avatar.AutoSave.Interval" variable to config file.
+  Time in millisecons for save avatars of online players. 
+  Default: 1750. For disable auto-save set a variable to 0.
+
+-- 08.07.2014 (Build: 38000) --
+
+* Rebuilded hooks in Assembly-CSharp.dll for modification.
+
+-- 03.07.2014 (Build: 37700) --
+
++ Admins without "/admin" state, will have violation messages 
+  from TruthDetector when server.log over 1.
++ Admins without "/admin" state, will have speed, jump debug 
+  messages  from TruthDetector when server.log over 2.
+
+* Fixed nodecay state for objects.
+
++ Added "/remove" command for admins.
+  Removes the object you are looking at.
+
++ Added thrid parameter for "/uammo" command for admins.
+  Usage: /uammo <player> 					- Set a unlimited ammo for specified player
+  Usage: /uammo <player> <prefab>				- Any shot of player will be create object at position of bullet.
+  Usage: /uammo <player> "<prefab1>[,<prefab2>][,...]"	- Any shot of player will be create object from specified prefab list at position of bullet.
+  Usage: /uammo <player> ""				- Disable creating object by shot for specified player.
+
+* Minor fixes.
+
+-- 01.07.2014 (Build: 37500) --
+
+* Players cannot send private message by command "/pm" for admin when him into 
+  invisibility state. Player will be receiving message about "player not found".
+
+* Changed style of set parameters for "Truth.Punishment" in config.
+  Now you can enter multiple actions for punishment.
+  Example (player will be noticed and kicked): Truth.Punishment=Notice,Kick
+  Example (player will be kicked without notice): Truth.Punishment=Kick
+  NOTICE: Punishment of ban always will be shown for player.
+
++ Added new argument "id" for "users" command.
+  Now you can change steam id for specified user. This function change ID into database and rename folder
+  with "avatar.bin" file.
+
+  Example (change steam ID for player with name "My Darling", changing player old steam id to new 76561197960725002) 
+  In Chat: "/users "My Darling" id 76561197960725002"
+  Console: "serv.users "My Darling" id 76561197960725002"
+
+  Example (change Steam ID for player by old steam id, changing from 76561197961517888 to 76561197960725002)
+  In Chat: "/users 76561197961517888 id 76561197960725002" 
+  Console: "serv.users 76561197961517888 id 76561197960725002" 
+
+* Expanded the import/export for command "/users". 
+  Now next data: exporting \ importing: users data, clans data, banned data, ip blacklist
+
+* Changed field type "details" for "db_users_banned" in MySQL.
+  OLD TYPE: `details` char(255) NOT NULL,
+  NEW TYPE: `details` char(255) NULL,
+
++ Added "serv.clan" console command.
+  Console usage: serv.clan list						- Displays list of server clans
+  Console usage: serv.clan info <name|abbr>				- Displays information about specified clan
+  Console usage: serv.clan edit <name|abbr> name <new name>		- Change name for specified a clan.
+  Console usage: serv.clan edit <name|abbr> abbr <new name>		- Change name for specified a clan.
+  Console usage: serv.clan edit <name|abbr> motd <new name>		- Change message of the day for specified a clan.
+  Console usage: serv.clan edit <name|abbr> level <value>		- Change level for specified a clan.
+  Console usage: serv.clan edit <name|abbr> leader <player>		- Change leader for specified a clan.
+  Console usage: serv.clan edit <name|abbr> (money|balance) <value>	- Change balance for specified a clan.
+  Console usage: serv.clan edit <name|abbr> (experience|exp) <value>	- Change experience for specified a clan.
+  Console usage: serv.clan edit <name|abbr> tax <value> 		- Change tax for specified a clan.
+
+-- 30.06.2014 (Build: 37300) --
+
+* Fixed quotes problem with "Users.VerifyChars" in config.
+
+* Fixed problems with "ENTER.MESSAGE", "LEAVE.MESSAGE" for zones.
+
+* Fixed problem with kill a sleeper from melee weapon.
+
+-- 29.06.2014 (Build: 37300) --
+
++ Added "Ownership.Protect.OfflineUser" variable to config file.
+  Enable/Disable container protection for offline players
+
+* Renamed "Ownership.Protect.PremiumOnly" variable to "Ownership.Protect.PremiumUser" to config file.
+
++ Added messages in "MESSAGES" configuration.
+  Command.Home.NoEnoughCurrency=Not enough %PRICE% for return to camp
+  Command.Teleport.NoEnoughCurrency=Not enough %PRICE% for teleport
+
++ Added "Command.Home.Payment" variables to config file.
+  Payment in currency for use "/home" command (when economy is enabled)
++ Added "Command.Teleport.Payment" variables to config file.
+  Payment in currency for use "/tp" command (when economy is enabled)
+
++ Added "Ownership.Protect.*" variables to config file.
+  Ownership.Protect.PremiumOnly	- Enable/Disable container protection for premium accounts only
+  Ownership.Protect.SharedUsers	- Enable/Disable access to protected container for shared users of owner
+  Ownership.Protect.Container	- Name of container for protection (variable can be duped for other containers)
+
+- Removed "Ownership.Protect.WoodBox" variable from config file.
+- Removed "Ownership.Protect.WoodBoxLarge" variable from config file.
+- Removed "Ownership.Protect.SmallStash" variable from config file.
+
+* Added "Users.VerifyChars" to config file.
+  Allowed characters that may be contained in the username (default: "A-z,0-9,. _-")
+
+* Added "Steam.Favourite" to config file.
+  You can ust this variable for auto favourite your server for all connected players.
+  Example: Steam.Favourite=192.168.0.2:28015
+
+* Added "Steam.SetModded","Steam.SetOfficial","Steam.FakeOnline" to config file.
+  Steam.SetModded=true			- Enable\Disable modded flag for Steam MasterServer
+  Steam.SetOfficial=false		- Enable\Disable official flag for Steam MasterServer
+  Steam.FakeOnline=[Number|Min,Max]	- Sets fake online for Steam MasterServer
+
+-- 28.06.2014 (Build: 37200) --
+
+* Fixed "SleepersLifeTime" variable in config.
+  Added zero state, now you can disable removing bodies of sleepers 
+  after disconnect. Example: SleepersLifeTime=0
+  But sleepers of admins will be removed after disconnect.
+
+-- 27.06.2014 (Build: 37200) UNSTABLE BUILD --
+
+* Correcting properties for world spawners.
+
+* Modified check for open containers and weapon shots.
+
+-- 26.06.2014 (Build: 37000) UNSTABLE BUILD --
+
+* Increased time of decay for NPC corpses from 90 to 600 seconds.
+
+* Changed check for lootable objects, now to check only structure and door.
+
+* GLOBAL MODIFIED WILDLIFE MANAGER. (FOR TEST ONLY)
+  Now this modification must will be manage engine of wildlife.
+  This will control and remove network errors of wildlife.
+
++ Added argument for "/destroy" command to players.
+  Admin Usage: "/destroy banned" - Destroy all structures of banned players.
+
+-- 25.06.2014 (Build: 36500) --
+
++ Added check (bugfix) for melee weapon. Player not can damage other player through object.
+
++ Added check (bugfix) for loot action. Now players cannot open lootable objects 
+  when player not see center of this object.
+
++ Added messages in "MESSAGES" configuration.
+  Truth.Punish.Reason.ObjectHack.GatherStaticTree=%KILLER.NAME% (with %WEAPON%) try an attempt to gather tree by using cheat program Dizzy.
+
++ Hooked Melee Weapon for make checks.
+  Added checking dizzy cheat fo gathering from static tree.
+
+* Fixed internal problems with anti-cheat when player shot from shotgun.
+
+-- 24.06.2014 (Build: 36450) --
+
+* Changed file "rust_zones.txt", added warps betweens a towns.
+
++ Added variables "ENTER.NOTICE","LEAVE.NOTICE", for zone system.
+  You can add this variables inside section of zone, example:
+  [ZONE z_test]
+  ENTER.NOTICE=Entered to "Test" zone.
+  LEAVE.NOTICE=Leave from "Test" zone.
+
++ Added variables "ENTER.MESSAGE","LEAVE.MESSAGE", for zone system.
+  You can add this variables inside section of zone, and you can 
+  clone variables for split message on lines, example:
+  [ZONE z_test]
+  ENTER.MESSAGE=You entered to "Test" zone.
+  ENTER.MESSAGE=This zone created for test only.
+  LEAVE.MESSAGE=You leave from "Test" zone.
+  LEAVE.MESSAGE=Goodluck!
+
+* Modifed zone system. Now zones can have internal zones.
+  You can use next commands:
+  Admin Usage: /zone save				- Save all zones to file.
+  Admin Usage: /zone load				- Load/Reload zones from a file.
+  Admin Usage: /zone list				- Display list of all names of zones.
+  Admin Usage: /zone show				- Creating markers for all zones.
+  Admin Usage: /zone hide				- Removing markers for all zones.
+  Admin Usage: /zone <defname|name> name <new name>	- Rename zone name.
+  Admin Usage: /zone <defname|name>			- Display information about zone where are you stay.
+  Admin Usage: /zone <defname|name> new			- Start build new zone with specified name.
+  Admin Usage: /zone <defname|name> <mark|point>	- Add new point for new zone when you in build state.
+  Admin Usage: /zone <defname|name> save		- Save new zone, required 3+ points for save.
+  Admin Usage: /zone <defname|name> go			- Teleport you to specified zone, when zone have spawns.
+  Admin Usage: /zone <defname|name> <remove|delete>	- Delete specified zone.
+  Admin Usage: /zone <defname|name> spawn		- Add new spawn for specified zone.
+  Admin Usage: /zone <defname|name> spawns		- Display spawns list of specified zone.
+  Admin Usage: /zone <defname|name> <rad|radiation>	- Toggle radiation flag for specified zone (flag no have effects on zone).
+  Admin Usage: /zone <defname|name> pvp			- Toggle pvp flag, players can't damage other player into specified zone (NPC can damage).
+  Admin Usage: /zone <defname|name> safe		- Toggle safe flag, players can't get damage into specified zone (full safe).
+  Admin Usage: /zone <defname|name> decay		- Toggle decay flag, structures and objects not decay into specified zone. 
+  Admin Usage: /zone <defname|name> build		- Toggle build flag, players cannot build into specified zone.
+  Admin Usage: /zone <defname|name> trade		- Toggle trade flag, players can trade only, when TradeZoneOnly is enabled.
+  Admin Usage: /zone <defname|name> warp <defname2|name2>	- Create warp between zones.
+  Admin Usage: /zone <defname|name> unwarp 		- Unlink warp between zones.
+  Admin Usage: /zone <defname|name> warptime <seconds>	- Set seconds for warp from specified zone.
+
+-- 23.06.2014 (Build: 36400) --
+
++ Added fix for Hunting Bow, where player try kill through object(s).
+
++ Added "Chat.Rank.*.Color" for config file.
+  You now can add this variable to set a text color for specified rank in game chat.
+  Example: 
+    Chat.Rank.1.Color=#FF0000 - All players with VIP rank have "Red" chat color.
+    Chat.Rank.5.Color=#00FF00 - All players with OWNER rank have "Green" chat color.
+
+* Changed "PM" messages on game chat. Now a private message text will 
+  be warped if text length over "Chat.Line.MaxLength"
+
+-- 22.06.2014 (Build: 36400) --
+
+* Modified "Blood Drawn Kit".
+  Now after use this item will be removed and player receive 25 blood's.
+
+-- 21.06.2014 (Build: 36300) --
+
++ Added "serv.money" and "serv.balance" console command to admins.
+  Console usage: serv.balance <player> - Displays current value
+  Console usage: serv.balance <player> <value> - Sets value for player balance
+
+  Now you can append or subtract player balance (use +/- before value):
+  Console usage: serv.balance <player> +<value> - Append value for player balance
+  Console usage: serv.balance <player> -<value> - Subtract value for player balance
+  Admin Usage: /balance <player> +<value> - Append value for player balance
+  Admin Usage: /balance <player> -<value> - Subtract value for player balance
+
+  Balance value is maximum: 18,446,744,073,709,551,615
+
+* Changed field type "balance" for "db_users_economy" in MySQL.
+  from: `balance` int(10) NOT NULL,
+  to: `balance` bigint(20) NOT NULL,
+
++ Added "/ts" command to admins.
+  Enable/Disable teleportation from weapon shot.
+
++ Added "/uammo" command to admins.
+  Enable/Disable unlimited ammo for bullet weapons.
+
++ Added "Users.BindingNames" in config file. 
+  Enable/Disable of binding player name with SteamID
+
+* Fixed Airdrop.
+  Now server will be show message about incoming airdrop, when "Airdrop.Announce" 
+  is enabled. As well as, added message for server console about next airdrop.
+
+-- 21.06.2014 (Build: 36100) --
+
++ Added "/hacktest" command to admins.
+  This test command for test a player on cheat "no falldamage", player 
+  will be raised on 10m up and if player falling without damage,
+  command say about it. Don't use this command inside buildings.
+
++ Added argument for "/sell" command to players.
+  Usage: /sell all - Sell all sellable items from player inventory.
+
+-- 20.06.2014 (Build: 36000) --
+
++ Added messages in "MESSAGES" configuration.
+  Economy.Shop.Sell.NoNothing=You have no items for sale
+  Economy.Shop.Sell.AllSold=You sold %TOTALAMOUNT% items for %TOTALPRICE%
+
+* Now you can use "*" char twice in commands where need enter player name.
+  Example to teleport to player with name "Andrey" you can use:
+  Find by start in name: /tele And*
+  Find by middle in name: /tele *ndr*
+  Find by end in name: /tele *rey
+
++ Changed server events in mod core.
+  Now all events of modification running in a separate threads.
+
+* Minor fixes.
+
++ Added "freeze","unfreeze" for "/time" command.
+
+- Removed counter of generic spawners and function too.
+
+* Renamed "SpawnList.cfg" to "LootsList.cfg"
+
+-- 19.06.2014 (PRE-TEST) --
+
++ Added "ServerName" in config file. 
+  Default server name in game chat. if not specified then used "server.hostname".
+
+* Now RustExtended.dll a not require Mono.Cecil.dll for check version assemblies.
+
+* Rewrited a some hooks for server functions.
+
+* RustExtended UPDATED TO 4.XX.XX version 
+  Format "X.YY.ZZ (Build)" where: 
+     X - Number of global RUST update.
+    YY - Month of modification release.
+    ZZ - Day of modification release.
+
+! Now RustExtended supports last version of server files from date: 01.06.2014.
+! You can download last server files from: 
+!   Link: https://cloud.mail.ru/public/46ab7707c970/Rust_Server_01.06.14_%5BRust-Mods.ru%5D.zip
+!   Mirror: http://www.mediafire.com/download/ep9b0axf00knheb/Rust_Server_01.06.14_[Rust-Mods.ru].zip
+!   Mirror: https://docs.google.com/uc?id=0B64XaZWwDmGVajBOejV1d1lmcWs&export=download
+
+-- 18.06.2014 --
+
+* Modified server console title, added information about spawns count.
+
++ Added "-duperadius <number>" for server command-line. Dupe generic spawns(resource/npc) by specified radius.
+  Example: rust_server.exe -duperadius 100
+
++ Added exception for WildlifeAI, required for catching server errors. Now is experimental!!!
+
+* Minor fixes.
+
+-- 15.06.2014 --
+
++ Added "MySQL.UTF8" in config file.
+  Enable\Disable supporting UTF8 in MySQL server mode.
+
+* Change synchronization algorithm for update clans data.
+  Fixed problem with update of money and experience.
+
+-- 14.06.2014 --
+
+* Fixed errors in read rust_banned.txt file.
+
++ Added arguments for "/users" command to admins.
+  Console usage: serv.users add "<steam_id>" "<username>" "<password>" "<comments>" "<rank>" "<flags>" "<ip>" "<datetime>"
+  Game usage: /users add "<steam_id>" "<username>" "<password>" "<comments>" "<rank>" "<flags>" "<ip>" "<datetime>"
+  You can skip values after username, this require for creating accounts from web form.
+
+-- 12.06.2014 --
+
+* Changed "Statistics.Source" to "Generate.Source" in config file.
+* Changed "Statistics.Output" to "Generate.Output" in config file.
+  IMPORTANT: You now can clone "*.Source" and "*.Output". 
+  You can see HTML examples in "serverdata\cfg\Templates\"
+
+* Added new field "details" for "db_users_banned" in MySQL.
+  This field using for writing details about ban of truth detector.
+  NEW FIELD TYPE: `details` char(255) NOT NULL
+
+* Changed format of banned players to "rust_banned.txt" file.
+  Old: SteamID=NAME,IP,BANDATE,PERIOD,REASON
+  New: SteamID=NAME::IP::BANDATE::PERIOD::REASON::DETAILS
+
++ Added arguments for "/clan" command to admins.
+  Admin Usage: /clan edit <name|abbr> name <new name> - Change name for specified a clan.
+  Admin Usage: /clan edit <name|abbr> abbr <new name> - Change name for specified a clan.
+  Admin Usage: /clan edit <name|abbr> motd <new name> - Change message of the day for specified a clan.
+  Admin Usage: /clan edit <name|abbr> level <value> - Change level for specified a clan.
+  Admin Usage: /clan edit <name|abbr> leader <player> - Change leader for specified a clan.
+  Admin Usage: /clan edit <name|abbr> (money|balance) <value> - Change balance for specified a clan.
+  Admin Usage: /clan edit <name|abbr> (experience|exp) <value> - Change experience for specified a clan.
+  Admin Usage: /clan edit <name|abbr> tax <value> - Change tax for specified a clan.
+
++ Added generation of server statistics.
+  Now you can generate file with server statistics, may be handy for html generation.
+  For list generation of players: <PLAYERLIST> !!!WHERE %PLAYER.*% VARIABLES!!!! </PLAYERLIST>
+  For list generation of clans: <CLANLIST> !!!WHERE %CLAN.*% VARIABLES!!!! </CLANLIST>
+                                                         	
+  Next SERVER variables you can use: %SERVER.IP%, %SERVER.PORT%, %SERVER.STEAMID%, %SERVER.STEAMGROUP%, 
+  %SERVER.OFFICIAL%, %SERVER.MODDED%, %SERVER.MAP%, %SERVER.PVP%, %SERVER.MAXPLAYERS%, %SERVER.PLAYERS%, 
+  %CLANS.COUNT%, %CLANS.CREATE_COST%, %CLANS.LEVELS.COUNT%, %ECONOMY%, %ECONOMY.SIGN%, %ECONOMY.CURRENCYSIGN%, 
+  %ECONOMY.STARTBALANCE%, %ECONOMY.COST_RABBIT%, %ECONOMY.COST_CHICKEN%, %ECONOMY.COST_STAG%, %ECONOMY.COST_BOAR%, 
+  %ECONOMY.COST_WOLF%, %ECONOMY.COST_BEAR%, %ECONOMY.COST_MUTANTWOLF%, %ECONOMY.COST_MUTANTBEAR%, %ECONOMY.FEEDEATH%, 
+  %ECONOMY.FEEDEATH.PERCENT%, %ECONOMY.FEESUICIDE%, %ECONOMY.FEESUICIDE.PERCENT%, %ECONOMY.FEEMURDER%
+  %ECONOMY.FEEMURDER.PERCENT%, %ECONOMY.PAYMURDER%, %ECONOMY.PAYMURDER.PERCENT%, %ECONOMY.PAYMURDER%
+  %SHOP%, %SHOP.CAN_BUY%, %SHOP.CAN_SELL%, %SHOP.TRADEZONEONLY%
+
+  Next PLAYER variables you can use for playerlist: %PLAYER.NUMBER%, %PLAYER.STEAM_ID%, %PLAYER.USERNAME%,
+  %PLAYER.PASSWORD%, %PLAYER.COMMENTS%, %PLAYER.RANK%, %PLAYER.FLAGS%, %PLAYER.ZONE%, %PLAYER.CLAN%,
+  %PLAYER.CLAN.ABBR%, %PLAYER.CLAN.CREATED%, %PLAYER.CLAN.LEVEL%, %PLAYER.CLAN.BALANCE%, 
+  %PLAYER.CLAN.EXPERIENCE%, %PLAYER.CLAN.EXP%, %PLAYER.CLAN.MEMBERS.COUNT%, %PLAYER.CLAN.MEMBERS.MAX%, 
+  %PLAYER.CLAN.MOTD%, %PLAYER.VIOLATIONS%, %PLAYER.VIOLATIONDATE%, %PLAYER.FIRSTCONNECTDATE%, 
+  %PLAYER.LASTCONNECTDATE%, %PLAYER.FIRSTCONNECTIP%, %PLAYER.LASTCONNECTIP%, %PLAYER.PREMIUMDATE%, 
+  %PLAYER.POS%, %PLAYER.POS.X%, %PLAYER.POS.Y%, %PLAYER.POS.Z%, %PLAYER.PING%, %PLAYER.BALANCE%, 
+  %PLAYER.KILLED.ANIMALS%, %PLAYER.KILLED.MUTANTS%, %PLAYER.KILLED.NPC%, %PLAYER.KILLED.PLAYERS%, %PLAYER.KILLED%
+
+  Next CLAN variables you can use for clanlist: %CLAN.ID%, %CLAN.NAME%, %CLAN.ABBR%, %CLAN.CREATED%,
+  %CLAN.FLAGS%, %CLAN.BALANCE%, %CLAN.EXPERIENCE%, %CLAN.EXP%, %CLAN.TAX%, %CLAN.MOTD%, %CLAN.LOCATION%, 
+  %CLAN.LOCATION.X%, %CLAN.LOCATION.Y%, %CLAN.LOCATION.Z%, %CLAN.MEMBERS.MAX%, %CLAN.MEMBERS.COUNT%, 
+  %CLAN.MEMBERS.ONLINE%, %CLAN.LEVEL%, %CLAN.LEVEL.TAX%, %CLAN.LEVEL.CAN_MOTD%, %CLAN.LEVEL.CAN_ABBR%,
+  %CLAN.LEVEL.CAN_FFIRE%, %CLAN.LEVEL.CAN_TAX%, %CLAN.LEVEL.CAN_HOUSE%, %CLAN.LEVEL.CAN_DECLARE%, 
+  %CLAN.LEVEL.MAXMEMBERS%, %CLAN.LEVEL.BONUSCRAFTINGSPEED%, %CLAN.LEVEL.BONUSGATHERINGANIMAL%, 
+  %CLAN.LEVEL.BONUSGATHERINGROCK%, %CLAN.LEVEL.BONUSGATHERINGWOOD%, %CLAN.LEVEL.BONUSMEMBERSPAYMURDER%, 
+  %CLAN.LEVEL.BONUSMEMBERSDEFENSE%, %CLAN.LEVEL.BONUSMEMBERSDAMAGE%, %CLAN.LEADER%, %CLAN.LEADER.STEAM_ID%, 
+  %CLAN.LEADER.USERNAME%, %CLAN.LEADER.FLAGS%, %CLAN.WAR.COUNT%, %CLAN.ALLY.COUNT%, %CLAN.HOSTILE.COUNT%, 
+  %CLAN.FRENDLY.COUNT%, %CLAN.NEXTLEVEL%, %CLAN.NEXTLEVEL.TAX%, %CLAN.LEVEL.CAN_MOTD%, %CLAN.LEVEL.CAN_ABBR%, 
+  %CLAN.LEVEL.CAN_FFIRE%, %CLAN.LEVEL.CAN_TAX%, %CLAN.LEVEL.CAN_HOUSE%, %CLAN.LEVEL.CAN_DECLARE%, 
+  %CLAN.NEXTLEVEL.MAXMEMBERS%, %CLAN.NEXTLEVEL.BONUSCRAFTINGSPEED%, %CLAN.NEXTLEVEL.BONUSGATHERINGANIMAL%, 
+  %CLAN.NEXTLEVEL.BONUSGATHERINGROCK%, , %CLAN.NEXTLEVEL.BONUSGATHERINGWOOD%, %CLAN.NEXTLEVEL.BONUSMEMBERSPAYMURDER%, 
+  %CLAN.NEXTLEVEL.BONUSMEMBERSDEFENSE%, %CLAN.NEXTLEVEL.BONUSMEMBERSDAMAGE%
+
++ Added "Statistics.Source" in config file.
+  Statistics source file for generation
+
++ Added "Statistics.Output" in config file.
+  Destination file for generated statistics
+
++ Added "statistics.txt" file to modification.
+
+-- 10.06.2014 --
+
+* Fixed error in "/clans" command.
+
++ ANTICHEAT: Added NEW check for open containers.
+  Blocking when a player try open through wall.
+
++ ANTICHEAT: Added NEW check for WallHack Anticheat system.
+  Checks a player position after connect to game. Players now cannot enter into houses through ceil.
+
+-- 09.06.2014 --
+
++ Added and changed messages in "MESSAGES" configuration.
+  Server.WorldSaving=[COLOR#FF2F2F]World save has been initiated, please stay there where you are...
+  Server.WorldSaved=[COLOR#2FFF2F]World has been saved, this took [COLOR#FFDF2F]%SECONDS%[COLOR#2FFF2F] seconds.
+
+* Modified hook for world save, now saving have two stages: before, after.
+
+* Updated help for "clan" in ranks.cfg
++ Added new argument "details" for "/clan" command.
+  Player Usage: /clan details [on|off] - Enable\disable details of experience for a clan when player a gathering\killing\crafting.
+
++ Added new section "CLAN.CRAFTING.EXPERIENCE" in clans.cfg.
+  You can edit this sction what do you want.
+
+* Changed "Resources.*" in config file.
+  FROM:
+  Resources.AmountMultiplier=1.0		// Multiplier for amount of resources (animal body, wood or rocks pile)
+  Resources.GatherMultiplier=1.0		// Multiplier for gather resources (animal body, wood or rocks pile)
+  TO:
+  Resources.AmountMultiplier.Wood=1.0		// Multiplier for amount of resources for wood pile
+  Resources.AmountMultiplier.Rock=1.0		// Multiplier for amount of resources for rocks pile
+  Resources.AmountMultiplier.Flay=1.0		// Multiplier for amount of resources for animal corpse
+  Resources.GatherMultiplier.Wood=1.0		// Multiplier for amount of resources for wood pile
+  Resources.GatherMultiplier.Rock=1.0		// Multiplier for amount of resources for rocks pile
+  Resources.GatherMultiplier.Flay=1.0		// Multiplier for amount of resources for animal corpse
+
+* Changed arguments for "/zone" command.
+  Argument "hide" renamed to "hideall", now to use: "/zone hideall"
+  Added new argument: "/zone showall" - Displays markers for all exists zones.
+
+* Fixed when players try deploy structures in nobuild zone. 
+  Required for zones.
+
++ Added "Ownership.NotOwner.DenyBuild" in config file.
+  Enable/Disable forbidden to build structure for not owner player
+
+-- 08.06.2014 --
+
++ Added "Truth.CheckShootRange" in config file.
+  Enable/Disable check players to weapon shoot range hack
+
+* Changed teleportation for all systems, now players to be teleport twice 
+  in target location. This required for fix falling down through ceilings
+
++ Added "Command.Teleport.Timewait" in config file.
+  Time in seconds to wait for player before teleport to player.
+
++ Added "Command.Teleport.Countdown" in config file.
+  Countdown of time in seconds before player can use "/tp" again.
+
++ Added messages in "MESSAGES" configuration.
+  Command.Teleport.OnSelf=You cannot teleport to self
+  Command.Teleport.ToSelf=%USERNAME% cannot teleported on self
+  Command.Teleport.NotCan=%USERNAME% cannot be teleported
+  Command.Teleport.Query=%USERNAME% requests a teleport to you, do you want "ACCEPT"?
+  Command.Teleport.Query.Help=Type a "ACCEPT" or "CONFIRM" in game chat to confirm a request.
+  Command.Teleport.Refuse=You refused to teleport a %USERNAME%
+  Command.Teleport.Refused=%USERNAME% refused your teleport request
+  Command.Teleport.Confirmed=You confirmed teleportation %USERNAME% to self
+  Command.Teleport.IsConfirm=%USERNAME% confirmed your teleportation to himself
+  Command.Teleport.Already=You must wait %TIME% seconds of previous teleport
+  Command.Teleport.Prepare=Teleportation is happen in %TIME% seconds
+  Command.Teleport.Timewait=You must wait %TIME% seconds for teleport
+  Command.Teleport.Countdown=You have to wait %TIME% to request a teleport
+  Command.Teleport.Interrupt=Requested teleportation is interrupted
+  Command.Teleport.TeleportOnPlayer=You teleported to %USERNAME%
+  Command.Teleport.TeleportedPlayer=%USERNAME% teleported to you
+
+* Moved command "/tp" from RANK 2 to RANK 0.
+  NOW>> [RANK 0]
+  NOW>> tp = Request teleport to other player. Usage: /tp <player>
+  NOW>> [RANK 2]
+  NOW>> tele = Teleport the sender, or someone else, to a target user.\nUsage: /tele <to player> or /tele <player> <to player>\nUsage: /tele <x> <y> <z>
+  PS: Command "tp" is equal "tele" for use by admins and players.
+
++ Added messages in "MESSAGES" configuration.
+  Player.ChatQuery.NotAnswer=%USERNAME% not answered on previous request
+
+* Renamed messages in "MESSAGES" configuration.
+  Player.Teleport.Start=You will be teleported in %INTO% after %SECONDS% seconds.
+  Player.Teleport.Interrupt=Your teleporting in %INTO% has interrupted.
+  Player.Teleport.Teleported=You are teleported in "%ZONE%".  
+  TO:
+  Player.WarpZone.Start=You will be teleported in %INTO% after %SECONDS% seconds.
+  Player.WarpZone.Interrupt=Your teleporting in %INTO% has interrupted.
+  Player.WarpZone.Teleported=You are teleported in "%ZONE%".
+
++ Added "Chat.Line.MaxLength" in config file.
+  Maximum length of text line in chat, this splits text on lines for a display.
+  To disable this formatting, set a option on 0.
+
++ Added messages in "MESSAGES" configuration.
+  Command.Who.NotSeeAnything=You don't see anything
+  Command.Who.CannotOwned=This can't have owner.
+  Command.Who.NotOwned=This %OBJECT.NAME% not owned.
+  Command.Who.Condition=Condition %OBJECT.HEALTH% of %OBJECT.MAXHEALTH%
+  Command.Who=This %OBJECT.NAME% owned by %OBJECT.OWNERNAME%. %OBJECT.CONDITION%
+
+-- 07.06.2014 --
+
++ Added "AutoShutdown" in config file.
+  Time in minutes for shutdown the server after start (server work time, 0=disabled)
+
++ Added "AutoRestart" in config file.
+  Time in minutes for restart the server after start (0=disabled).
+
+* Changed field "privileges" for "db_clans_members" in MySQL.
+  Now: set('invite','dismiss','management','expdetails')
+
++ Added "Ownership.Destroy.AutoDisable" in config file.
+  Time in seconds for auto disabling destroy after enable, for players.
+
+* Changed method and algorithm of "PingLimit", require tests.
+
++ Added chat command "/password". Management of player password. 
+  Usage: /password                          - Displays your password.
+         /password <new_password>           - Set or change a password on new.
+
++ Added messages in "MESSAGES" configuration.
+  Command.Password.IsEmpty=Your password is a empty. Use: "/password <new_password>" to set or change.
+  Command.Password.Display=Your password: %PASSWORD%
+  Command.Password.NewTooShort=New password is too short.
+  Command.Password.NewTooLong=New password is too long.
+  Command.Password.Changed=Your password changed on new!
+
++ Added marker for commands in ranks.cfg.
+  Now you can mark command for set command for this rank only. 
+  Example:
+>>[RANK 0]
+>>about
+>>!time
+>>[RANK 1]
+>>home
+>>[RANK 2]
+>>!time
+Result: command "time" availabled only for 0,2 ranks.
+
+* Changed OnApproval, OnConnected and OnDisconnected events.
+  Now all connections\disonnections write to console and in logs IP too. 
+  Example: User Connected [player:76xxxxxxxxxxxxxx:127.0.0.1]
+  Example: User Connection Denied [player:76xxxxxxxxxxxxxx:127.0.0.1]: Username already in use.
+
++ Added "Truth.Banned.ExcludeIP" to config. Exclude IP for auto-block IP by TruthDetector.
+  You can clone this for exclude list of IPs. For example:
+  Truth.Banned.ExcludeIP=127.0.0.1
+  Truth.Banned.ExcludeIP=192.168.1.1
+  Truth.Banned.ExcludeIP=8.8.8.8
+  ...
+
++ Added messages in "MESSAGES" configuration.
+  Command.Home.List=You have %HOME.COUNT% homes:
+  Command.Home.List=Home #%HOME.NUM%: %HOME.POSITION%
+
++ Added parameters for "/home" command.
+  Player Usage: /home list - Displays list of player homes.
+
+-- 06.06.2014 --
+
+* Fixed tax in clan system.
+* Fixed declare war for clans.
+* Fixed error what calls exception about DoBleed() damage in server logs.
+* Fixed clan war, now clans can declare war, but need work next for create time for wars.
+
++ Added chat command "/clans".
+  Displays all names (with levels) of clans on server. 
+  You can change output format for building names.
+
++ Added messages in "MESSAGES" configuration.
+  Command.Clan.Hostile.Declare=Your leader of clan sends declaring WAR with %CLAN.NAME%.
+  Command.Clan.Hostile.Declare=Awaiting answer from leader hostile of clan.
+  Command.Clan.Hostile.Declared=Now your clan in WAR with %CLAN.NAME% clan.
+  Command.Clan.Hostile.Accepted=Now your clan in WAR with %CLAN.NAME% clan.
+  Command.Clan.Hostile.DeclinedFrom=A clan %CLAN.NAME% declined from war.
+  Command.Clan.Hostile.DeclinedFrom=Clan a gain some of experience and a currency.
+  Command.Clan.Hostile.DeclinedTo=Your clan declined from war with %CLAN.NAME% clan.
+  Command.Clan.Hostile.DeclinedTo=Clan a lost some of experience and a currency.
+  Command.Clans.List=List of clans:
+  Command.Clans.List=%CLANS.LIST%
+  Command.Clans.Info=%CLAN.NAME% (Lv. %CLAN.LEVEL%)
+
+  NOTICE: All repeated variables used for multi-line to display.
+
+-- 05.06.2014 --
+
+* Fixed BAN NullException, when player have flag 'banned' but not exists in banlist.
+
+-- 03.06.2014 --
+
+* Fixed "Flag.Tax" flag for clans.
+
+* Fixed time message of "mute" command.
+
+* Excluded damage for friendly fire from deployable objects. Test Only.
+
++ Added messages in "MESSAGES" configuration.
+  Command.Clan.PlayerJoined=You are joined to a clan %CLAN.NAME%.
+  Command.Clan.PlayerLeaved=You are leaving a clan %CLAN.NAME%.
+  Command.PM.From=[PM From]
+  Command.PM.To=[PM To]
+
+! NOTICE: You can use [COLOR#HEXCODE] in messages for coloring. 
+  Example: Command.Clan.PlayerJoined=You are joined to a clan [COLOR#FFFF00]%USERNAME%[/COLOR].
+
+-- 01.06.2014 --
+
+* Changed display time left for kits to new format: HH:MM:SS.
+  Required for long time countdowns of kits.
+
+-- 31.05.2014 --
+
++ Added parameters for "/clan" command.
+  Player Usage: /clan transfer <player> - Transfers a leadership of clan to another member. Only for clan leader.
+
++ Added messages in "MESSAGES" configuration.
+  Command.Clan.Transfer.NoValue=You must enter player name to transfer a clan
+  Command.Clan.Transfer.NotInClan=Player %USERNAME% not in your clan
+  Command.Clan.Transfer.Success=Leadership of a clan changed, new leader is now a %USERNAME%.
+
+-- 30.05.2014 --
+
+* Changed anticheat check for fire rate.
+
+* Changed anticheat check for line of sight for bullet shoots.
+  Now players will be warned if the shoot went through the object.
+  When player shoot through the wall, then player will be banned.
+  PS: It happens when a player shoots in move. But requires to block shoots through walls
+
+* Changed anticheat for hunting bow. 
+  Updated message about blocking shoot.
+
+* Changed "Truth.Punish.Reason.Aimbot.NotInLOS" in [MESSAGES] to:
+  Truth.Punish.Reason.Aimbot.ShootBlocked=%KILLER.NAME% (with %WEAPON%) shoot blocked by %OBJECT.NAME% to %VICTIM.NAME%.
+
+-- 16.05.2014 --
+
+* Fixed "/home" command for admins.
+
+* Major Clan Fixes.
+
+-- 14.05.2014 --
+
+* ATTENTION: Now all punish messages will be broadcasted in game chat, with details about reason.
+
++ Added "Truth.ViolationColor" to config.
+  Color of text for punishment messages to players in game chat.
+
++ Added messages in "MESSAGES" configuration.
+  Truth.Punish.Reason.SpeedHack=Movement speed is %SPEED.MOVEMENT% of over maximum %SPEED.MAXIMUM%
+  Truth.Punish.Reason.WallHack=Movement traced in %OBJECT.NAME% at %OBJECT.POS%
+  Truth.Punish.Reason.JumpHack=Jumped to height on %JUMP.HEIGHT% of over maximum %JUMP.MAXHEIGHT%
+
+* Changed messages in "MESSAGES" configuration, for good look.
+  Truth.Punish.Notice=%USERNAME% is using %VIOLATION_HACK%
+  Truth.Punish.Killed=%USERNAME% was killed for using %VIOLATION_HACK%
+  Truth.Punish.Kicked=%USERNAME% was kicked for using %VIOLATION_HACK%
+  Truth.Punish.Banned=%USERNAME% was banned for using %VIOLATION_HACK%
+  Truth.Violation.Notice=You were seen for using %VIOLATION_HACK%.
+  Truth.Violation.Killed=You was killed for using %VIOLATION_HACK%.
+  Truth.Violation.Kicked=You was kicked for using %VIOLATION_HACK%.
+  Truth.Violation.Banned=You was banned for using %VIOLATION_HACK% until %BAN_PERIOD%.
+
+- Removed messages in "MESSAGES" configuration.
+  Truth.Violation.Count=, you have violated %VIOLATION_NUM% of %VIOLATION_MAX%.
+
++ Added messages in "MESSAGES" configuration.
+  Clan.Experience.Gather=You gain %EXPERIENCE% experience from gathering.
+  Clan.Experience.Murder=You gain %EXPERIENCE% experience from death of %VICTIM%.
+  Command.Clan.Hostile.NoAvailable=You can't declare war for a clan
+  Command.Clan.Hostile.CannotWar=You can't declare war with %CLAN_NAME%
+
+* Changed field "flags" for "db_clans" in MySQL.
+  from: `flags` set('can_motd','can_abbr','can_ffire','can_tax','can_warp','friendlyfire','nodecayhouse') NOT NULL DEFAULT '',
+    to: `flags` set('can_motd','can_abbr','can_ffire','can_tax','can_warp','can_declare','friendlyfire','nodecayhouse') NOT NULL DEFAULT '',
+
++ Added "can_declare" to clan flags. 
++ Added "Flag.Declare" to "CLANLEVEL" configuration.
+  Can\Cannot to declare war or frendly with other clans.
+
++ Added "Experience.Multiplier" to "CLANS" configuration.
+  Multiplier of gain experience from gathering resources or murdering
+
++ Added "Experience.DisplayGain" to "CLANS" configuration.
+  Enable/Disable display message of gain experience for players
+
++ Added messages in "MESSAGES" configuration for clan commands.
+  You can translate messages on your language (in codepage UTF-8).
+
+* Changed field "flags" for "db_clans" in MySQL.
+  from: `flags` set('can_motd','can_abbrev','can_ffire','can_tax','can_warp','friendlyfire','nodecayhouse') NOT NULL DEFAULT '',
+    to: `flags` set('can_motd','can_abbr','can_ffire','can_tax','can_warp','friendlyfire','nodecayhouse') NOT NULL DEFAULT '',
+
+* Clan level fixes.
+
+* Minor clan fixes.
+
+-- 11.05.2014 --
+
++ Changed messages in "MESSAGES" configuration, added damage amount, bodypart and banned period.
+  PlayerDeath.Murder=%VICTIM% was killed in %BODYPART% at %DAMAGE% by a %KILLER% (%WEAPON%) from %DISTANCE%m.
+  Truth.ViolationBanned=You was banned for using %VIOLATION_HACK% until %BAN_PERIOD%.
+  Truth.Logger.Banned=User [%USERNAME%:%STEAM_ID%] %POS% was banned until %BAN_PERIOD% for using %VIOLATION_HACK%.
+
++ Added parameters for "/clan" command.
+  Player Usage: /clan up|rise|grow|level - Level ups a clan.
+  Player Usage: /clan deposit - Deposit money in clan balance.
+  Player Usage: /clan withdraw - Withdraw money from clan balance, Can only members with "management" flag.
+  Player Usage: /clan tax - A set a tax from cost of murders for a clan members. Can only members with "management" flag.
+  When clan member kills any victim, player receive money from kill with subtraction of a clan tax, for clan growing.
+  Player Usage: /clan house - A set house of a clan. Can only members with "management" flag.
+  Player Usage: /clan warp - Warping into a clan house when leader is a set.
+  Warping into a clan house when clan have point of clan house. Works as command "/home" (have timewait and countdown).
+  Player Usage: /clan war|hostile <clan name> - A set clan war with other clan. Can only members with "management" flag.
+  When a clan declines from war, then clan that is declined, a lose some of experience and a currency.
+  When a clan accept war, then clans lose/gains an experience from hostile when clan from members dies/kills, 
+  economy system for PvP murder.
+
++ Clans configuration now loads for server.
+  You can create not limited amount of clan levels.
+  All bonuses and flags turned off for all levels, you must anyone level to set flags and bonuses.
+
++ Major clan fixes.
+
+-- 09.05.2014 --
+
++ Added new field for "db_clans" in MySQL.
+  `balance` bigint(20) unsigned DEFAULT NULL
+  `flags` set('can_motd','can_abbrev','can_ffire','can_tax','can_warp','friendlyfire','nodecayhouse') NOT NULL DEFAULT '',
+  `tax` int(10) unsigned DEFAULT NULL,
+
+-- 08.05.2014 --
+
+* Modifed "Home.Timewait" to "Command.Home.Timewait" in config.
+* Modifed "Home.Countdown" to "Command.Home.Countdown" in config.
+* Modifed "NoPVP.Timewait" to "Command.NoPVP.Timewait" in config.
+* Modifed "NoPVP.Duration" to "Command.NoPVP.Duration" in config.
+* Modifed "NoPVP.Countdown" to "Command.NoPVP.Countdown" in config.
+
+- Removed "Events.Motd.Enabled" from config.
+- Removed "Events.Notice.Enabled" from config.
+- Removed "Events.Notice.Interval" from config.
+- Removed "Events.Announce.Enabled" from config.
+- Removed "Events.Announce.Interval" from config.
+
+* Making changes in "messages.cfg" file.
+  Added "Notice.Connected.Message" messages.
+  Removed "Event.Motd.Message" messages.
+  Removed "Event.Notice.Message" messages.
+  Removed "Event.Announce.Message" messages.
+
++ Added "Notice.Connected.Enabled" to config.
+  Enable/Disable the notice messages after player joined
+
++ Added new MOTD. You can see examples in "motd.cfg" file.
+
++ Added arguments "day", "night" for "/time" command.
+  Admin Usage: /time day - Sets time to 12:00.
+  Admin Usage: /time night - Sets time to 00:00.
+
+* Changed tracing of movement for WallHack check in Anti-Cheat.
+
+* Changed violation gain system for anti-cheat:
+  When hack method is "Aimbot Hack", player gains +100 pts. for counter of detector
+  When hack method is "Speed Hack", player gains +(100 / server.sendrate) pts. for counter of detector
+  When hack method is "Jump Hack", player gains +(200 / server.sendrate) pts. for counter of detector
+  When hack method is "Wall Hack", player gains +(100 / server.sendrate) pts. for counter of detector  
+  REMEMBER: When counter of detector reaches value of "truth.threshold", player is punished.
+  After punishment "player violations" has been increased to 1 and reset counter of detector.
+  When After punishment "counter of a player violations" has been increased to 1.
+  RECOMMENDATION: Set a "Truth.Punishment" on "Notice", for disable kicks.
+  And set a "Truth.MaxViolations" on "3"-"5" for a players safety who have a lags.
+  Kick player - Not good idea for punishment!!!
+
+* Minor fixes.
+
+-- 07.05.2014 --
+
+* Increased count of save backup into server core from 5 to 20.
+
+* Changed command "/who" for players.
+  Now shows object name of part a building instead text "Building".
+  Now shows object condition (health).
+
+* Replaced messages in [MESSAGES] section.
+  from (removed):
+  PlayerOwnership.UnderAttack=Your ownership is under attack.  
+  to (new added):
+  PlayerOwnership.Object.Attacked=Your %OBJECT% has been attacked.
+  PlayerOwnership.Object.Destroyed=Your %OBJECT% has been destroyed.
+
++ Added a flood protection for messages of ownership attacks.
+  A player receive one message per second.
+
+-- 06.05.2014 --
+
++ Added new check for Crafting for anti-cheat.
+  Players cannot craft item when not really knows blueprint, 
+  protection for Dizzy "All Blueprints" cheat for client side.
+
+* Fixed check "line of sight" for "Bullet weapons" in anti-cheat.
+  Increased Y on 0.1 in raycast check objects in line of sight.
+
++ Added new check for "Hunting Bow" for anti-cheat.
+  Blocks the shot when the player tries to shoot through walls, 
+  by using Wallhack from Dizzy cheat.
+
+-- 05.05.2014 --
+
++ Major fixes for player movement.
+
+-- 04.05.2014 --
++ Added gain system for clan experience. Requires stability tests.
+
++ Added chat command "/warp". Warp for specified player.
+  Admin Usage: /warp [<player>] - Warps a specified player to admin.
+  Player Usage: /warp - Warps a player back.
+  Required a tests.
+
++ Added flag "freeze" for users command.
+  Append new "freeze" into column "flags" of `db_users` table.
+
++ Added chat command "/freeze". Freeze specified player.
+  Admin Usage: /freeze [<player>]
+
+-- 02.05.2014 --
+
++ Added flag "onevent" for users command.
+  Append new "onevent" into column "flags" of `db_users` table.
+  This flag needs for players warps to events, and disables a position 
+  update for players who have this flag.
+
++ Added new messages to [MESSAGES] section for teleport event:
+  Player.Teleport.Start=You will be teleported in %INTO% after %SECONDS% seconds.
+  Player.Teleport.Interrupt=Your teleporting in %INTO% has interrupted.
+  Player.Teleport.Teleported=You are teleported in "%ZONE%".
+
+-- 30.04.2014 --
+
++ Added argument "name" for "/zone" command.
+  Admin Usage: /zone <name> name <newname> - Rename name of zone.
+
++ Added argument "warp" for "/zone" command.
+  Admin Usage: /zone <nameA> warp <nameB> - Link zones to warp.
+
++ Added argument "unwarp" for "/zone" command.
+  Admin Usage: /zone <nameA> unwarp - Unlink warp from zones.
+
++ Added argument "warptime" for "/zone" command.
+  Admin Usage: /zone <name> warptime <seconds> - Sets time in seconds for warp from zone.
+
++ Added details for "/who" command.
+  Now administrators have details of object from "who" command.
+
++ Added mysql synchronization for clans.
+
++ Added columns "x","y","z" to table "db_users" in MYSQL.
+
+- Removed value "lastupdate" from table "db_server" in MYSQL.
+- Removed value "uptime" from table "db_server" in MYSQL.
+
++ Added value "time_startup" to table "db_server" in MYSQL.
++ Added value "time_update" to table "db_server" in MYSQL.
+
+-- 29.04.2014 --
+
++ Added "Item Pickup" for protection.
+  Now a players can't pick up items when a not to see.
+  A actual for a Dizzy wallhack
+
+-- 28.04.2014 --
+
+* Modified "Hunting Bow" Silent Aim detection. Optimization.
+
+-- 27.04.2014 --
+
+* Renamed column "messages" to "reason" of table "db_punish_logs" in MYSQL.
++ Added column "details" to table "db_punish_logs" in MYSQL.
+
+-- 26.04.2014 --
+
++ Added "violation_date" to table "db_users" for MYSQL.
+  Column "violation_date" must type be "DATETIME".
+
++ Added "Truth.ViolationTimelife" in config file.
+  The time life in minutes of one violation.
+
++ Added "Chat.System.Color" in config file.
+  Color for server messages in chat
++ Added "Chat.Say.Color" in config file.
+  Color for "chat" messages in chat
++ Added "Chat.Yell.Color" in config file.
+  Color for "yell" messages in chat
++ Added "Chat.Whisper.Color" in config file.
+  Color for "whisper" and "pm" messages in chat
++ Added "Chat.Clan.Color" in config file.
+  Color for "clan" messages in chat
+
+-- 24.04.2014 --
+
++ Added command "serv.give" for server console.
+  Console Usage: serv.give <player> <item name> [<amount>] [<slots>]
+
++ Added command "serv.premium" for server console.
+  Console Usage: serv.premium <player> [<days>|disable]
+
++ Added command "serv.mute" for server console.
+  Console Usage: serv.mute <player> [<time>|disable]
+
++ Added command "serv.unmute" for server console.
+  Console Usage: serv.unmute <player>
+
++ Added command "serv.truth" for server console.
+  Console Usage: serv.truth <player>
+
++ Added detection of placement object in structures.
+
++ Added detection of invalid movement position, used by new WallHack.
+
+-- 22.04.2014 --
+
++ Append argument for "/restart" chat/console command.
+  Admin Usage: /restart - Stopping a shutdown process when server in shutdown process.
+  Console Usage: serv.restart - Stopping a shutdown process when server in shutdown process.
+
++ Append argument for "/shutdown" chat/console command.
+  Admin Usage: /shutdown - Stopping a shutdown process when server in shutdown process.
+  Console Usage: serv.shutdown - Stopping a shutdown process when server in shutdown process.
+
++ Append argument for "/clan" chat command.
+  Admin Usage: /clan info <clan> - Display information and members list of specified clan.
+  Admin Usage: /clan remove <clan> - Disband specified clan.
+
+* Changed arguments for "/destroy" chat command.
+  Admin Usage: /destroy - Destroys a structure(a building) at which you look.
+  Admin Usage: /destroy [<player>] - Destroy all structures of specified player.
+
++ Append argument for "/home" chat command.
+  Admin Usage: /home [<player>] [<number>] - Teleports to on spawn bed or sleeping bag of specified player.
+
+-- 21.04.2014 --
+
+* Changed fields in "db_user_countdown".
+  Removed "timeleft" column.
+  Changed "expires" type from "ENUM" to "DATETIME".
+
++ Added detection for shots in anti-cheat system.
+
++ Removed "Ownership.NoDeploy.NotOwner" from config file.
++ Added "Ownership.NotOwner.DenyDeploy" in config file.
+  Deny of placement a object into not owned of ownership zone (parameter can be repeated)
+  You can repeat this parameter (for example):
+    Ownership.NotOwner.DenyDeploy=Sleeping Bag
+    Ownership.NotOwner.DenyDeploy=Bed
+
+-- 20.04.2014 --
+
+* Added additional checks when reading a data of users from file.
+  - Checking steam id on length = 17.
+  - Checking username on a nulled.
+
+* Removed destroy messages from server console. 
+  Now write only in log file.
+
+* Fixed load clans.
+
++ Added "Chat.Say.Icon" in config file.
+  Icon for "chat" messages in chat
++ Added "Chat.Yell.Icon" in config file.
+  Icon for "yell" messages in chat
++ Added "Chat.Whisper.Icon" in config file.
+  Icon for "whisper" messages in chat
++ Added "Chat.Clan.Icon" in config file.
+  Icon for "clan" messages in chat
+
+-- 19.04.2014 --
+
++ Append for "/clan" chat command for users.
+  Usage: /clan [leave] - Leave from a clan.
+
++ Added "Users.PingLimit" in config file.
+  Disconnect a user from server when ping above specified limit
+
++ Added "Users.PingLimit" in messages file.
+  Disconnect.PingAboveLimit
+
++ Added "Truth.ViolationDetails" in config file.
+  Output a violation details in server console.
+- Removed exception in Wallhack check when a player is falling.
+
++ Added "Airdrop.DropTime" in config file.
+  Enable\Disable calling airdrop by hours range of day time
+
++ Added "Airdrop.DropTime.Hours" in config file.
+  Hours range of day time for calling airdrop (can be 0..23)
+
+* Changed "Airdrop.Interval" in config file.
+  Enable\Disable calling airdrop by real-time interval
+
++ Added "Airdrop.Interval.Time" in config file.
+  Time in seconds of real-time interval between supply drops
+
+* Renamed "Airdrop.Amount" to "Airdrop.Planes" in config file.
+  Amount of planes in airdrop
+
++ Added "Airdrop.ToDrop" in config file.
+  Amount(min, max) of supplies in airdrop
+
+-- 18.04.2014 --
+
++ Added "/clan" chat command for users.
+  Clan management for players. Syntax: -
+  Usage: /clan - Displays to chat info of clan for member of clan.
+  Usage: /clan [create] [clan name] - Creating new clan named "clan name", player who creates is a leader.
+  Usage: /clan [disband] - Disband clan, removing clan and dismiss all members from a clan. Only for clan leader.
+  Usage: /clan [invite] [<player>] - Invite a specific player to a clan. Only for members with "invite" flag.
+  Usage: /clan [dismiss] [<player>] - Dismiss a specific player from a clan. Only for members with "dismiss" flag.
+  Usage: /clan [priv] [<player>] [invite|dismiss|management] - Sets a privilege for specific clan member.
+	 -invite - Clan member can invite new players into a clan.
+	 -dismiss - Clan member can dismiss player from a clan.
+	 -management - Clan member can manage clan (full access). 
+  Usage: /clan [abbr] [abbreviation name] - Sets a abbreviation for clan. 
+         Abbreviation displayed over heads. Only for members with "management" flag.
+  Usage: /clan [motd] [message] - Sets a message of the day for clan. Only for members with "management" flag.
+  Usage: /clan [ffire] [on|off] - Enable\Disable "Friendly Fire" for clan members (by default : off). 
+         Only for members with "management" flag.
+  Usage: /clan [frendly] [add|remove] [clan name or abbr] - Adding\Removing frendly clan to this clan.
+         Only for members with "management" flag.
+  Usage: /clan [hostile] [add|remove] [clan name or abbr] - Adding\Removing hostile clan to this clan.
+         Only for members with "management" flag.
+  Usage: /clan [base] [go] - Teleport clan member to the location of a clan base.
+  Usage: /clan [base] [set] - Sets a location of clan base. Only for clan leader.
+
++ Added "Chat.Divider" in config file.
+  Sets a divider for name of messages in chat.
+
++ Added "Chat.Display.Rank" in config file.
+  Enable/Disable display user rank name in chat
+
++ Added "Chat.Display.Clan" in config file.
+  Enable/Disable display user clan abbrev in chat
+
++ Added "Chat.Console" in config file. 
+  Enable\disable output in console server of game chat messages.
+
++ Added "/who" chat command for users.
+  Displays the owner of the object on a which the player looks.
+
++ Added "/set" chat command for users.
+  Sets different settings for a player. Syntax: <fps|quality|nudy>
+  Usage: /set fps - Adjusting graphics settings on performance.
+  Usage: /set quality - Adjusting graphics settings on quality.
+  Usage: /set nudy - Disable censorship of nudity.
+
+-- 14.04.2014 --
+
+* Changed Truth.HeadshotAimTime, now can be float value.
+* Changed Truth.MaxViolations, when "-1", then players never be banned by TruthDetector.
+
+* Append agruments for "/destory" command (available only for admins)
+  Example: "/destory <player>" - destroy all objects owned by player
+
++ Added new command "/transfer" (available only for players and admins)
+  Example: "/transfer <player>" - transfer object to another player, Owner must look at object for transfer.
+  Players can transfer self owned objects.
+
++ Added new messages to [MESSAGES] section for transfer command:
+  Command.Transfer.Self=You can't transfer for self
+  Command.Transfer.Away=This is too far away
+  Command.Transfer.SeeNothing=You see nothing for transfer
+  Command.Transfer.ThereNothing=There are nothing for transfer
+  Command.Transfer.AlreadyOwned=This %OBJECT% already owned by %USERNAME%
+  Command.Transfer.NotYourOwned=This %OBJECT% not yours
+  Command.Transfer.Building=Building
+  
+* Shared users now can destroy ownership of structure owner.
+
+-- 11.04.2014 --
+
++ Added chat command "/set <fps|quality>"
+  Adjust graphics settings for player on performance or quality
+
++ Added to configuration:
+  Truth.Banned.Period=0 - Time in minutes for ban players by truth detector (0 - forever)
+
++ Added to configuration:
+  Chat.Yell.Key=!		- Key for "yell" messages in chat (global)
+  Chat.Yell.Distance=0		- Distance of "yell" messages in chat (0 - all players)
+  Chat.Whisper.Key=@		- Key for "whisper" messages in chat (closed range)
+  Chat.Whisper.Key=50		- Distance of "whisper" messages in chat (0 - all players)
+  Chat.Command.Key=/		- Key for "command" in chat.
+  Chat.Say.Distance=200		- Distance of default messages (0 - all players)
+  Chat.History.Private=true	- Save private messages in history
+  Chat.History.Commands=true	- Save chat commands in history
+  Chat.History.Stored=100	- Maximum count of stored lines for chat history
+  Chat.History.Display=25	- Default count of lines for display from history
+
+* Rewrited "/history" chat command now can be used with arguments: /history <number>
+  number - Amount of last lines from history to display.
+
+* Minor fixes.
+
+-- 03.04.2014 --
+
+* Rebuild loadout override (More options for items in loadout)
+
+-- 02.04.2014 --
+
++ Added flag "nobuild" to zones, players cannot build into zone with this flag.
+  /zone <name|def> build - Toggle zone "nobuild" flag.
+
++ Added loadout override
+  Now you can edit and create loadout templates for ranks.
+  Loadout allows change default starting (blueprints, items)
+
++ Added to config "Truth.ReportRank"
+  Minimum rank level for user to report about punishment in chat.
+
++ Added command "/send <player> <amount>"
+  Send amount of currency for specified a player. 
+
++ Added new MESSAGES for "/send" command.
+  Economy.Send.Himself=You can't send for himself
+  Economy.Send.NoAmount=You must enter amount of currency to send
+  Economy.Send.NoHaveAmount=You do not have %SENTAMOUNT% to send
+  Economy.Send.SentToPlayer=You a sent %SENTAMOUNT% to "%USERNAME%"
+  Economy.Send.SentFromPlayer="%USERNAME%" a sent %SENTAMOUNT% for you
+
+* Fixed bugs with previous systems.
+
+-- 01.04.2014 --
+
+* Added a system of regions (zones) in the game. Use in game "/zone" to modify, delete, create regions (zones). 
+  Zones can be with the following flags:
+   - radiation ( at the moment only mark areas where radiation)
+   - nodecay ( on data region is not lost items )
+   - nopvp ( in this region can not be detrimental to other players )
+   - save ( in this region can not harm the players and there is no aggression on the part of creatures )
+   - trade ( on data region is permitted to trade )
+
++ Added command "/spawn", the list of subjects for this command in a file spawn_prefab.txt, 
+  this command allows you to create in-game items such as (Wood Pile, Rock, MedicalLootBox, AmmoLootBox, 
+  WeaponLootBox, SupplyCrate) and summon creatures (rabbit, stag, boar, wolf, bear, mutant wolf, mutant 
+  bear, etc.). Currently this command works only for temporary creation, plan to add spawn system, which 
+  will expand and create custom spawns in world.
+
++ Added protection when placing objects (players can not place their objects on the territory of the 
+  other players if they are not co-owners of the property). Actual against cheaters who fall into 
+  someone's house through a sleeping bag.
+
+* Fixed bugs and bugs in the economy , as well as balanced price list.
+* Wild animals will no longer be aggressive on administration.
+* Players can not destroy the objects defined by the administrator .
+* Fixed god mode for the administration, the administrator now can not cause damage to itself ( for example with an object )
+
+-- 29.03.2014 --
+
++ Added economy modification therefore added the following commands:
+  Chat command: /balance - Displays the current balance of the player
+  Chat command: /money - the same as / balance
+  Chat command: /shop - Displays chat games and a list of categories of goods. You can use / shop [ category name or number ]
+  Chat command: /buy [item] [count] - buy an item by its name or part of the name or number.
+  Chat command: /sell [item] [count] - sell an item by its name or part of the name or number.
+  NOTE: Lists of sale / purchase items must be balanced to avoid Dupe items or cash.
+
+* Fixed command "/ r", now works.
+
+* Changed command "/ban", now can be used with arguments: "/ban <player> [<reason>] [<number of days>]"
+
++ Added new MESSAGES:
+  Player.Inventory.IsFull
+  Economy.NotAvailable
+  Economy.Balance
+  Economy.PlayerDeath.Pay
+  Economy.PlayerDeath.Fee
+  Economy.PlayerSuicide.Fee
+  Economy.Shop.NotAvailable
+  Economy.Shop.ListGroup
+  Economy.Shop.Help
+  Economy.Shop.Buy.NotAvailable
+  Economy.Shop.Buy.ItemNotAvailable
+  Economy.Shop.Buy.NotEnoughBalance
+  Economy.Shop.Buy.ItemPurchased
+  Economy.Shop.Sell.NotAvailable
+  Economy.Shop.Sell.ItemNotAvailable
+  Economy.Shop.Sell.NotEnoughItem
+  Economy.Shop.Sell.ItemSold
+
+-- Starting revision file

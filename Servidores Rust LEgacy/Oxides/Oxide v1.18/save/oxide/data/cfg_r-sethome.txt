@@ -1,0 +1,13 @@
+{
+  "homes_timer":5,
+  "gohome_price":100,
+  "Use_Groups":false,
+  "Use_Doorshare":true,
+  "Use_Economy":true,
+  "homes_limit":5,
+  "homes_cooldown":3,
+  "sethome_price":1000,
+  "Version":"2.0",
+  "reset_home_timer_if_attacked":true,
+  "Use_Factions":true
+}

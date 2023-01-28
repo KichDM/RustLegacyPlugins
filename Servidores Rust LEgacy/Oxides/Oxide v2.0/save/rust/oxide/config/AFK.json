@@ -1,0 +1,10 @@
+{
+  "Messages": {
+    "PlayerKicked": "{player} Foi kikado por estar AFK!",
+    "YouKicked": "You were kicked for being AFK for {afklimit} seconds!"
+  },
+  "Settings": {
+    "AfkTimeLimit": 200,
+    "BroadcastChat": "true"
+  }
+}

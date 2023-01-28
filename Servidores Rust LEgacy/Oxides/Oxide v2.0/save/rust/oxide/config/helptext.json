@@ -1,0 +1,10 @@
+{
+  "CustomHelpText": [
+    "custom helptext",
+    "custom helptext"
+  ],
+  "Settings": {
+    "AllowHelpTextFromOtherPlugins": "true",
+    "UseCustomHelpText": "false"
+  }
+}

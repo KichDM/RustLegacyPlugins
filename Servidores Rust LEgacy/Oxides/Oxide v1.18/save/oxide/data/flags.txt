@@ -1,0 +1,1 @@
+{"Users":{"76561197963835114":{"Name":"","Groups":[],"Flags":["banning"],"SteamID":"76561197963835114"}},"Groups":{"everyone":{"Name":"everyone","Flags":[]},"owners":{"Name":"owners","Flags":["rcon"]},"admins":{"Name":"admins","Flags":[]}}}

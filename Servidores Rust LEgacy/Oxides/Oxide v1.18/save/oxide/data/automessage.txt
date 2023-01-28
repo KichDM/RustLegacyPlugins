@@ -1,0 +1,19 @@
+{"SendMessagesInRandomOrder":true,"MessageDelay":60,"MessageList":[
+[" [color green]☣ [color#00FFFF] Bem vindo ao server DarkRust, visite nosso site digitando [color orange]/web [color green] ☣ "],
+[" [color green]☣ [color orange] Estamos recrutando moderadores! Entre no site para saber mais: [color green] /web [color green] ☣ "],
+[" [color green]☣ [color green] Precisa da ajuda de um adm? Digite[color orange] /staffonline[color green] ☣ "],
+[" [color green]☣ [color red] Players VIP ganham [color green]1.000$ [color red]por hora, compre o seu também![color green] ☣ "],
+[" [color green]☣ [color yellow] E um youtuber? Digite [color green]/yt[color green] ☣ "],
+[" [color green]☣ [color orange] Compre um item na loja digitando [color green]/comprar Item Quantidade | Exemplo: /comprar Explosive Charge 10 ☣ "],
+[" [color green]☣ [color yellow] [EVENTO] 5000 Cash por apenas 10R$ no site [color green]/web [color green] ☣ "],
+[" [color green]☣ [color yellow] Participem do nosso grupo no facebook![color green] ☣ "],
+[" [color green]☣ [color green] Temos um forum sabia? Entre nele digitando [color orange]/web[color green] ☣ "],
+[" [color green]☣ [color green] Compre seus itens na loja digitando /loja /loja2 /loja3 [color green] ☣ "],
+[" [color green]☣ [color green] Venda itens digitando [color orange] /vender [color green] ☣ "],
+[" [color green]☣ [color red] STAFF ATUAL DO SERVER: DokiTV & NoobFake [color green] ☣ "],
+[" [color green]☣ [color orange] Compre CASH e tenha direito a itens exclusivos no servidor! [color green] /web [color green] ☣ "],
+[" [color green]☣ [color orange] Compre um item na loja digitando [color green]/comprar Item Quantidade | Exemplo: /comprar Wood 10 ☣ "],
+[" [color green]☣ [color yellow] Este servidor e hospedado pela melhor host do Brasil! Digite [color orange]/host [color green] ☣ "],
+[" [color green]☣ [color red] Compre seu vip por apenas 10R$ no site [color yellow]www.darkrustbr.com [color green] ☣ "],
+[" [color green]☣ [color red] Promoçao VIP de inauguraçao, veja no site digitando [color orange]/web [color green] ☣ "]
+],"LastMessageID":0,"ChatName":"[DarkRust]","SendNotice":false,"SendAllChat":true} -

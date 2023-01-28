@@ -1,0 +1,206 @@
+{
+  "undo":{
+    "log":true,
+    "allowcmd":true,
+    "timesaved":320
+  },
+  "ChatName":"Remover",
+  "remove":{
+    "shared":{
+      "doorshare":true,
+      "factions":true,
+      "groups":true
+    },
+    "antiremoveduringraidtime":120,
+    "antifloat":false,
+    "autodeactivatetime":60,
+    "refund":true,
+    "log":true,
+    "onlyadminremove":false,
+    "allowcmd":true,
+    "antiremoveduringraid":true
+  },
+  "UberHatchetCanDestroy":true,
+  "refund":{
+    "Metal Ramp":{
+      "amount":1,
+      "item":"Metal Ramp"
+    },
+    "Wood Doorway":{
+      "amount":1,
+      "item":"Wood Doorway"
+    },
+    "Wooden Door":{
+      "amount":1,
+      "item":"Wooden Door"
+    },
+    "Wood Gate":{
+      "amount":1,
+      "item":"Wood Gate"
+    },
+    "Metal Doorway":{
+      "amount":1,
+      "item":"Metal Doorway"
+    },
+    "Small Stash":{
+      "amount":1,
+      "item":"Small Stash"
+    },
+    "Wood Shelter":{
+      "amount":1,
+      "item":"Wood Shelter"
+    },
+    "Large Wood Storage":{
+      "amount":1,
+      "item":"Large Wood Storage"
+    },
+    "Wood Gateway":{
+      "amount":1,
+      "item":"Wood Gateway"
+    },
+    "Metal Pillar":{
+      "amount":1,
+      "item":"Metal Pillar"
+    },
+    "Wood Window":{
+      "amount":1,
+      "item":"Wood Window"
+    },
+    "Metal Foundation":{
+      "amount":1,
+      "item":"Metal Foundation"
+    },
+    "Metal Wall":{
+      "amount":1,
+      "item":"Metal Wall"
+    },
+    "Metal Window":{
+      "amount":1,
+      "item":"Metal Window"
+    },
+    "Wood Wall":{
+      "amount":1,
+      "item":"Wood Wall"
+    },
+    "Workbench":{
+      "amount":1,
+      "item":"Workbench"
+    },
+    "Wood Stairs":{
+      "amount":1,
+      "item":"Wood Stairs"
+    },
+    "Wood Ramp":{
+      "amount":1,
+      "item":"Wood Ramp"
+    },
+    "Wood Pillar":{
+      "amount":1,
+      "item":"Wood Pillar"
+    },
+    "Wood Barricade":{
+      "amount":1,
+      "item":"Wood Barricade"
+    },
+    "Large Spike Wall":{
+      "amount":1,
+      "item":"Large Spike Wall"
+    },
+    "Camp Fire":{
+      "amount":5,
+      "item":"Wood"
+    },
+    "Metal Door":{
+      "amount":1,
+      "item":"Metal Door"
+    },
+    "Metal Window Bars":{
+      "amount":1,
+      "item":"Metal Window Bars"
+    },
+    "Wood Foundation":{
+      "amount":1,
+      "item":"Wood Foundation"
+    },
+    "Bed":{
+      "amount":1,
+      "item":"Bed"
+    },
+    "Metal Stairs":{
+      "amount":1,
+      "item":"Metal Stairs"
+    },
+    "Spike Wall":{
+      "amount":1,
+      "item":"Spike Wall"
+    },
+    "Furnace":{
+      "amount":1,
+      "item":"Furnace"
+    },
+    "Metal Ceiling":{
+      "amount":1,
+      "item":"Metal Ceiling"
+    },
+    "Repair Bench":{
+      "amount":1,
+      "item":"Repair Bench"
+    },
+    "Wood Ceiling":{
+      "amount":1,
+      "item":"Wood Ceiling"
+    },
+    "Wood Storage Box":{
+      "amount":1,
+      "item":"Wood Storage Box"
+    },
+    "Sleeping Bag":{
+      "amount":1,
+      "item":"Sleeping Bag"
+    }
+  },
+  "flagsplugin_flag":"ban",
+  "prod":{
+    "allowcmd":true,
+    "ShowLastUsed":true,
+    "onlyadminprod":true,
+    "SteamAPIKey":""
+  },
+  "Version":"3.2",
+  "removable":{
+    "Metal Ramp":true,
+    "Wood Doorway":true,
+    "Wooden Door":true,
+    "Wood Gate":true,
+    "Metal Doorway":true,
+    "Small Stash":true,
+    "Wood Shelter":true,
+    "Large Wood Storage":true,
+    "Wood Gateway":true,
+    "Metal Pillar":true,
+    "Wood Window":true,
+    "Metal Foundation":true,
+    "Metal Wall":true,
+    "Metal Window":true,
+    "Wood Wall":true,
+    "Workbench":true,
+    "Wood Stairs":true,
+    "Wood Ramp":true,
+    "Wood Pillar":true,
+    "Wood Barricade":true,
+    "Large Spike Wall":true,
+    "Camp Fire":false,
+    "Metal Door":true,
+    "Metal Window Bars":true,
+    "Wood Foundation":true,
+    "Bed":false,
+    "Metal Stairs":true,
+    "Spike Wall":true,
+    "Furnace":true,
+    "Metal Ceiling":true,
+    "Repair Bench":true,
+    "Wood Ceiling":true,
+    "Wood Storage Box":true,
+    "Sleeping Bag":false
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "admin": {
+    "Title": "admin",
+    "Rank": 0,
+    "Perms": [],
+    "ParentGroup": null
+  },
+  "player": {
+    "Title": "player",
+    "Rank": 1,
+    "Perms": [],
+    "ParentGroup": null
+  },
+  "ytdv": {
+    "Title": "",
+    "Rank": 0,
+    "Perms": [],
+    "ParentGroup": null
+  }
+}

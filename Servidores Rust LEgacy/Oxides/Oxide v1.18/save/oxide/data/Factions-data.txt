@@ -1,0 +1,1 @@
+{"currentdoor":0}

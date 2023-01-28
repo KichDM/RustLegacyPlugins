@@ -1,0 +1,18 @@
+{
+  "Gather Multiplier: Animals": 2,
+  "Gather Multiplier: Metal Rock": 5,
+  "Gather Multiplier: Stone Rock": 4,
+  "Gather Multiplier: Sulfur Rock": 5,
+  "Gather Multiplier: WoodPile": 15,
+  "Resource Multiplier": {
+    "Animal Fat": 2,
+    "Blood": 2,
+    "Cloth": 2,
+    "Leather": 2,
+    "Metal Ore": 5,
+    "Raw Chicken Breast": 2,
+    "Stones": 2,
+    "Sulfur Ore": 2,
+    "Wood": 3
+  }
+}

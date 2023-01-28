@@ -1,0 +1,9 @@
+{
+  "CheckAllPlayersOnJoin":true,
+  "SendDetectionsToAdmins":true,
+  "TimerToCheckForFallDamage":10,
+  "BroadcastBan":true,
+  "NumberOfDetectionsBeforeBan":4,
+  "AllowAutoBan":true,
+  "chatName":"BOT"
+}

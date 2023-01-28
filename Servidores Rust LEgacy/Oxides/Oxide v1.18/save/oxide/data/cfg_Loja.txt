@@ -1,0 +1,22 @@
+{
+  "Chatname":"Loja",
+  "Econ":{
+    "Wolf":125,
+    "Stag":80,
+    "Chicken":25,
+    "Rabbit":25,
+    "Boar":120,
+    "StartMoney":1000,
+    "Symbol":"$",
+    "Bear":250,
+    "HumanPercent":15,
+    "ShowMoneyConnect":true
+  },
+  "Misc":{
+    "AutoSaveTime":2500
+  },
+  "Enabled":{
+    "Econ":true
+  },
+  "configVersion":"1"
+}

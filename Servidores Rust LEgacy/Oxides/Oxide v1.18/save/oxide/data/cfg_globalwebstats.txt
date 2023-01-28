@@ -1,0 +1,12 @@
+{
+  "bushycoin":false,
+  "killadd":10,
+  "boaradd":2,
+  "rabbitadd":1,
+  "stagadd":3,
+  "chickenadd":1,
+  "bearadd":5,
+  "globalurl":"http://darkrustbr.com/status/webstats.php",
+  "wolfadd":4,
+  "url":"http://darkrustbr.com/status/webstats.php"
+}

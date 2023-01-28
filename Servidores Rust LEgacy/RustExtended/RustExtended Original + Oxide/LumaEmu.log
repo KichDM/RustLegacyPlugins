@@ -1,0 +1,29 @@
+2020-9-16 2:11:14:842 Steam.dll Loaded
+2020-9-16 2:11:14:843 BlobPath --> C:\rust_server\ClientRegistry.blob
+2020-9-16 2:11:14:843 IniPath --> C:\rust_server\LumaEmu.ini
+2020-9-16 2:11:14:844 CachePath --> c:\program files (x86)\steam\steamapps\
+2020-9-16 2:11:14:861 ClientRegistry.blob is found
+2020-9-16 2:11:14:861 Using ContentDescriptionRecord
+2020-9-16 2:11:15:269 SteamMiniDumpInit
+2020-9-16 2:18:43:837 Steam.dll Loaded
+2020-9-16 2:18:43:837 BlobPath --> C:\rust_server\ClientRegistry.blob
+2020-9-16 2:18:43:837 IniPath --> C:\rust_server\LumaEmu.ini
+2020-9-16 2:18:43:838 CachePath --> c:\program files (x86)\steam\steamapps\
+2020-9-16 2:18:43:848 ClientRegistry.blob is found
+2020-9-16 2:18:43:849 Using ContentDescriptionRecord
+2020-9-16 2:18:44:189 SteamMiniDumpInit
+2020-9-16 2:25:8:944 Steam.dll Loaded
+2020-9-16 2:25:8:944 BlobPath --> C:\rust_server\ClientRegistry.blob
+2020-9-16 2:25:8:945 IniPath --> C:\rust_server\LumaEmu.ini
+2020-9-16 2:25:8:945 CachePath --> c:\program files (x86)\steam\steamapps\
+2020-9-16 2:25:8:956 ClientRegistry.blob is found
+2020-9-16 2:25:8:957 Using ContentDescriptionRecord
+2020-9-16 2:25:9:292 SteamMiniDumpInit
+2023-1-27 20:37:16:485 Steam.dll Loaded
+2023-1-27 20:37:16:517 BlobPath --> G:\Archivos Rust\Servidores\Rust Extened con oxide\ClientRegistry.blob
+2023-1-27 20:37:16:629 IniPath --> G:\Archivos Rust\Servidores\Rust Extened con oxide\LumaEmu.ini
+2023-1-27 20:37:16:657 CachePath --> c:\program files (x86)\steam\steamapps\
+2023-1-27 20:37:17:11 ClientRegistry.blob is found
+2023-1-27 20:37:17:226 Using ContentDescriptionRecord
+2023-1-27 20:37:17:659 SteamMiniDumpInit
+2023-1-27 20:37:23:67 Steam.dll Shutdown

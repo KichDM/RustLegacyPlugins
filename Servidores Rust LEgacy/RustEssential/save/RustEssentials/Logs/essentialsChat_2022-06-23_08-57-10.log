@@ -1,0 +1,50 @@
+06/23 08:57:10  ====================================================================================
+06/23 08:57:10  RustEssentials Chat Logs :: v1.7.0
+06/23 08:57:10  6/23/2022 8:57:10 AM
+06/23 08:57:10  ====================================================================================
+06/23 08:57:10  VERSION STATUS UNKNOWN
+06/23 08:57:27  <TO klktt> Essentials: The server is running Rust Essentials v1.7.0.
+06/23 08:57:27  <TO klktt> Essentials: JoinMessage1 
+06/23 08:57:27  <TO klktt> Essentials: JoinMessage2 
+06/23 08:57:27  <TO klktt> Essentials: JoinMessage3 
+06/23 08:57:27  <BROADCAST ALL> Essentials: Player klktt has joined. (76561197980389132) [127.0.0.1]
+06/23 08:57:45  <CMD> klktt: /help
+06/23 08:57:51  <CMD> klktt: /uid
+06/23 08:57:51  <TO klktt> Essentials: Your UID is 76561197980389132.
+06/23 08:57:59  <CMD> klktt: /f
+06/23 08:58:01  <CMD> klktt: /r
+06/23 08:58:03  <CMD> klktt: /help
+06/23 08:58:08  <CMD> klktt: /version
+06/23 08:58:08  <TO klktt> Essentials: The server is running Rust Essentials v1.7.0.
+06/23 08:58:12  <CMD> klktt: /warps
+06/23 08:58:14  <CMD> klktt: /warp
+06/23 08:58:18  <CMD> klktt: /vote
+06/23 08:58:18  <TO klktt> Essentials: Voting is not enabled on this server.
+06/23 08:58:21  <CMD> klktt: /help
+06/23 08:58:24  <CMD> klktt: /redeem
+06/23 08:58:24  <TO klktt> Essentials: Voting is not enabled on this server.
+06/23 08:58:27  <CMD> klktt: /fps
+06/23 08:58:27  <TO klktt> Essentials: Your graphics have been adjusted. FPS boost may occur.
+06/23 08:58:37  <CMD> klktt: /info
+06/23 08:58:37  <TO klktt> Essentials: Server name: Server Name
+06/23 08:58:38  <TO klktt> Essentials: Server IP: NULL:28015
+06/23 08:58:42  <CMD> klktt: /help
+06/23 08:58:46  <CMD> klktt: /whois
+06/23 08:58:50  <CMD> klktt: /leaderboard
+06/23 08:58:50  <TO klktt> Essentials: You must specify a leaderboard: kills, deaths, kdr, or econ.
+06/23 08:58:58  <CMD> klktt: /leaderboard kills
+06/23 08:58:58  <TO klktt> Essentials: Grabbing leaderboard... This may take a while.
+06/23 08:58:58  <TO klktt> Essentials: There are no kills on record to display the kills leaderboard!
+06/23 08:59:01  <CMD> klktt: /help
+06/23 08:59:04  <CMD> klktt: /drop
+06/23 08:59:04  <TO klktt> Essentials: The next automated airdrop will arrive in 0 hours, 58 minutes, and 23 seconds.
+06/23 08:59:07  <CMD> klktt: /remover
+06/23 08:59:24  <CMD> klktt: /online
+06/23 08:59:24  <TO klktt> Essentials: 1/100 players currently connected.
+06/23 09:00:39  <CMD> klktt: /g e
+06/23 09:00:39  <TO klktt> Essentials: Unknown command "/g"!
+06/23 09:00:42  <CMD> klktt: /g dwa
+06/23 09:00:42  <TO klktt> Essentials: Unknown command "/g"!
+06/23 09:00:45  <CMD> klktt: /
+06/23 09:00:45  <TO klktt> Essentials: Unknown command "/"!
+06/23 09:02:23  <G> klktt: e

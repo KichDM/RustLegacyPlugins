@@ -1,0 +1,178 @@
+-------------- RANK 0 --------------
+/help 					- Displays help for commands. Usage: /help <command>
+/about 					- Displays information about server.
+/suicide 				- Commit suicide. 
+/who 					- Show the owner of the object on a which the player looks.
+/kits 					- Show list of availabled kits.
+/kit <name>				- Gives the specified kit by player rank, use "/kits" for get list of availabled kits.
+/online 				- Show a current number players in game
+/players 				- Lists all connected players.
+/clan 					- Show clan information. 
+/clan create <clan name>		- Creating new clan named "clan name", player who creates is a leader.
+/clan disband 				- Disband clan, removing clan and dismiss all members from a clan. Only for clan leader.
+/clan invite <player> 			- Invite a specific player to a clan. Only for members with "invite" rights.
+/clan dismiss <player> 			- Dismiss a specific player from a clan. Only for members with "dismiss" rights.
+/clan leave 				- Leave from a clan.
+/clan members				- Show list of all members of a clan.
+/clan online				- Show list of current online members of a clan.
+/clan transfer <player>			- Transfer clan to other player. Only for members with "management" rights.
+/clan abbr <abbreviation name> 		- Sets a abbreviation for clan. Abbreviation displayed over heads. Only for members with "management" rights. 
+/clan motd <message text> 		- Sets a message of the day for clan. Only for members with "management" rights.
+/clan [up|rise|grow|level] 		- Increase a clan level.
+/clan deposit <value>			- Deposit money in clan balance.
+/clan withdraw <value> 			- Withdraw money from clan balance, Can only members with "management" rights.
+/clan tax <value> 			- A set a tax from cost of murders for a clan members. Can only members with "management" rights.
+/clan house 				- A set house of a clan. Can only members with "management" rights.
+/clan warp 				- Warping into a clan house when leader is a set.
+/clan [war] <clan name>	 		- A set clan war with other clan. Can only members with "management" rights.
+/clan details [on|off]			- Enable\Disable details for members about experience gained after kill or gather. Only for members with "management" rights.
+/clan priv <player>			- Show privileges of a clan member.
+/clan priv <player> invite 		- Sets a invite privilege for specific clan member. Clan member can invite new players into a clan.
+/clan priv <player> dismiss 		- Sets a dismiss privilege for specific clan member. Clan member can dismiss player from a clan.
+/clan priv <player> management 		- Sets a management privilege for specific clan member. Clan member can manage clan (full access).
+/clan ffire [on|off] 			- Enable\Disable "Friendly Fire" for clan members (by default : off). Only for members with "management" rights.
+/clans 					- Displays all names of clans on server.
+/pm <player> <message>			- Sends a private message.
+/r <message>				- Sends reply on received a private message.
+/time 					- Show a current game time.
+/pos 					- Show the your position (X,Y,Z coordinates).
+/location 				- Show the your location in game (zone name).
+/home [<number>]			- Returns a player in to camp.
+/tp <player>				- Request teleport to other player.
+/history [<num>]			- Displays last lines from chat.
+/share <player>				- Shares ownership with other players.
+/unshare <player>			- Unshares ownership with other player.
+/unshare 				- Unshares ownership with all players.
+/destroy 				- Enable or disable instant destroying of a player his ownership.
+/transfer <player>			- Transfer object to another player, You must look at object for transfer.
+/ping 					- Display last ping to server.
+/password 				- Displays your password.
+/password <new_password> 		- Set or change a password on new.
+/set fps				- Adjusting graphics settings on performance.
+/set quality				- Adjusting graphics settings on quality.
+/set [nude|nudity|censor]		- Disable censorship of nudity.
+/balance 				- Displays current your balance.
+/money 					- Display current your balance.
+/send 					- Send amount of currency for specified a player. Usage: /send <player> <amount>
+/shop 					- Display shop list of available items and groups. 
+/shop [<name>|<index>]			- Display shop list of specified group by name or index. 
+/buy <name|index> [<amount>]		- Buys specified item by name, part of name or index.
+/sell <name|index> [<amount>]   	- Sells specified item by name, part of name or index.
+/sell all 				- Sells a all available items for sale from inventory.
+
+------------— RANK 1 —------------
+/premium				- Display user premium days. 
+/premium <username> 			- Display premuim information of specific player (Staff Only). 
+/premium <username> <days>		- Set a premuim days for specific player (Staff Only). 
+/premium <username> disable     	- Unset a premuim for specific player (Staff Only). 
+/pvp 					- Disable PvP on time. Player cannot attack players and cannot be attacked by players.
+
+------------— RANK 2 —------------
+/ts					- Teleports player in destination of weapon shot.
+/uammo 					- Player with unlimited ammo for bullet weapons.
+/uammo <player> <prefab name>		- Sets a shoot object for specified player.
+/mute <player>				- Mutes a player in chat.
+/unmute <player>			- Unmutes a player in chat.
+/summon <player> 			- Teleport the specified player to self.
+/tele <player>	 			- Teleport you to specified player.
+/tele <x> <y> <z>			- Teleport you to specific coordinates.
+/tele <player 1> <player 2>		- Teleport player 1 to player 2.
+/goto <number>				- Teleport to specified player by connection number.
+/invis 					- Enable/disable invisibility. If the player make reconnects, the name becomes invisible
+/truth [<player>]			- Enable/disable truth detector for player.
+/kill <player>				- Kills the specified player.
+/kick <player>				- Kicks the specified player.
+/ban <player|hwid>			- Bans the specified player.
+/save 					- Saves all world data of the server.
+
+------------— RANK 3 —------------
+/announce <message>			- Announce message for players on server.
+/food <value> 				- Sets food for self.
+/health <value> 			- Sets health for self.
+/food <player> <value>	 		- Sets food for specified player or for self.
+/health <player> <value> 		- Sets health for specified player or for self.
+/admin 					- Enable/disable administrator rights and RCON access.
+/god 					- Enable/disable god mode for self. 
+/god [<player>]				- Enable/disable god mode for the specified player. 
+/i <item name> [<amount>] [<slots>] 	- Gives an item for self. 
+/i <player> <item name> [<amount>] [<slots>] - Gives an item for specified player. 
+/give <item name> [<amount>] [<slots>] 	- Gives an item for self. 
+/give <player> <item name> [<amount>] [<slots>]	- Gives an item for specified player. 
+/safebox [<player>]			- Enable/disable safe boxes for specified player.
+/inv 					- Display inventory of specified player.
+/inv <player> [clear|drop]		- Clear or drop inventory of specified player. 
+/freeze <player>			- Freeze specified player.
+/share <owner> <player>			- Share player's ownership of specified player.
+/unshare <owner> <player>		- Unshare player's ownership of specified player.
+/personal <player> <item name> [<amount deaths>]- Give item for specified player, this item will be created for player after death.
+/unban <player|hwid>			- Unbans the specified player.
+/block [<ip>|<player>] 			- Blocking specified player by IP address.
+/unblock [<ip>] 			- Unblocking specified IP address.
+/clients 				- Returns lists of all connected players in console.
+/users save				- Save all server users to file.
+/users load				- Load all server users from file.
+/users count				- Show count of users.
+/users import [file|mysql]		- Import users from spefified type (file or mysql).
+/users export [file|mysql]		- Export users from spefified type (file or mysql).
+/users unused <days>			- Remove users who not a connect specified last days.
+/users <player> [delete|remove] 	- Remove the specified user.
+/users <player> username 		- Show name of specified user.
+/users <player> username <value>	- Sets new name for specified user.
+/users <player> password 		- Show password of specified user.
+/users <player> password <value>	- Sets new password for specified user.
+/users <player> comments 		- Show comments of specified user.
+/users <player> comments <value>	- Sets new comments for specified user.
+/users <player> ip	 		- Show IP address of specified user.
+/users <player> ip <value>		- Sets new IP address for specified user.
+/users <player> violations 		- Show violations of specified user.
+/users <player> violations <num>	- Sets new number of violations for specified user.
+/users <player> countdowns 		- Show count of countdowns of specified user.
+/users <player> countdowns clear	- Clear all countdowns for specified user.
+/users <player> personal 		- Show count of personal items of specified user.
+/users <player> personal clear		- Clear all personal for specified user.
+/users <player> rank <number>		- Sets rank number for specified player.
+/users <player> flags			- Show flags of specified player.
+/users <player> flag normal		- Set\Unset 'normal' flag for specified player.
+/users <player> flag banned		- Set\Unset 'banned' flag for specified player.
+/users <player> flag premium		- Set\Unset 'premium' flag for specified player.
+/users <player> flag whitelisted	- Set\Unset 'whitelisted' flag for specified player.
+/users <player> flag admin		- Set\Unset 'admin' flag for specified player.
+/users <player> flag nopvp		- Set\Unset 'nopvp' flag for specified player.
+/users <player> flag safeboxes		- Set\Unset 'safeboxes' flag for specified player.
+
+------------— RANK 4 —------------
+/killall				- Kills all players from the server.
+/kickall 				- Kicks all players from the server.
+/spawn <prefab>				- Spawn object on a which the player looks.
+/zone save				- Save all zones to file.
+/zone load				- Load/Reload zones from a file.
+/zone list				- Display list of all names of zones.
+/zone show				- Creating markers for all zones.
+/zone hide				- Removing markers for all zones.
+/zone <def|name> name <new name>	- Rename zone name.
+/zone <def|name>			- Display information about zone where are you stay.
+/zone <def|name> new			- Start build new zone with specified name.
+/zone <def|name> <mark|point>		- Add new point for new zone when you in build state.
+/zone <def|name> save			- Save new zone, required 3+ points for save.
+/zone <def|name> go			- Teleport you to specified zone, when zone have spawns.
+/zone <def|name> <remove|delete>	- Delete specified zone.
+/zone <def|name> spawn			- Add new spawn for specified zone.
+/zone <def|name> spawns			- Display spawns list of specified zone.
+/zone <def|name> <rad|radiation>	- Toggle radiation flag for specified zone (flag no have effects on zone).
+/zone <def|name> pvp			- Toggle pvp flag, players can't damage other player into specified zone (NPC can damage).
+/zone <def|name> safe			- Toggle safe flag, players can't get damage into specified zone (full safe).
+/zone <def|name> decay			- Toggle decay flag, structures and objects not decay into specified zone. 
+/zone <def|name> build			- Toggle build flag, players cannot build into specified zone.
+/zone <def|name> trade			- Toggle trade flag, players can trade only, when TradeZoneOnly is enabled.
+/zone <def|name> event			- Toggle events flag, for mark zone only.
+/zone <def|name> warp <def|name>	- Create warp between zones.
+/zone <def|name> unwarp 		- Unlink warp between zones.
+/zone <def|name> warptime <seconds>	- Set seconds for warp from specified zone.
+/zone <def|name> [cmd|command] <name>	- Enable\Disable use this command in zone.
+
+------------— RANK 5 —------------
+/airdrop 				- Calling airdrop event on server.
+/airdrop <player>			- Calling airdrop on specified player.
+/config	reload				- Reload configuration of 'RustExtended'.
+/restart [<time>]			- Shutdown the server for restart after specified time. Usage: 
+/shutdown [<time>]			- Shutdown the server after specified time. Usage: 

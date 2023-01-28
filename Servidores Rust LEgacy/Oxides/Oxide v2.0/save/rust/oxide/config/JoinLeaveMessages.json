@@ -1,0 +1,10 @@
+{
+  "chatName": "☢Vortex Rust☢",
+  "JoinMSG": " [color #F46D14]entrou no servidor✔[color/]",
+  "LeaveMSG": " [color #F46D14]saiu do servidor✖[color/]",
+  "MOTD": [
+    "[color #01DF3A]Seja bem vindo.[color/]",
+    "[color #FF00BF]Quer comprar vip add maikcn2 no skype.[color/]"
+  ],
+  "showMOTD": "true"
+}

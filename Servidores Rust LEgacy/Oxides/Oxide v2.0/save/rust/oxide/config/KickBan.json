@@ -1,0 +1,9 @@
+{
+  "Messages: Ban ({0} is the userid, {1} the name, {2} the reason": "{0} - {1} was banned from the server - {2}",
+  "Messages: Kick ({0} is the userid, {1} the name, {2} the reason": "{0} - {1} was kicked from the server - {2}",
+  "Messages: No player found": "Couldn't find the target user",
+  "Messages: Not Allowed": "You are not allowed to use this command.",
+  "Messages: Unban ({0} is the userid, {1} the name": "{0} - {1} was unbanned from the server",
+  "Settings: Broadcast Bans": true,
+  "Settings: Broadcast Kicks": true
+}

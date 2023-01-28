@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp\Assembly-CSharp.csproj", "{153FFC4B-CCC1-4F55-B98A-32BAEC68CEF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jint", "Jint\Jint.csproj", "{153FFC4B-CCC1-4F55-B98A-32BAEC68CEF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magma", "Magma\Magma.csproj", "{153FFC4B-CCC1-4F55-B98A-32BAEC68CEF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mono.Cecil", "Mono.Cecil\Mono.Cecil.csproj", "{153FFC4B-CCC1-4F55-B98A-32BAEC68CEF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{153FFC4B-CCC1-4F55-B98A-32BAEC68CEF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{153FFC4B-CCC1-4F55-B98A-32BAEC68CEF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{153FFC4B-CCC1-4F55-B98A-32BAEC68CEF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{153FFC4B-CCC1-4F55-B98A-32BAEC68CEF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{153FFC4B-CCC1-4F55-B98A-32BAEC68CEF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{153FFC4B-CCC1-4F55-B98A-32BAEC68CEF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{153FFC4B-CCC1-4F55-B98A-32BAEC68CEF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{153FFC4B-CCC1-4F55-B98A-32BAEC68CEF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{153FFC4B-CCC1-4F55-B98A-32BAEC68CEF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{153FFC4B-CCC1-4F55-B98A-32BAEC68CEF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{153FFC4B-CCC1-4F55-B98A-32BAEC68CEF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{153FFC4B-CCC1-4F55-B98A-32BAEC68CEF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{153FFC4B-CCC1-4F55-B98A-32BAEC68CEF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{153FFC4B-CCC1-4F55-B98A-32BAEC68CEF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{153FFC4B-CCC1-4F55-B98A-32BAEC68CEF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{153FFC4B-CCC1-4F55-B98A-32BAEC68CEF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

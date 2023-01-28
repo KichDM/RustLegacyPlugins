@@ -1,0 +1,9 @@
+{
+  "Messages: Added Friend": "{0} was added as your friend.",
+  "Messages: Already Friend With": "You are already friend with {0}",
+  "Messages: Friends List": "Your friends list:",
+  "Messages: No Player Found": "Couldn't find the target player.",
+  "Messages: Not Friend With": "You are not friend with: {0}",
+  "Messages: Not Friends": "You have no friends.",
+  "Messages: Removed Friend": "{0} was removed from your friends list."
+}

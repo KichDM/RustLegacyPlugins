@@ -1,0 +1,8 @@
+{
+  "ban":0,
+  "kick":1,
+  "tickrate":2,
+  "blame":1,
+  "maxDistance":220,
+  "ignoreDistance":500
+}

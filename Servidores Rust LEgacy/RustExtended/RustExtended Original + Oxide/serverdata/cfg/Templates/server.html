@@ -1,0 +1,99 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>RUST Server - General Information</title>
+</head>
+
+<body>
+<table width="552" border="1" align="center">
+  <tr>
+    <td height="23" colspan="2" align="center">Server information</td>
+  </tr>
+  <tr>
+    <td width="50%" height="23" align="right">Hostname:</td>
+    <td width="50%">%SERVER.HOSTNAME%</td>
+  </tr>
+  <tr>
+    <td height="23" align="right">Port:</td>
+    <td>%SERVER.PORT%</td>
+  </tr>
+  <tr>
+    <td height="23" align="right">SteamID:</td>
+    <td>%SERVER.STEAMID%</td>
+  </tr>
+  <tr>
+    <td height="23" align="right">SteamGroup:</td>
+    <td>%SERVER.STEAMGROUP%</td>
+  </tr>
+  <tr>
+    <td height="23" align="right">Official:</td>
+    <td>%SERVER.OFFICIAL%</td>
+  </tr>
+  <tr>
+    <td height="23" align="right">Map:</td>
+    <td>%SERVER.MAP%</td>
+  </tr>
+  <tr>
+    <td height="23" align="right">PVP:</td>
+    <td>%SERVER.PVP%</td>
+  </tr>
+  <tr>
+    <td height="23" align="right">Players (Online / Maximum):</td>
+    <td>%SERVER.PLAYERS% / %SERVER.MAXPLAYERS%</td>
+  </tr>
+</table>
+</br>
+</br>
+<table width="552" border="1" align="center">
+  <tr>
+    <td height="23" colspan="2" align="center">Server clan system</td>
+  </tr>
+  <tr>
+    <td width="50%" height="23" align="right">Create Cost:</td>
+    <td width="50%">%CLANS.CREATE_COST%</td>
+  </tr>
+  <tr>
+    <td width="50%" height="23" align="right">Clan Levels:</td>
+    <td width="50%">%CLANS.LEVELS.COUNT%</td>
+  </tr>
+  <tr>
+    <td width="50%" height="23" align="right">Total Clan:</td>
+    <td width="50%">%CLANS.COUNT%</td>
+  </tr>
+</table>
+</br>
+</br>
+<table width="1000" border="1" align="center">
+  <tr>
+    <td height="23" align="center">Serial</td>
+    <td align="center">Name</td>
+    <td align="center">Abbriveation</td>
+    <td align="center">Created</td>
+    <td align="center">Leader</td>
+    <td align="center">Level</td>
+    <td align="center">Balance</td>
+    <td align="center">Experience</td>
+    <td align="center">Flags</td>
+    <td align="center">Tax</td>
+    <td align="center">Online</td>
+    <td align="center">Members</td>
+  </tr>
+<CLANLIST>
+  <tr>
+    <td align="center">%CLAN.ID%</td>
+    <td align="center">%CLAN.NAME%</td>
+    <td align="center">%CLAN.ABBR%</td>
+    <td align="center">%CLAN.CREATED%</td>
+    <td align="center">%CLAN.LEADER.USERNAME% (%CLAN.LEADER.STEAM_ID%)</td>
+    <td align="center">%CLAN.LEVEL%</td>
+    <td align="center">%CLAN.BALANCE%</td>
+    <td align="center">%CLAN.EXPERIENCE%</td>
+    <td align="center">%CLAN.FLAGS%</td>
+    <td align="center">%CLAN.TAX%%</td>
+    <td align="center">%CLAN.MEMBERS.ONLINE%</td>
+    <td align="center">%CLAN.MEMBERS.COUNT% / %CLAN.MEMBERS.MAX%</td>
+  </tr>
+</CLANLIST>
+</table>
+</body>
+</html>

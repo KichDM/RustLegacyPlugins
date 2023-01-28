@@ -1,0 +1,304 @@
+Initialize engine version: 4.3.4f1 (e444f76e01cd)
+Forcing GfxDevice: 4
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Begin MonoManager ReloadAssembly
+Platform assembly: E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\rust_server_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\rust_server_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\rust_server_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\rust_server_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\rust_server_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\rust_server_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\rust_server_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\rust_server_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\rust_server_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\rust_server_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\rust_server_Data\Managed\Facepunch.Actor.dll (this message is harmless)
+Loading E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\rust_server_Data\Managed\Facepunch.Actor.dll into Unity Child Domain
+Platform assembly: E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\rust_server_Data\Managed\Facepunch.Cursor.dll (this message is harmless)
+Loading E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\rust_server_Data\Managed\Facepunch.Cursor.dll into Unity Child Domain
+Platform assembly: E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\rust_server_Data\Managed\Facepunch.Geometry.dll (this message is harmless)
+Loading E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\rust_server_Data\Managed\Facepunch.Geometry.dll into Unity Child Domain
+Platform assembly: E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\rust_server_Data\Managed\Facepunch.HitBox.dll (this message is harmless)
+Loading E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\rust_server_Data\Managed\Facepunch.HitBox.dll into Unity Child Domain
+Platform assembly: E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\rust_server_Data\Managed\Facepunch.ID.dll (this message is harmless)
+Loading E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\rust_server_Data\Managed\Facepunch.ID.dll into Unity Child Domain
+Platform assembly: E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\rust_server_Data\Managed\Facepunch.MeshBatch.dll (this message is harmless)
+Loading E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\rust_server_Data\Managed\Facepunch.MeshBatch.dll into Unity Child Domain
+Platform assembly: E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\rust_server_Data\Managed\Facepunch.Movement.dll (this message is harmless)
+Loading E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\rust_server_Data\Managed\Facepunch.Movement.dll into Unity Child Domain
+Platform assembly: E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\rust_server_Data\Managed\Facepunch.Prefetch.dll (this message is harmless)
+Loading E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\rust_server_Data\Managed\Facepunch.Prefetch.dll into Unity Child Domain
+Platform assembly: E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\rust_server_Data\Managed\Facepunch.Utility.dll (this message is harmless)
+Loading E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\rust_server_Data\Managed\Facepunch.Utility.dll into Unity Child Domain
+Platform assembly: E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\rust_server_Data\Managed\LitJSON.dll (this message is harmless)
+Loading E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\rust_server_Data\Managed\LitJSON.dll into Unity Child Domain
+Platform assembly: E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\rust_server_Data\Managed\Google.ProtocolBuffers.dll (this message is harmless)
+Loading E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\rust_server_Data\Managed\Google.ProtocolBuffers.dll into Unity Child Domain
+Platform assembly: E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\rust_server_Data\Managed\Google.ProtocolBuffers.Serialization.dll (this message is harmless)
+Loading E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\rust_server_Data\Managed\Google.ProtocolBuffers.Serialization.dll into Unity Child Domain
+Platform assembly: E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\rust_server_Data\Managed\uLink.dll (this message is harmless)
+Loading E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\rust_server_Data\Managed\uLink.dll into Unity Child Domain
+Platform assembly: E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\rust_server_Data\Managed\dfScriptLite.dll (this message is harmless)
+Loading E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\rust_server_Data\Managed\dfScriptLite.dll into Unity Child Domain
+Platform assembly: E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\rust_server_Data\Managed\EasyRoads3D.dll (this message is harmless)
+Loading E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\rust_server_Data\Managed\EasyRoads3D.dll into Unity Child Domain
+- Completed reload, in  0.698 seconds
+Platform assembly: E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\rust_server_Data\Managed\System.dll (this message is harmless)
+Platform assembly: E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\rust_server_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\rust_server_Data\Managed\Oxide.dll (this message is harmless)
+Platform assembly: E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\rust_server_Data\Managed\NLua.dll (this message is harmless)
+Platform assembly: E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\rust_server_Data\Managed\KeraLua.dll (this message is harmless)
+Platform assembly: E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\rust_server_Data\Managed\System.Configuration.dll (this message is harmless)
+Platform assembly: E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\rust_server_Data\Managed\System.Xml.dll (this message is harmless)
+[Oxide] Loading at E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\save\oxide...
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] Loading standard library...
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] Loading plugins...
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] Loading Admin Door V: 1.0.5...
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] automessage plugin loaded
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] -----------------------
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] Flags (1.2.3) plugin loaded
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] Auto-Save v0.1.3 loaded!
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] *****************
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] [DokiTV] Plugin de ajuda inicializando ...
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] Obrigado por usar meu plugin :)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] Plugin de ajuda carregado com sucesso!
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] **********************************************************
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] DarkRust (3.0.0) plugins carregados com o ID: 425
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] DarkRust: Arquivo de configuraçao criado
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] DarkRust: Loaded Essentials CONFIG file
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] DarkRust: Generated default LOG file.
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] DarkRust: Tabela de economia carregado.
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] DarkRust: Flags adicionadas.
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] DarkRust: Essentials API bound!
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] **********************************************************
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] Cash (1.0.0) Carregada com o ID: 425
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] Cash: Arquivo de configuracao criado
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] Cash: Config encontrada
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] Cash: Tabela de cash carregado.
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] Cash: Flags adicionadas.
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] Cash: API Iniciada!
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] **********************************************************
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] Loading Decay Control mod...
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] Decay Control: Decay has been enabled.
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] d-Restartkit - DokiTV v2.0.0: starting...
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] Name of kits:vip3, vip2, vip1, vip
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] Nbr of kits:4
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] d-Restartkit - DokiTV v2.0.0: successfully initialized!
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] **********************************************************
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] Loja (1.0.0) Carregada com o ID: 425
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] Loja: Arquivo de configuracao criado
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] Loja: Config encontrada
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] Loja: Tabela de economia carregado.
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] Loja: Flags adicionadas.
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] Loja: API Iniciada!
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] **********************************************************
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] Enhanced Ban System v1.0.1 loaded.
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] Loading Global Stats...
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] 0 users are tracked by GobalStats!
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] Loading Oxmin...
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] 1 users are tracked by Oxmin!
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] Door Closer: initiating save timer
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] Anti RockGlitch: Couldnt load RockGlitch database, creating a new one.
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] r-sethome: No ecnonomy plugins found
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] r-sethome: doorshare plugin not found
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] r-sethome: factions plugin not found
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] Reload v0.1.0 loaded!
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] Resource Manager v0.9.4 Loading...
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] Resource Manager: Settings file loaded. 
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] Resource Manager: cangive oxmin flag successfully added!
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] Resource Manager v0.9.4 Loaded.
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Oxide] Shutdown v0.1.7 loaded!
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+natj
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+ Server DataDir
+  E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\save\rust\
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+Loaded save/rust/cfg/server.cfg
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+HDR RenderTexture format is not supported on this platform. This camera will render without HDR buffers.
+ 
+(Filename:  Line: 2239)
+

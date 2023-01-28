@@ -1,0 +1,106 @@
+2020-9-16 2:11:14:547 Steamclient.dll Loaded
+2020-9-16 2:11:14:558 VAC2.dll Loaded!
+2020-9-16 2:11:14:611 VAC2.dll --> Startup3
+2020-9-16 2:11:14:612 VAC2.dll --> IMAGE_DOS_SIGNATURE
+2020-9-16 2:11:14:612 VAC2.dll --> IMAGE_NT_SIGNATURE
+2020-9-16 2:11:14:612 VAC2.dll --> lpSectionHeader->Name --> .text
+2020-9-16 2:11:14:613 VAC2.dll --> g_dwVACCodeBase && g_dwVACCodeSize != 0
+2020-9-16 2:11:14:622 ISteamClient012::SetLocalIPBinding
+2020-9-16 2:11:14:623 Steam_SetLocalIPBinding
+2020-9-16 2:11:14:623 ISteamClient012::CreateLocalUser
+2020-9-16 2:11:14:623 Steam_CreateLocalUser
+2020-9-16 2:11:14:641 ISteamClient012::GetISteamGameServer --> SteamGameServer011
+2020-9-16 2:11:14:641 ISteamClient012::GetISteamUtils --> SteamUtils005
+2020-9-16 2:11:14:642 ISteamClient012::GetISteamApps --> STEAMAPPS_INTERFACE_VERSION005
+2020-9-16 2:11:14:642 ISteamClient012::GetISteamHTTP --> STEAMHTTP_INTERFACE_VERSION002
+2020-9-16 2:11:14:642 ISteamClient012::GetISteamNetworking --> SteamNetworking005
+2020-9-16 2:11:14:643 ISteamClient012::GetISteamGameServerStats --> SteamGameServerStats001
+2020-9-16 2:11:14:643 ISteamUtils005::GetAppID
+2020-9-16 2:11:14:643 ISteamGameServer011::InitGameServer
+2020-9-16 2:11:15:271 ISteamGameServer::LogOnAnonymous
+2020-9-16 2:11:15:274 ISteamGameServer::GetPublicIP
+2020-9-16 2:11:15:275 ISteamGameServer::Secure
+2020-9-16 2:18:43:827 Steamclient.dll Loaded
+2020-9-16 2:18:43:828 VAC2.dll Loaded!
+2020-9-16 2:18:43:830 VAC2.dll --> Startup3
+2020-9-16 2:18:43:831 VAC2.dll --> IMAGE_DOS_SIGNATURE
+2020-9-16 2:18:43:831 VAC2.dll --> IMAGE_NT_SIGNATURE
+2020-9-16 2:18:43:831 VAC2.dll --> lpSectionHeader->Name --> .text
+2020-9-16 2:18:43:832 VAC2.dll --> g_dwVACCodeBase && g_dwVACCodeSize != 0
+2020-9-16 2:18:43:832 ISteamClient012::SetLocalIPBinding
+2020-9-16 2:18:43:832 Steam_SetLocalIPBinding
+2020-9-16 2:18:43:832 ISteamClient012::CreateLocalUser
+2020-9-16 2:18:43:833 Steam_CreateLocalUser
+2020-9-16 2:18:43:833 ISteamClient012::GetISteamGameServer --> SteamGameServer011
+2020-9-16 2:18:43:833 ISteamClient012::GetISteamUtils --> SteamUtils005
+2020-9-16 2:18:43:833 ISteamClient012::GetISteamApps --> STEAMAPPS_INTERFACE_VERSION005
+2020-9-16 2:18:43:834 ISteamClient012::GetISteamHTTP --> STEAMHTTP_INTERFACE_VERSION002
+2020-9-16 2:18:43:834 ISteamClient012::GetISteamNetworking --> SteamNetworking005
+2020-9-16 2:18:43:834 ISteamClient012::GetISteamGameServerStats --> SteamGameServerStats001
+2020-9-16 2:18:43:834 ISteamUtils005::GetAppID
+2020-9-16 2:18:43:835 ISteamGameServer011::InitGameServer
+2020-9-16 2:18:44:193 ISteamGameServer::LogOnAnonymous
+2020-9-16 2:18:44:196 ISteamGameServer::GetPublicIP
+2020-9-16 2:18:44:196 ISteamGameServer::Secure
+2020-9-16 2:18:48:671 Steam_BGetCallback --> 1 --> 1 --> 1 --> 101
+2020-9-16 2:18:48:675 Steam_FreeLastCallback --> Removing Callback: 101 --> Pipe --> 1
+2020-9-16 2:18:48:677 Steam_BGetCallback --> 1 --> 1 --> 1 --> 115
+2020-9-16 2:18:48:678 Steam_FreeLastCallback --> Removing Callback: 115 --> Pipe --> 1
+2020-9-16 2:25:8:933 Steamclient.dll Loaded
+2020-9-16 2:25:8:935 VAC2.dll Loaded!
+2020-9-16 2:25:8:937 VAC2.dll --> Startup3
+2020-9-16 2:25:8:938 VAC2.dll --> IMAGE_DOS_SIGNATURE
+2020-9-16 2:25:8:938 VAC2.dll --> IMAGE_NT_SIGNATURE
+2020-9-16 2:25:8:938 VAC2.dll --> lpSectionHeader->Name --> .text
+2020-9-16 2:25:8:938 VAC2.dll --> g_dwVACCodeBase && g_dwVACCodeSize != 0
+2020-9-16 2:25:8:939 ISteamClient012::SetLocalIPBinding
+2020-9-16 2:25:8:940 Steam_SetLocalIPBinding
+2020-9-16 2:25:8:940 ISteamClient012::CreateLocalUser
+2020-9-16 2:25:8:940 Steam_CreateLocalUser
+2020-9-16 2:25:8:940 ISteamClient012::GetISteamGameServer --> SteamGameServer011
+2020-9-16 2:25:8:941 ISteamClient012::GetISteamUtils --> SteamUtils005
+2020-9-16 2:25:8:941 ISteamClient012::GetISteamApps --> STEAMAPPS_INTERFACE_VERSION005
+2020-9-16 2:25:8:941 ISteamClient012::GetISteamHTTP --> STEAMHTTP_INTERFACE_VERSION002
+2020-9-16 2:25:8:941 ISteamClient012::GetISteamNetworking --> SteamNetworking005
+2020-9-16 2:25:8:941 ISteamClient012::GetISteamGameServerStats --> SteamGameServerStats001
+2020-9-16 2:25:8:942 ISteamUtils005::GetAppID
+2020-9-16 2:25:8:942 ISteamGameServer011::InitGameServer
+2020-9-16 2:25:9:296 ISteamGameServer::LogOnAnonymous
+2020-9-16 2:25:9:299 ISteamGameServer::GetPublicIP
+2020-9-16 2:25:9:300 ISteamGameServer::Secure
+2020-9-16 2:25:20:216 Steam_BGetCallback --> 1 --> 1 --> 1 --> 115
+2020-9-16 2:25:20:269 Steam_FreeLastCallback --> Removing Callback: 115 --> Pipe --> 1
+2020-9-16 2:25:20:270 Steam_BGetCallback --> 1 --> 1 --> 1 --> 101
+2020-9-16 2:25:20:271 Steam_FreeLastCallback --> Removing Callback: 101 --> Pipe --> 1
+2020-9-16 2:32:24:466 ISteamGameServer, ISteamUser::BeginAuthSession
+2020-9-16 2:32:24:468 ISteamGameServer, ISteamUser::BeginAuthSession --> Possible LumaEmu Ticket
+2020-9-16 2:32:24:469 ISteamGameServer, ISteamUser::BeginAuthSession --> LumaEmu Ticket (Old) --> 76561197962956330 --> STEAM_0:0:1345301
+2020-9-16 2:32:24:498 Steam_BGetCallback --> 1 --> 20 --> 1 --> 143
+2020-9-16 2:32:24:500 Steam_FreeLastCallback --> Removing Callback: 143 --> Pipe --> 1
+2023-1-27 20:37:13:86 Steamclient.dll Loaded
+2023-1-27 20:37:13:319 VAC2.dll Loaded!
+2023-1-27 20:37:13:353 VAC2.dll --> Startup3
+2023-1-27 20:37:13:399 VAC2.dll --> IMAGE_DOS_SIGNATURE
+2023-1-27 20:37:13:436 VAC2.dll --> IMAGE_NT_SIGNATURE
+2023-1-27 20:37:13:482 VAC2.dll --> lpSectionHeader->Name --> .text
+2023-1-27 20:37:13:483 VAC2.dll --> g_dwVACCodeBase && g_dwVACCodeSize != 0
+2023-1-27 20:37:13:549 ISteamClient012::SetLocalIPBinding
+2023-1-27 20:37:13:596 Steam_SetLocalIPBinding
+2023-1-27 20:37:13:685 ISteamClient012::CreateLocalUser
+2023-1-27 20:37:13:694 Steam_CreateLocalUser
+2023-1-27 20:37:13:762 ISteamClient012::GetISteamGameServer --> SteamGameServer011
+2023-1-27 20:37:14:44 ISteamClient012::GetISteamUtils --> SteamUtils005
+2023-1-27 20:37:14:45 ISteamClient012::GetISteamApps --> STEAMAPPS_INTERFACE_VERSION005
+2023-1-27 20:37:14:46 ISteamClient012::GetISteamHTTP --> STEAMHTTP_INTERFACE_VERSION002
+2023-1-27 20:37:14:47 ISteamClient012::GetISteamNetworking --> SteamNetworking005
+2023-1-27 20:37:14:124 ISteamClient012::GetISteamGameServerStats --> SteamGameServerStats001
+2023-1-27 20:37:14:367 ISteamUtils005::GetAppID
+2023-1-27 20:37:14:866 ISteamGameServer011::InitGameServer
+2023-1-27 20:37:17:923 ISteamGameServer::LogOnAnonymous
+2023-1-27 20:37:17:989 ISteamGameServer::GetPublicIP
+2023-1-27 20:37:17:990 ISteamGameServer::Secure
+2023-1-27 20:37:22:871 Steam_BGetCallback --> 1 --> 1 --> 1 --> 101
+2023-1-27 20:37:22:932 ISteamRemoteStorage:::GetFileCount
+2023-1-27 20:37:23:22 ISteamClient014::GetISteamUtils --> SteamUtils007
+2023-1-27 20:37:23:23 ISteamUtils007::GetAppID
+2023-1-27 20:37:23:196 Steamclient.dll Shutdown

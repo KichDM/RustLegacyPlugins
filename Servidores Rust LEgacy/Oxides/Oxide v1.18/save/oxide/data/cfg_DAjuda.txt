@@ -1,0 +1,6 @@
+{
+  "defaultDuration":1800,
+  "Versao":"1.0",
+  "maxPedidos":50,
+  "isRuning":true
+}

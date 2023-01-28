@@ -1,0 +1,8 @@
+{
+  "doorshare":true,
+  "PunishByDeath":true,
+  "chatName":"SHARE",
+  "Version":"1.0",
+  "groups":false,
+  "factions":true
+}

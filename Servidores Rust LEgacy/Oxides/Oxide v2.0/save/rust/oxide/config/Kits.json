@@ -1,0 +1,17 @@
+{
+  "Messages: cantUseKit": "Você não está permitido a usar este kit",
+  "Messages: itemNotFound": "Item não encontrado: ",
+  "Messages: kit entregue": "Você envocou o kit",
+  "Messages: kithelp": "/kit => veja a lista full de kits",
+  "Messages: kitredeemed": "You've redeemed a kit",
+  "Messages: kitsreset": "All kits data from players were deleted",
+  "Messages: maxKitReached": "You've used all your tokens for this kit",
+  "Messages: noAccess": "You are not allowed to use this command",
+  "Messages: unknownKit": "Esse kit não existe",
+  "Settings: Permissions List": [
+    "vip",
+    "ytdv",
+    "donator"
+  ],
+  "Settings: RemoveDefaultKit": true
+}

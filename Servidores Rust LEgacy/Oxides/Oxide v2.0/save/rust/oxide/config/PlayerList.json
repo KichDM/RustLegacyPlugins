@@ -1,0 +1,10 @@
+{
+  "Settings": {
+    "AdminMode": true,
+    "ChatName": "Oxide",
+    "MaxLength": 80,
+    "OnlineMessage": "{0}/50 Players Online",
+    "PlayersPerLine": 5,
+    "SinglePlayerMessage": "[color red] Voce esta sozinho."
+  }
+}

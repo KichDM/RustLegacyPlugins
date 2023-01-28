@@ -1,0 +1,49 @@
+06/23 09:06:50  ====================================================================================
+06/23 09:06:50  RustEssentials Chat Logs :: v1.7.0
+06/23 09:06:50  6/23/2022 9:06:50 AM
+06/23 09:06:50  ====================================================================================
+06/23 09:06:50  VERSION STATUS UNKNOWN
+06/23 09:07:13  <TO klktt> Server: The server is running Rust Essentials v1.7.0.
+06/23 09:07:13  <TO klktt> Server: JoinMessage1 
+06/23 09:07:13  <TO klktt> Server: JoinMessage2 
+06/23 09:07:13  <TO klktt> Server: JoinMessage3 
+06/23 09:07:13  <BROADCAST ALL> Server: Player klktt has joined. (76561197980389132) [127.0.0.1]
+06/23 09:07:52  <CMD> klktt: /help
+06/23 09:08:08  <CMD> klktt: /sethome
+06/23 09:08:08  <TO klktt> Server: Unknown command "/sethome"!
+06/23 09:08:11  <CMD> klktt: /warp
+06/23 09:08:13  <CMD> klktt: /warps
+06/23 09:08:18  <CMD> klktt: /home
+06/23 09:08:18  <TO klktt> Server: Unknown command "/home"!
+06/23 09:08:21  <CMD> klktt: /sethome
+06/23 09:08:21  <TO klktt> Server: Unknown command "/sethome"!
+06/23 09:09:09  <CMD> klktt: /chan
+06/23 09:09:13  <CMD> klktt: /chan g
+06/23 09:09:13  <TO klktt> Server: You are already talking in global chat.
+06/23 09:09:15  <G> klktt: r
+06/23 09:09:43  <CMD> klktt: /ewarp e
+06/23 09:10:17  <CMD> klktt: /f
+06/23 09:10:27  <CMD> klktt: /f create
+06/23 09:10:27  <TO klktt> Server: Improper syntax! Syntax: /f create *name*
+06/23 09:10:32  <CMD> klktt: /f create KLK
+06/23 09:10:32  <TO klktt> Server: Faction [KLK] created.
+06/23 09:10:37  <CMD> klktt: /f safezone 1
+06/23 09:10:37  <TO klktt> Server: Unknown faction action "safezone".
+06/23 09:10:49  <CMD> klktt: /f list
+06/23 09:11:01  <CMD> klktt: /f warzone 1
+06/23 09:11:01  <TO klktt> Server: Unknown faction action "warzone".
+06/23 09:11:57  <CMD> klktt: /radius 300
+06/23 09:12:31  <CMD> klktt: /whois klktt
+06/23 09:12:31  <TO klktt> Server: Player klktt's information:
+06/23 09:12:31  <TO klktt> Server: Ping: 30 ms
+06/23 09:12:31  <TO klktt> Server: UID: 76561197980389132
+06/23 09:12:31  <TO klktt> Server: Rank: Default
+06/23 09:12:31  <TO klktt> Server: Alive: True
+06/23 09:12:31  <TO klktt> Server: Kills: 0
+06/23 09:12:31  <TO klktt> Server: Kills Rank: 0
+06/23 09:12:31  <TO klktt> Server: Deaths: 0
+06/23 09:12:31  <TO klktt> Server: Deaths Rank: 0
+06/23 09:12:31  <TO klktt> Server: KDR: 0.00
+06/23 09:12:31  <TO klktt> Server: KDR Rank: 0
+06/23 09:12:31  <TO klktt> Server: Faction: KLK
+06/23 09:12:51  <BROADCAST ALL> Server: Player klktt has left. (76561197980389132) [255.255.255.255]

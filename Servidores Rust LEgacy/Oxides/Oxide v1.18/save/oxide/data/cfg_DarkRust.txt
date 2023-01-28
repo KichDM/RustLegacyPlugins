@@ -1,0 +1,230 @@
+{
+  "regras":["Jogue limpo","Nao abuse de bugs","Nao seja racista","Nao divulgue nenhum tipo de site ou server","Nao faça spam/flood","Respeite jogadores e staff"],
+  "Enabled":{
+    "LeftMessage":true,
+    "Dono":true,
+    "ModAdd":true,
+    "Matador":true,
+    "Location":true,
+    "Website":true,
+    "Dv":true,
+    "OwnerTool":true,
+    "Divulgador":true,
+    "AutoAdmin":true,
+    "RemoveTool":true,
+    "host":true,
+    "BadNames":true,
+    "Beta":true,
+    "PrivateMessage":true,
+    "Membro":true,
+    "PlayerList":true,
+    "Lenda":true,
+    "History":true,
+    "yt":true,
+    "Vip1":true,
+    "Donor":true,
+    "Home":false,
+    "AntiHack":true,
+    "Mito":true,
+    "Online":true,
+    "DeathMessage":true,
+    "Time":true,
+    "JoinMessage":true,
+    "Adminlist":true,
+    "tags":true,
+    "DamageIndicator":true,
+    "Kits":true,
+    "Log":true,
+    "Ping":true,
+    "regras":true,
+    "Econ":true,
+    "FPS":true,
+    "OutdateData":true,
+    "coder":true,
+    "Stats":true,
+    "Group":true,
+    "AutoBroadcast":true,
+    "Teleport":true,
+    "MOTD":true,
+    "Vip3":true,
+    "Vip2":true,
+    "Louco":true,
+    "Share":true,
+    "Youtuber":true
+  },
+  "TimeCmds":{
+    "Night":"20",
+    "Daylength":"45",
+    "Nightlength":"15",
+    "Day":"8"
+  },
+  "Misc":{
+    "ModAddPrefix":"♨ [MOD] ",
+    "HistoryLength":20,
+    "LoucoPrefix":"⟴ [LOUCO] ",
+    "SyncKills":true,
+    "Website":"http://darkrustbr.com",
+    "Vip2Prefix":"ϟ [VIP2] ",
+    "MatadorPrefix":"☣  [MATADOR] ",
+    "Vip3Prefix":"ϟ [VIP3] ",
+    "ShowDistanceToAirdrop":true,
+    "BacklockTime":0,
+    "ModAddBBCode":"[color green]",
+    "MessageDelay":30,
+    "DvPrefix":"☣ [DV] ",
+    "DivulgadorPrefix":"☣ [DV] ",
+    "FallDamage":true,
+    "AutoKit":[{
+        "item":"Hatchet",
+        "slot":"hotbar"
+      },{
+        "item":"Torch",
+        "slot":"hotbar"
+      },{
+        "item":"Bandage",
+        "slot":"hotbar",
+        "amount":5
+      }],
+    "DeleteInactiveBuildings":true,
+    "AutoSaveTime":30,
+    "PingLimit":1000,
+    "Vip1BBCode":"[color yellow]",
+    "DonoPrefix":"♔ [DONO] ",
+    "AdminPrefix":"♔ [Admin] ",
+    "MaxTpa":1e+015,
+    "LeftMessage":"[color red][[color black]-[color red]] [color white]{group}{name} saiu.",
+    "PvP":true,
+    "coderPrefix":"☬ [CODER] ",
+    "MatadorBBCode":"[color orange]",
+    "coderBBCode":"[color magenta]",
+    "FirstConnectMsg":"Bem vindo, digite /kits para pegar seu kit",
+    "DonorBBCode":"[color #6495ED]",
+    "DonorPrefix":"ϟ [VIP] ",
+    "Vip2BBCode":"[color orange]",
+    "BetaBBCode":"[color #D02090]",
+    "Grouptag":true,
+    "OutdateData":3,
+    "KickOnWarn":true,
+    "DivulgadorBBCode":"[color green]",
+    "RemoverItemsBack":true,
+    "MembroPrefix":"[Membro] ",
+    "RemoveGodOnDisc":true,
+    "JoinMessage":"[color green][[color black]+[color green]] [color white]{group}{name} entrou.",
+    "MitoPrefix":"☬ [MITO] ",
+    "WarnsBeforeBan":3,
+    "YoutuberPrefix":"♨ [YTuber] ",
+    "AllowColors":true,
+    "YoutuberBBCode":"[color #FF6347]",
+    "DIShowStructures":true,
+    "DvBBCode":"[color green]",
+    "MembroBBCode":"[color grey]",
+    "CreateGroupCost":1000,
+    "AdminBBCode":"[color green]",
+    "MitoBBCode":"[color orange]",
+    "Vip1Prefix":"ϟ [VIP1] ",
+    "LendaPrefix":"❃ [LENDA] ",
+    "Vip3BBCode":"[color purple]",
+    "PingKick":false,
+    "BetaPrefix":"♨ [BETA] ",
+    "Craftamount":100,
+    "DonoBBCode":"[color red]",
+    "TpaTimer":5,
+    "DecayPercent":100,
+    "MOTD":"Bem vindo ao servidor DarkRust | O server está na versao BETA 2",
+    "LoucoBBCode":"[color orange]",
+    "AllowedSymbols":"abcdefghijklmnopqrstuvwxyz1234567890 [](){}!@#$%^&*_-=+.|",
+    "Sleepers":false,
+    "Durabilityamount":0,
+    "LendaBBCode":"[color orange]"
+  },
+  "yt":["[color orange]Como ganhar tag youtuber?","Grave um video no servidor","Poste ele no forum do server: www.darkrustbr.com/forum","Espere ate 24h pra poder receber sua tag","-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-","[color orange]Requisitos minimos:","250 Inscritos","-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-","[color orange]Youtubers ganham 1 kit vip a cada vez que o server é resertado","[color yellow]Youtubers teem acesso a um kit unico"],
+  "configVersion":"3",
+  "Kits":{
+    "starter":{
+      "items":["Stone Hatchet",{
+          "item":"Cooked Chicken Breast",
+          "amount":5
+        }],
+      "cooldown":1
+    },
+    "Vip":{
+      "money":1000,
+      "cooldown":1200,
+      "items":["Rad Suit Helmet","Rad Suit Vest","Rad Suit Pants","Rad Suit Boots",{
+          "item":"556 Ammo",
+          "amount":100
+        },{
+          "item":"Small Medkit",
+          "amount":5
+        },"Silencer","Flashlight Mod","M4"],
+      "donor":true
+    },
+    "casa":{
+      "items":["Bed",{
+          "item":"Wood Wall",
+          "amount":3
+        },"Wood Doorway","Metal Door","Wood Foundation","Wood Storage Box","Camp Fire","Furnace","Wood Ceiling",{
+          "item":"Wood Pillar",
+          "amount":4
+        }],
+      "cooldown":60,
+      "limit":2
+    },
+    "admin":{
+      "money":5000,
+      "cooldown":60,
+      "admin":true,
+      "items":["Kevlar Helmet","Kevlar Vest","Kevlar Pants","Kevlar Boots",{
+          "item":"556 Ammo",
+          "amount":100
+        },{
+          "item":"Large Medkit",
+          "amount":5
+        },"Holo sight","Laser Sight","M4"]
+    }
+  },
+  "Log":{
+    "LogPlayerDeaths":true,
+    "LogChat":false,
+    "Log24HourClock":true,
+    "LogJoinLeft":false
+  },
+  "AutoMessages":["[color green]=-= [color orange]Visite nosso site: [color red]http://darkrustbr.com [color green]=-= ","[color green]=-= [color orange]Digite /regras para poder ver as regras. [color green]=-= ","[color green]=-= [color orange]Digite /darkrust para ver os comandos do servidor. [color green]=-= ","[color green]=-= [color orange]Digite /tpa para teleportar para um player [color green]=-= ","[color green]=-= [color orange]Digite /host para ver a host do server [color green]=-= ","[color green]=-= [color orange]Digite /yt para ver como ganhar a tag YOUTUBER [color green]=-= ","[color green]=-= [color orange]Digite /tags para ver como conseguir TAGS no CHAT [color green]=-= "],
+  "host":["Este servidor e hospedado pela:","[color orange]-> [color yellow]www.weblara.com.br[color orange] <-","Compre ja a sua!"],
+  "Chatname":"DarkRust",
+  "Econ":{
+    "PayCheckDelay":3600,
+    "PayCheckAdminDonorYoutuberBetaVip1Vip2Vip3ModAdd":1000,
+    "Stag":80,
+    "Chicken":25,
+    "PayCheckAmount":500,
+    "Boar":120,
+    "Rabbit":25,
+    "StartMoney":0,
+    "Symbol":"$",
+    "Wolf":125,
+    "Bear":250,
+    "PayCheck":true,
+    "HumanPercent":15,
+    "ShowMoneyConnect":true
+  },
+  "tags":["-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-","[color orange]OQ SAO TAGS?","Tags sao os prefixos no chat, exemplo [color green] [MOD]","-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-","[color orange]QUAIS TAGS EXISTEM?","Dono, Admin, mod, vip, vip1, vip2 , vip3","louco, youtuber, mito, matador, lenda","coder, membro (gratis), divulgador","-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-","[color orange]COMO CONSEGUIR?","Veja como conseguir e mais informaçoes no site:","[color yellow]www.darkrustbr.com/forum","-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"],
+  "AdminEnabled":{
+    "BanKick":true,
+    "God":true,
+    "Maintain":true,
+    "Mute":true,
+    "Restart":true,
+    "SetTime":true,
+    "Give":true,
+    "PvPAndFalldamage":true
+  },
+  "Home":{
+    "TimeBeforeTeleported":5,
+    "TimeBeforeReuse":0,
+    "MaxHomes":5,
+    "HomePrice":250,
+    "SetHomePrice":1000
+  },
+  "BadWords":["fuck","loser","shit","slut","nigger","whore","cock","dick","merda","fdp","puta","lixo","abuser"]
+}

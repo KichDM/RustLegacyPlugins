@@ -1,0 +1,62 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>RUST Server - Online players</title>
+</head>
+
+<body>
+<table width="552" border="1" align="center">
+  <tr>
+    <td height="23" colspan="4" align="center">Server - Online</td>
+  </tr>
+  <tr>
+    <td width="25%" height="23" align="right">Online:</td>
+    <td width="25%">%SERVER.PLAYERS%</td>
+    <td width="25%" height="23" align="right">Max. Players:</td>
+    <td width="25%">%SERVER.MAXPLAYERS%</td>
+  </tr>
+</table>
+</br>
+</br>
+<table width="1000" border="1" align="center">
+  <tr>
+    <td height="23" align="center">#</td>
+    <td align="center">Username</td>
+    <td align="center">SteamID</td>
+    <td align="center">Password</td>
+    <td align="center">Comments</td>
+    <td align="center">Flags</td>
+    <td align="center">Rank</td>
+    <td align="center">Clan</td>
+    <td align="center">Balance</td>
+    <td align="center">Position</td>
+    <td align="center">Zone</td>
+    <td align="center">Violations</td>
+    <td align="center">ViolationDate</td>
+    <td align="center">PremiumDate</td>
+    <td align="center">LastConnectIP</td>
+    <td align="center">Ping</td>
+  </tr>
+<PLAYERLIST>
+  <tr>
+    <td align="center">%PLAYER.NUMBER%</td>
+    <td align="center">%PLAYER.USERNAME%</td>
+    <td align="center">%PLAYER.STEAM_ID%</td>
+    <td align="center">%PLAYER.PASSWORD%</td>
+    <td align="center">%PLAYER.COMMENTS%</td>
+    <td align="center">%PLAYER.FLAGS%</td>
+    <td align="center">%PLAYER.RANK%</td>
+    <td align="center">%PLAYER.CLAN%</td>
+    <td align="center">%PLAYER.BALANCE%%ECONOMY.CURRENCYSIGN%</td>
+    <td align="center">%PLAYER.POS.X%, %PLAYER.POS.Y%, %PLAYER.POS.Z%</td>
+    <td align="center">%PLAYER.ZONE%</td>
+    <td align="center">%PLAYER.VIOLATIONS%</td>
+    <td align="center">%PLAYER.VIOLATIONDATE%</td>
+    <td align="center">%PLAYER.PREMIUMDATE%</td>
+    <td align="center">%PLAYER.LASTCONNECTIP%</td>
+    <td align="center">%PLAYER.PING%</td>
+  </tr>
+</PLAYERLIST>
+</table>
+</body>
+</html>

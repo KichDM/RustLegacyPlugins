@@ -1,0 +1,786 @@
+Initialize engine version: 4.5.5f1 (7684ad0c5a44)
+Forcing GfxDevice: 4
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Begin MonoManager ReloadAssembly
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Facepunch.Actor.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Facepunch.Actor.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Facepunch.Cursor.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Facepunch.Cursor.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Facepunch.Geometry.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Facepunch.Geometry.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Facepunch.HitBox.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Facepunch.HitBox.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Facepunch.ID.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Facepunch.ID.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Facepunch.MeshBatch.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Facepunch.MeshBatch.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Facepunch.Movement.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Facepunch.Movement.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Facepunch.Prefetch.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Facepunch.Prefetch.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Facepunch.Utility.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Facepunch.Utility.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\LitJSON.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\LitJSON.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\UnityEngine.Cloud.Analytics.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\UnityEngine.Cloud.Analytics.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\UnityEngine.Cloud.Analytics.Util.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\UnityEngine.Cloud.Analytics.Util.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Google.ProtocolBuffers.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Google.ProtocolBuffers.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Google.ProtocolBuffers.Serialization.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Google.ProtocolBuffers.Serialization.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\uLink.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\uLink.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\dfScriptLite.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\dfScriptLite.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\EasyRoads3D.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\EasyRoads3D.dll into Unity Child Domain
+- Completed reload, in  0.652 seconds
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\System.dll (this message is harmless)
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\System.Core.dll (this message is harmless)
+rust.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+ Server DataDir
+  F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Running cfg/server.cfg
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Loaded rust_server_Data/cfg/server.cfg
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+HDR RenderTexture format is not supported on this platform. This camera will render without HDR buffers.
+ 
+(Filename:  Line: 2452)
+
+HDR RenderTexture format is not supported on this platform. This camera will render without HDR buffers.
+ 
+(Filename:  Line: 2452)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1783)
+
+HDR RenderTexture format is not supported on this platform. This camera will render without HDR buffers.
+ 
+(Filename:  Line: 2452)
+
+Instantiator for prefab 'barrel_A1_01' already exists
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 34 / Dirty serialized files: 0)
+
+Unloading 28681 unused Assets to reduce memory usage. Loaded Objects now: 7643.
+Total: 41.902901 ms (FindLiveObjects: 1.942200 ms CreateObjectMapping: 4.085200 ms MarkObjects: 2.829400 ms  DeleteObjects: 31.808998 ms)
+
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\System.Configuration.dll (this message is harmless)
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\System.Xml.dll (this message is harmless)
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\RustEssentials.dll (this message is harmless)
+[Rust Essentials] Loading RustEssentials...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] RustEssentials loaded! Processing...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+ FrameRate: 30
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+ SendRate: 5
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+ Timeout: 30
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+ Players: 100
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+ Port: 28015
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+ PVP: True
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] ====
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Cerionn's Rust Essentials v1.7.0 loaded!
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] ----
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Unable to parse latest version from server. Status unknown.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Config loaded.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Adding commands for [Owner]...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Adding commands for [Administrator]...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Adding commands for [Moderator]...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Adding commands for [Member]...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Adding commands for [Default]...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Commands inherited for each rank successfully!
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Loading items for kit [Starter]...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Time: 30000
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Loading items for kit [Invis]...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Loading items for kit [TRS]...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Kits inherited for each rank successfully!
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Adding MOTD [Join]...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Adding MOTD [Cycle]...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Adding MOTD [Cycle]...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Adding MOTD [Once]...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Adding MOTD [Rules]...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Warps inherited for each rank successfully!
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] 245 items found!
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Item Controller successfully loaded with 0 restrictions!
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] 31/31 loot tables successfully overrided!
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Loading items for loadout part [Hotbar]...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Loading items for loadout part [Inventory]...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Starting alternate tick thread...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] ====
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 29.041401 ms
+Main camera does not exist or is not tagged 'MainCamera'.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 34 / Dirty serialized files: 0)
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 13887.
+Total: 7.013500 ms (FindLiveObjects: 0.425300 ms CreateObjectMapping: 0.531300 ms MarkObjects: 4.801400 ms  DeleteObjects: 0.045600 ms)
+
+Loaded "rust_island_2013" (and tree level).
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Loading save file
+ F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\rust_island_2013.sav
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Server Initialized
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Overriding time...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Overriding day length...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Overriding night length...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Player klktt (76561197980389132) has joined the game world. Avatar loaded. [127.0.0.1]
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[CHAT] <CMD> klktt: /help
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[CHAT] <CMD> klktt: /uid
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[CHAT] <CMD> klktt: /f
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[CHAT] <CMD> klktt: /r
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[CHAT] <CMD> klktt: /help
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[CHAT] <CMD> klktt: /version
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[CHAT] <CMD> klktt: /warps
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[CHAT] <CMD> klktt: /warp
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[CHAT] <CMD> klktt: /vote
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[CHAT] <CMD> klktt: /help
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[CHAT] <CMD> klktt: /redeem
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[CHAT] <CMD> klktt: /fps
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[CHAT] <CMD> klktt: /info
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Mono.Security.dll (this message is harmless)
+[Rust Essentials] DSI #1: System.Net.WebException: Error getting response stream (Write: The authentication or decryption has failed.): SendFailure ---> System.IO.IOException: The authentication or decryption has failed. ---> Mono.Security.Protocol.Tls.TlsException: The authentication or decryption has failed.
+  at Mono.Security.Protocol.Tls.RecordProtocol.ProcessAlert (AlertLevel alertLevel, AlertDescription alertDesc) [0x00000] in <filename unknown>:0 
+  at Mono.Security.Protocol.Tls.RecordProtocol.InternalReceiveRecordCallback (IAsyncResult asyncResult) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at Mono.Security.Protocol.Tls.SslStreamBase.AsyncHandshakeCallback (IAsyncResult asyncResult) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at System.Net.HttpWebRequest.EndGetResponse (IAsyncResult asyncResult) [0x00000] in <filename unknown>:0 
+  at System.Net.HttpWebRequest.GetResponse () [0x00000] in <filename unknown>:0 
+  at System.Net.WebClient.GetWebResponse (System.Net.WebRequest request) [0x00000] in <filename unknown>:0 
+  at System.Net.WebClient.DownloadDataCore (System.Uri address, System.Object userToken) [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[CHAT] <CMD> klktt: /help
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[CHAT] <CMD> klktt: /whois
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[CHAT] <CMD> klktt: /leaderboard
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[CHAT] <CMD> klktt: /leaderboard kills
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[CHAT] <CMD> klktt: /help
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[CHAT] <CMD> klktt: /drop
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[CHAT] <CMD> klktt: /remover
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[CHAT] <CMD> klktt: /online
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[CHAT] <CMD> klktt: /g e
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[CHAT] <CMD> klktt: /g dwa
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[CHAT] <CMD> klktt: /
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[CHAT] <G> klktt: e
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Saving to 'rust_server_Data/rust_island_2013.sav'
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+saved all.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+OnDestroy
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Initialize engine version: 4.5.5f1 (7684ad0c5a44)
+Forcing GfxDevice: 4
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Begin MonoManager ReloadAssembly
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Facepunch.Actor.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Facepunch.Actor.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Facepunch.Cursor.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Facepunch.Cursor.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Facepunch.Geometry.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Facepunch.Geometry.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Facepunch.HitBox.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Facepunch.HitBox.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Facepunch.ID.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Facepunch.ID.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Facepunch.MeshBatch.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Facepunch.MeshBatch.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Facepunch.Movement.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Facepunch.Movement.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Facepunch.Prefetch.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Facepunch.Prefetch.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Facepunch.Utility.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Facepunch.Utility.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\LitJSON.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\LitJSON.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\UnityEngine.Cloud.Analytics.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\UnityEngine.Cloud.Analytics.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\UnityEngine.Cloud.Analytics.Util.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\UnityEngine.Cloud.Analytics.Util.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Google.ProtocolBuffers.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Google.ProtocolBuffers.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Google.ProtocolBuffers.Serialization.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\Google.ProtocolBuffers.Serialization.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\uLink.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\uLink.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\dfScriptLite.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\dfScriptLite.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\EasyRoads3D.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\EasyRoads3D.dll into Unity Child Domain
+- Completed reload, in  0.656 seconds
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\System.dll (this message is harmless)
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\System.Core.dll (this message is harmless)
+rust.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+ Server DataDir
+  F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Running cfg/server.cfg
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Loaded rust_server_Data/cfg/server.cfg
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+HDR RenderTexture format is not supported on this platform. This camera will render without HDR buffers.
+ 
+(Filename:  Line: 2452)
+
+HDR RenderTexture format is not supported on this platform. This camera will render without HDR buffers.
+ 
+(Filename:  Line: 2452)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1783)
+
+HDR RenderTexture format is not supported on this platform. This camera will render without HDR buffers.
+ 
+(Filename:  Line: 2452)
+
+Instantiator for prefab 'barrel_A1_01' already exists
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 34 / Dirty serialized files: 0)
+
+Unloading 28681 unused Assets to reduce memory usage. Loaded Objects now: 7643.
+Total: 49.569302 ms (FindLiveObjects: 1.774200 ms CreateObjectMapping: 4.520600 ms MarkObjects: 2.873200 ms  DeleteObjects: 38.906803 ms)
+
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\System.Configuration.dll (this message is harmless)
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\System.Xml.dll (this message is harmless)
+Platform assembly: F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\Managed\RustEssentials.dll (this message is harmless)
+[Rust Essentials] Loading RustEssentials...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] RustEssentials loaded! Processing...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+ FrameRate: 30
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+ SendRate: 5
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+ Timeout: 30
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+ Players: 100
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+ Port: 28015
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+ PVP: True
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] ====
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Cerionn's Rust Essentials v1.7.0 loaded!
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] ----
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Unable to parse latest version from server. Status unknown.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Config loaded.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Adding commands for [Owner]...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Adding commands for [Administrator]...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Adding commands for [Moderator]...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Adding commands for [Member]...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Adding commands for [Default]...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Commands inherited for each rank successfully!
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Loading items for kit [Starter]...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Time: 30000
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Loading items for kit [Invis]...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Loading items for kit [TRS]...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Kits inherited for each rank successfully!
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Adding MOTD [Join]...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Adding MOTD [Cycle]...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Adding MOTD [Cycle]...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Adding MOTD [Once]...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Adding MOTD [Rules]...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Warps inherited for each rank successfully!
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] 245 items found!
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Item Controller successfully loaded with 0 restrictions!
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] 31/31 loot tables successfully overrided!
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Loading items for loadout part [Hotbar]...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Loading items for loadout part [Inventory]...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Starting alternate tick thread...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] ====
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 21.239201 ms
+Main camera does not exist or is not tagged 'MainCamera'.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 34 / Dirty serialized files: 0)
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 13887.
+Total: 6.769400 ms (FindLiveObjects: 0.443600 ms CreateObjectMapping: 0.516300 ms MarkObjects: 4.419100 ms  DeleteObjects: 0.048900 ms)
+
+Loaded "rust_island_2013" (and tree level).
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Loading save file
+ F:\Archivos Rust\Servidores\RustServerOriginal\rust_server_Data\rust_island_2013.sav
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Server Initialized
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Overriding time...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Overriding day length...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Overriding night length...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Player klktt (76561197980389132) has joined the game world. Avatar loaded. [127.0.0.1]
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[CHAT] <CMD> klktt: /help
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[CHAT] <CMD> klktt: /sethome
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[CHAT] <CMD> klktt: /warp
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[CHAT] <CMD> klktt: /warps
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[CHAT] <CMD> klktt: /home
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[CHAT] <CMD> klktt: /sethome
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[CHAT] <CMD> klktt: /chan
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[CHAT] <CMD> klktt: /chan g
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[CHAT] <G> klktt: r
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[CHAT] <CMD> klktt: /ewarp e
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[CHAT] <CMD> klktt: /f
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[CHAT] <CMD> klktt: /f create
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[CHAT] <CMD> klktt: /f create KLK
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[CHAT] <CMD> klktt: /f safezone 1
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[CHAT] <CMD> klktt: /f list
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[CHAT] <CMD> klktt: /f warzone 1
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[CHAT] <CMD> klktt: /radius 300
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[CHAT] <CMD> klktt: /whois klktt
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Rust Essentials] Player klktt (76561197980389132) has disconnected. Data unloaded. [255.255.255.255]
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Saving to 'rust_server_Data/rust_island_2013.sav'
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+saved all.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+OnDestroy
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+

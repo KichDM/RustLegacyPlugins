@@ -1,0 +1,23 @@
+{
+  "Settings":{
+    "HelpChatName":"Help",
+    "ChatName":"AVISO",
+    "ChatEnabled":"true",
+    "NoticeEnabled":"true"
+  },
+  "Messages":{
+    "ShutdownNow":"Reiniciando!",
+    "ShutdownIn":"Server reiniciando em",
+    "ShutdownCancelled":"Manutençao cancelada!",
+    "HelpText":"Digite /shutdown # para desligar o server ou /stop para cancelar.",
+    "NoPermission":"Sem permissao!",
+    "Units":{
+      "Minute":"minutos",
+      "Seconds":"segundos",
+      "Hours":"horas",
+      "Minutes":"minutos",
+      "Hour":"hora",
+      "Second":"segundos"
+    }
+  }
+}

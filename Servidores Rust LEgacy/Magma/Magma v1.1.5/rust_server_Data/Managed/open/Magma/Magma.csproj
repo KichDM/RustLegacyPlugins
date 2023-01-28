@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{153FFC4B-CCC1-4F55-B98A-32BAEC68CEF6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Magma</RootNamespace>
+    <AssemblyName>Magma</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Facepunch.ID" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml" />
+    <Reference Include="uLink" />
+    <Reference Include="UnityEngine" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bootstrap.cs" />
+    <Compile Include="ChatString.cs" />
+    <Compile Include="Data.cs" />
+    <Compile Include="DataStore.cs" />
+    <Compile Include="Entity.cs" />
+    <Compile Include="Events\BPUseEvent.cs" />
+    <Compile Include="Events\DeathEvent.cs" />
+    <Compile Include="Events\DecayEvent.cs" />
+    <Compile Include="Events\DoorEvent.cs" />
+    <Compile Include="Events\GatherEvent.cs" />
+    <Compile Include="Events\HurtEvent.cs" />
+    <Compile Include="Events\SpawnEvent.cs" />
+    <Compile Include="Events\TimedEvent.cs" />
+    <Compile Include="Hooks.cs" />
+    <Compile Include="IniParser.cs" />
+    <Compile Include="ItemsBlocks.cs" />
+    <Compile Include="NPC.cs" />
+    <Compile Include="ParamsList.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="PlayerInv.cs" />
+    <Compile Include="PlayerItem.cs" />
+    <Compile Include="Plugin.cs" />
+    <Compile Include="PluginEngine.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="rustpp.cs" />
+    <Compile Include="RustPP\Commands\AboutCommand.cs" />
+    <Compile Include="RustPP\Commands\AddAdminCommand.cs" />
+    <Compile Include="RustPP\Commands\AddFlagCommand.cs" />
+    <Compile Include="RustPP\Commands\AddFriendCommand.cs" />
+    <Compile Include="RustPP\Commands\AnnounceCommand.cs" />
+    <Compile Include="RustPP\Commands\BanCommand.cs" />
+    <Compile Include="RustPP\Commands\ChatCommand.cs" />
+    <Compile Include="RustPP\Commands\FriendsCommand.cs" />
+    <Compile Include="RustPP\Commands\GetFlagsCommand.cs" />
+    <Compile Include="RustPP\Commands\GiveItemCommand.cs" />
+    <Compile Include="RustPP\Commands\GodModeCommand.cs" />
+    <Compile Include="RustPP\Commands\HelpCommand.cs" />
+    <Compile Include="RustPP\Commands\HistoryCommand.cs" />
+    <Compile Include="RustPP\Commands\InstaKOCommand.cs" />
+    <Compile Include="RustPP\Commands\KickCommand.cs" />
+    <Compile Include="RustPP\Commands\KillCommand.cs" />
+    <Compile Include="RustPP\Commands\LoadoutCommand.cs" />
+    <Compile Include="RustPP\Commands\LocationCommand.cs" />
+    <Compile Include="RustPP\Commands\MasterAdminCommand.cs" />
+    <Compile Include="RustPP\Commands\MOTDCommand.cs" />
+    <Compile Include="RustPP\Commands\MuteCommand.cs" />
+    <Compile Include="RustPP\Commands\PingCommand.cs" />
+    <Compile Include="RustPP\Commands\PlayersCommand.cs" />
+    <Compile Include="RustPP\Commands\PrivateMessagesCommand.cs" />
+    <Compile Include="RustPP\Commands\ReloadCommand.cs" />
+    <Compile Include="RustPP\Commands\RemoveAdminCommand.cs" />
+    <Compile Include="RustPP\Commands\RemoveFlagsCommand.cs" />
+    <Compile Include="RustPP\Commands\ReplyCommand.cs" />
+    <Compile Include="RustPP\Commands\RulesCommand.cs" />
+    <Compile Include="RustPP\Commands\SaveAllCommand.cs" />
+    <Compile Include="RustPP\Commands\ShareCommand.cs" />
+    <Compile Include="RustPP\Commands\SpawnItemCommand.cs" />
+    <Compile Include="RustPP\Commands\StarterCommand.cs" />
+    <Compile Include="RustPP\Commands\TeleportHereCommand.cs" />
+    <Compile Include="RustPP\Commands\TeleportToCommand.cs" />
+    <Compile Include="RustPP\Commands\UnbanCommand.cs" />
+    <Compile Include="RustPP\Commands\UnfriendCommand.cs" />
+    <Compile Include="RustPP\Commands\UnmuteCommand.cs" />
+    <Compile Include="RustPP\Commands\UnshareCommand.cs" />
+    <Compile Include="RustPP\Commands\WhiteListAddCommand.cs" />
+    <Compile Include="RustPP\Core.cs" />
+    <Compile Include="RustPP\Helper.cs" />
+    <Compile Include="RustPP\Hooks.cs" />
+    <Compile Include="RustPP\Permissions\Administrator.cs" />
+    <Compile Include="RustPP\PList.cs" />
+    <Compile Include="RustPP\Social\FriendList.cs" />
+    <Compile Include="RustPP\TimedEvents.cs" />
+    <Compile Include="Server.cs" />
+    <Compile Include="Util.cs" />
+    <Compile Include="Web.cs" />
+    <Compile Include="World.cs" />
+    <Compile Include="Zone3D.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Assembly-CSharp\Assembly-CSharp.csproj">
+      <Project>{153ffc4b-ccc1-4f55-b98a-32baec68cef4}</Project>
+      <Name>Assembly-CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Jint\Jint.csproj">
+      <Project>{153ffc4b-ccc1-4f55-b98a-32baec68cef5}</Project>
+      <Name>Jint</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

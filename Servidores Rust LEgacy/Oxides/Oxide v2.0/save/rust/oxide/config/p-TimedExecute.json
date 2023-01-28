@@ -1,0 +1,36 @@
+{
+  "EnableTimerOnceCommands": "false",
+  "EnableTimerRepeatCommands": "true",
+  "OnceCommands": [
+    {
+      "command": "say 'Restart in 1 minute'",
+      "seconds": 60
+    },
+    {
+      "command": "say 'Restart in 30 seconds'",
+      "seconds": 90
+    },
+    {
+      "command": "say 'Restart NOW'",
+      "seconds": 120
+    },
+    {
+      "command": "restart",
+      "seconds": 120
+    },
+    {
+      "command": "reset.oncetimer",
+      "seconds": 121
+    }
+  ],
+  "RepeaterCommands": [
+    {
+      "command": "server.save",
+      "seconds": 300
+    },
+    {
+      "command": "say 'hello world'",
+      "seconds": 60
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+2022-2-18 21:24:4:129 Steam.dll Loaded
+2022-2-18 21:24:4:129 BlobPath --> C:\Users\locom\Desktop\NovaLandv5.16\ClientRegistry.blob
+2022-2-18 21:24:4:130 IniPath --> C:\Users\locom\Desktop\NovaLandv5.16\LumaEmu.ini
+2022-2-18 21:24:4:130 CachePath --> c:\program files (x86)\steam\steamapps\
+2022-2-18 21:24:4:133 ClientRegistry.blob is found
+2022-2-18 21:24:4:133 Using ContentDescriptionRecord
+2022-2-18 21:24:4:278 SteamMiniDumpInit
+2022-2-18 21:24:6:711 Steam.dll Shutdown
+2022-2-18 21:24:53:351 Steam.dll Loaded
+2022-2-18 21:24:53:351 BlobPath --> C:\Users\locom\Desktop\NovaLandv5.16\ClientRegistry.blob
+2022-2-18 21:24:53:351 IniPath --> C:\Users\locom\Desktop\NovaLandv5.16\LumaEmu.ini
+2022-2-18 21:24:53:351 CachePath --> c:\program files (x86)\steam\steamapps\
+2022-2-18 21:24:53:356 ClientRegistry.blob is found
+2022-2-18 21:24:53:357 Using ContentDescriptionRecord
+2022-2-18 21:24:53:504 _f --> Steam006
+2022-2-18 21:24:53:542 SteamGetCurrentCellID
+2022-2-18 21:24:53:542 SteamInitializeUserIDTicketValidator
+2022-2-18 21:24:53:543 SteamMiniDumpInit

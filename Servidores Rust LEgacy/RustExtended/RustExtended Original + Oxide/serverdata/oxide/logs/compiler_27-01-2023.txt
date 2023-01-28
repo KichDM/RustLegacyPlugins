@@ -1,0 +1,33 @@
+[SERVER v1.0.24] Started as service
+[SERVER v1.0.24] Running as service
+[SERVER v1.0.24] Got Message: Ready
+[SERVER v1.0.24] Got Message: Compile
+[SERVER v1.0.24] Console: BugFix.cs(11,1): warning CS0105: The using directive for `System.Collections.Generic' appeared previously in this namespace
+CopyPaste.cs(166,58): warning CS0618: `UnityEngine.Quaternion.ToEulerAngles()' is obsolete: `Use Quaternion.eulerAngles instead. This function was deprecated because it uses radians instead of degrees'
+CopyPaste.cs(175,67): warning CS0618: `UnityEngine.Quaternion.ToEulerAngles()' is obsolete: `Use Quaternion.eulerAngles instead. This function was deprecated because it uses radians instead of degrees'
+CopyPaste.cs(177,67): warning CS0618: `UnityEngine.Quaternion.ToEulerAngles()' is obsolete: `Use Quaternion.eulerAngles instead. This function was deprecated because it uses radians instead of degrees'
+CopyPaste.cs(190,58): warning CS0618: `UnityEngine.Quaternion.ToEulerAngles()' is obsolete: `Use Quaternion.eulerAngles instead. This function was deprecated because it uses radians instead of degrees'
+CopyPaste.cs(198,67): warning CS0618: `UnityEngine.Quaternion.ToEulerAngles()' is obsolete: `Use Quaternion.eulerAngles instead. This function was deprecated because it uses radians instead of degrees'
+CopyPaste.cs(200,67): warning CS0618: `UnityEngine.Quaternion.ToEulerAngles()' is obsolete: `Use Quaternion.eulerAngles instead. This function was deprecated because it uses radians instead of degrees'
+CopyPaste.cs(317,93): warning CS0618: `UnityEngine.Quaternion.ToEulerAngles()' is obsolete: `Use Quaternion.eulerAngles instead. This function was deprecated because it uses radians instead of degrees'
+CopyPaste.cs(337,77): warning CS0618: `UnityEngine.Quaternion.ToEulerAngles()' is obsolete: `Use Quaternion.eulerAngles instead. This function was deprecated because it uses radians instead of degrees'
+CopyPaste.cs(397,70): warning CS0618: `UnityEngine.Quaternion.ToEulerAngles()' is obsolete: `Use Quaternion.eulerAngles instead. This function was deprecated because it uses radians instead of degrees'
+CopyPaste.cs(398,75): warning CS0618: `UnityEngine.Quaternion.ToEulerAngles()' is obsolete: `Use Quaternion.eulerAngles instead. This function was deprecated because it uses radians instead of degrees'
+CopyPaste.cs(450,47): warning CS0618: `UnityEngine.Quaternion.EulerRotation(UnityEngine.Vector3)' is obsolete: `Use Quaternion.Euler instead. This function was deprecated because it uses radians instead of degrees'
+CopyPaste.cs(458,51): warning CS0618: `UnityEngine.Quaternion.EulerRotation(UnityEngine.Vector3)' is obsolete: `Use Quaternion.Euler instead. This function was deprecated because it uses radians instead of degrees'
+CopyPaste.cs(477,47): warning CS0618: `UnityEngine.Quaternion.EulerRotation(UnityEngine.Vector3)' is obsolete: `Use Quaternion.Euler instead. This function was deprecated because it uses radians instead of degrees'
+CopyPaste.cs(485,51): warning CS0618: `UnityEngine.Quaternion.EulerRotation(UnityEngine.Vector3)' is obsolete: `Use Quaternion.Euler instead. This function was deprecated because it uses radians instead of degrees'
+CopyPaste.cs(20,22): warning CS0169: The private field `Oxide.Plugins.CopyPaste.collection' is never used
+CopyPaste.cs(21,19): warning CS0414: The private field `Oxide.Plugins.CopyPaste.structurecomponents' is assigned but its value is never used
+CopyPaste.cs(24,31): warning CS0649: Field `Oxide.Plugins.CopyPaste.cachedPosition' is never assigned to, and will always have its default value
+CopyPaste.cs(25,39): warning CS0649: Field `Oxide.Plugins.CopyPaste.cachedMaster' is never assigned to, and will always have its default value `null'
+CopyPaste.cs(26,32): warning CS0649: Field `Oxide.Plugins.CopyPaste.cachedCollider' is never assigned to, and will always have its default value `null'
+CopyPaste.cs(27,30): warning CS0649: Field `Oxide.Plugins.CopyPaste.cachedModelname' is never assigned to, and will always have its default value `null'
+CopyPaste.cs(28,30): warning CS0649: Field `Oxide.Plugins.CopyPaste.cachedObjectname' is never assigned to, and will always have its default value `null'
+CopyPaste.cs(29,29): warning CS0649: Field `Oxide.Plugins.CopyPaste.cachedDistance' is never assigned to, and will always have its default value `0'
+CopyPaste.cs(30,42): warning CS0649: Field `Oxide.Plugins.CopyPaste.cachedComponent' is never assigned to, and will always have its default value `null'
+CopyPaste.cs(46,30): warning CS0414: The private field `Oxide.Plugins.CopyPaste.rawSpawnables' is assigned but its value is never used
+CopyPaste.cs(51,24): warning CS0169: The private field `Oxide.Plugins.CopyPaste.cleanDeployedName' is never used
+
+[SERVER v1.0.24] Connection closed.
+[SERVER v1.0.24] Shutdown

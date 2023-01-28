@@ -1,0 +1,64 @@
+***************************************************************
+* LumaEmu 1.6.9                                               *
+* by Steam006                                                 *
+***************************************************************
+
+LumaEmu Features:
+Play games without Steam
+Mount GCF/NCF files
+Mounts optional GCFs
+Support for x64 games
+DLC Patch
+Low Violence patch
+Can be used to host cracked servers
+Blocks VAC banned players from connecting to your server
+Ban players from your server by SteamID (Create Filter.txt)
+Legit Steam players are assigned the correct SteamID
+Static SteamID is assigned for LumaEmu, RevEmu and SmartSteamEmu players
+Choose between Setti masterserver or Valve masterserver (Steam.dll)
+Achievements can be earned and saved in most games
+Steam Game Overlay support
+Steam VR support
+Source Engine Window Focus Patch
+Writes Minidumps
+LAN Serverbrowser (x86)
+
+Installation x86:
+1. Copy LumaEmu.ini, steamclient.dll, LumaGameLauncher_x86.exe and LumaGameLauncher_x86.dll to the game folder.
+2. Change the "SteamClientDll" path in LumaEmu.ini.
+3. Create steam_appid.txt with the correct AppID for the game.
+4. (1) Start LumaGameLauncher_x86.exe and type in the game's exe name and parameters if you use any.
+4. (2) Type in the game's exe name and parameters in the "LumaGameLauncher" section of LumaEmu.ini.
+5. Start the game through LumaGameLauncher_x86.exe.
+
+Installation x64:
+1. Copy LumaEmu.ini, steamclient64.dll, LumaGameLauncher_x64.exe and LumaGameLauncher_x64.dll to the game folder.
+2. Change the "SteamClientDll64" path in LumaEmu.ini.
+3. Create steam_appid.txt with the correct AppID for the game.
+4. (1) Start LumaGameLauncher_x64.exe and type in the game's exe name and parameters if you use any.
+4. (2) Type in the game's exe name and parameters in the "LumaGameLauncher" section of LumaEmu.ini.
+5. Start the game through LumaGameLauncher_x64.exe.
+
+Source Dedicated Server Installation:
+1. Copy steamclient.dll to the bin folder.
+2. Copy LumaEmu.ini to the same folder as srcds.exe is in.
+3. Change the "SteamClientDll" path in LumaEmu.ini.
+4. Start the server with srcds.exe
+
+GoldSrc Dedicated Server Installation:
+1. Copy steamclient.dll and LumaEmu.ini to the server folder.
+2. Change the "SteamClientDll" path in LumaEmu.ini.
+3. Start the server with hlds.exe
+
+Credits:
+Nintendo: Luma
+shmelle: Helping me with some steamclient.dll stuff, Serverbrowser
+Mitsukarina: Awesome steam tutorials and have helped me with some other steam releated things.
+syahmixp: Have helped me with many different things. (too many to mention here.)
+.cue: Cuesteam Source code
+CPAMX: HookEmu Source code
+Diviton: OpenEmu Source code
+Christsnatcher: Reported bugs
+machine4578: Reported bugs
+I am AWESOME: Reported bugs
+sam2k8: Reported bugs

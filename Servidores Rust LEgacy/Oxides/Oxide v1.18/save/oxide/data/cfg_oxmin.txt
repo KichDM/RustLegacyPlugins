@@ -1,0 +1,9 @@
+{
+  "showwelcomenotice":true,
+  "helptext":["Bem vindo ao DarkRust","Este servidor está utilizando oxide 1.19.","Digite /who para ver os players online."],
+  "chatname":"DarkRust",
+  "reservedslots":10,
+  "showconnectedmessage":false,
+  "showdisconnectedmessage":false,
+  "welcomenotice":"Bem vindo ao server %s! Digite /ajuda para ver os comandos."
+}

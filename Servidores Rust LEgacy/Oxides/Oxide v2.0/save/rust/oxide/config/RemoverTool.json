@@ -1,0 +1,302 @@
+{
+  "Messages: No Access": "You don't have access to this command",
+  "Messages: No Target player": "Target Player doesn't exist",
+  "Messages: Not Allowed to remove the object": "You are not allowed to remove this",
+  "Messages: Remove Activated {0} is the type, {1} the seconds": "RemoverTool ({0}) activated for {1} seconds",
+  "Messages: Remove Deactivated": "RemoverTool deactivated",
+  "Messages: structure carrying weight": "The structure is carrying something on him",
+  "Messages: Wrong Arguments": "Wrong arguments",
+  "Refund: allowed": true,
+  "Refund: Values": {
+    "Bed": [
+      [
+        "Cloth",
+        "40"
+      ],
+      [
+        "Metal Fragments",
+        "100"
+      ]
+    ],
+    "Camp Fire": [
+      [
+        "Wood",
+        "5"
+      ]
+    ],
+    "Explosive Charge": [
+      [
+        "Explosives",
+        "15"
+      ],
+      [
+        "Flare",
+        "1"
+      ],
+      [
+        "Leather",
+        "5"
+      ]
+    ],
+    "Furnace": [
+      [
+        "Stones",
+        "15"
+      ],
+      [
+        "Wood",
+        "20"
+      ],
+      [
+        "Low Grade Fuel",
+        "10"
+      ]
+    ],
+    "Large Spike Wall": [
+      [
+        "Wood",
+        "200"
+      ]
+    ],
+    "Large Wood Storage": [
+      [
+        "Wood",
+        "60"
+      ]
+    ],
+    "Metal Ceiling": [
+      [
+        "Low Quality Metal",
+        "6"
+      ]
+    ],
+    "Metal Door": [
+      [
+        "Metal Fragments",
+        "200"
+      ]
+    ],
+    "Metal Doorway": [
+      [
+        "Low Quality Metal",
+        "4"
+      ]
+    ],
+    "Metal Foundation": [
+      [
+        "Low Quality Metal",
+        "8"
+      ]
+    ],
+    "Metal Pillar": [
+      [
+        "Low Quality Metal",
+        "2"
+      ]
+    ],
+    "Metal Ramp": [
+      [
+        "Low Quality Metal",
+        "5"
+      ]
+    ],
+    "Metal Stairs": [
+      [
+        "Low Quality Metal",
+        "5"
+      ]
+    ],
+    "Metal Wall": [
+      [
+        "Low Quality Metal",
+        "4"
+      ]
+    ],
+    "Metal Window": [
+      [
+        "Low Quality Metal",
+        "4"
+      ]
+    ],
+    "Metal Window Bars": [
+      [
+        "Metal Fragments",
+        "100"
+      ]
+    ],
+    "Repair Bench": [
+      [
+        "Stones",
+        "12"
+      ],
+      [
+        "Wood",
+        "60"
+      ],
+      [
+        "Metal Fragments",
+        "50"
+      ],
+      [
+        "Low Grade Fuel",
+        "6"
+      ]
+    ],
+    "Sleeping Bag": [
+      [
+        "Cloth",
+        "15"
+      ]
+    ],
+    "Small Stash": [
+      [
+        "Leather",
+        "10"
+      ]
+    ],
+    "Spike Wall": [
+      [
+        "Wood",
+        "100"
+      ]
+    ],
+    "Wood Barricade": [
+      [
+        "Wood",
+        "30"
+      ]
+    ],
+    "Wood Ceiling": [
+      [
+        "Wood Planks",
+        "6"
+      ]
+    ],
+    "Wood Doorway": [
+      [
+        "Wood Planks",
+        "4"
+      ]
+    ],
+    "Wood Foundation": [
+      [
+        "Wood Planks",
+        "8"
+      ]
+    ],
+    "Wood Gate": [
+      [
+        "Wood",
+        "120"
+      ]
+    ],
+    "Wood Gateway": [
+      [
+        "Wood",
+        "400"
+      ]
+    ],
+    "Wood Pillar": [
+      [
+        "Wood Planks",
+        "2"
+      ]
+    ],
+    "Wood Ramp": [
+      [
+        "Wood Planks",
+        "5"
+      ]
+    ],
+    "Wood Shelter": [
+      [
+        "Wood",
+        "50"
+      ]
+    ],
+    "Wood Stairs": [
+      [
+        "Wood Planks",
+        "5"
+      ]
+    ],
+    "Wood Storage Box": [
+      [
+        "Wood",
+        "30"
+      ]
+    ],
+    "Wood Wall": [
+      [
+        "Wood Planks",
+        "4"
+      ]
+    ],
+    "Wood Window": [
+      [
+        "Wood Planks",
+        "4"
+      ]
+    ],
+    "Wooden Door": [
+      [
+        "Wood",
+        "30"
+      ]
+    ],
+    "Workbench": [
+      [
+        "Stones",
+        "8"
+      ],
+      [
+        "Wood",
+        "50"
+      ]
+    ]
+  },
+  "Remove: Anti Float": true,
+  "Remove: Auto Deactivate time": 30.0,
+  "Remove: Deployable Remove Allowed": {
+    "Bed": true,
+    "Camp Fire": true,
+    "Explosive Charge": true,
+    "Furnace": true,
+    "Large Spike Wall": true,
+    "Large Wood Storage": true,
+    "Metal Door": true,
+    "Metal Window Bars": true,
+    "Repair Bench": true,
+    "Sleeping Bag": true,
+    "Small Stash": true,
+    "Spike Wall": true,
+    "Wood Barricade": true,
+    "Wood Gate": true,
+    "Wood Gateway": true,
+    "Wood Shelter": true,
+    "Wood Storage Box": true,
+    "Wooden Door": true,
+    "Workbench": true
+  },
+  "Remove: For Players": true,
+  "Remove: Max Allowed Deactivate time": 120.0,
+  "Remove: Structure Remove Allowed": {
+    "Metal Ceiling": true,
+    "Metal Doorway": true,
+    "Metal Foundation": true,
+    "Metal Pillar": true,
+    "Metal Ramp": true,
+    "Metal Stairs": true,
+    "Metal Wall": true,
+    "Metal Window": true,
+    "Wood Ceiling": true,
+    "Wood Doorway": true,
+    "Wood Foundation": true,
+    "Wood Pillar": true,
+    "Wood Ramp": true,
+    "Wood Stairs": true,
+    "Wood Wall": true,
+    "Wood Window": true
+  },
+  "Settings: use Share": true
+}

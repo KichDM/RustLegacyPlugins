@@ -1,0 +1,130 @@
+Initialize engine version: 4.5.5f1 (7684ad0c5a44)
+Forcing GfxDevice: 4
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Begin MonoManager ReloadAssembly
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\I18N.dll (this message is harmless)
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\I18N.West.dll (this message is harmless)
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Facepunch.Actor.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Facepunch.Actor.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Facepunch.Cursor.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Facepunch.Cursor.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Facepunch.Geometry.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Facepunch.Geometry.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Facepunch.HitBox.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Facepunch.HitBox.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Facepunch.ID.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Facepunch.ID.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Facepunch.MeshBatch.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Facepunch.MeshBatch.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Facepunch.Movement.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Facepunch.Movement.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Facepunch.Prefetch.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Facepunch.Prefetch.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Facepunch.Utility.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Facepunch.Utility.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\LitJSON.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\LitJSON.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\UnityEngine.Cloud.Analytics.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\UnityEngine.Cloud.Analytics.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\UnityEngine.Cloud.Analytics.Util.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\UnityEngine.Cloud.Analytics.Util.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Google.ProtocolBuffers.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Google.ProtocolBuffers.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Google.ProtocolBuffers.Serialization.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Google.ProtocolBuffers.Serialization.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\uLink.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\uLink.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\dfScriptLite.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\dfScriptLite.dll into Unity Child Domain
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\EasyRoads3D.dll (this message is harmless)
+Loading F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\EasyRoads3D.dll into Unity Child Domain
+- Completed reload, in  0.127 seconds
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\System.dll (this message is harmless)
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\RustExtended.dll (this message is harmless)
+Loaded serverdata/cfg/server.cfg
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\System.Configuration.dll (this message is harmless)
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\System.Xml.dll (this message is harmless)
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Mono.Security.dll (this message is harmless)
+Non platform assembly: data-0ACC1020 (this message is harmless)
+Fallback handler could not load library F:/Archivos Rust/Servidores/Rust Extened con oxide/rust_server_Data/Mono/data-0ACC1020.dll
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Boo.Lang.dll (this message is harmless)
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Oxide.Core.dll (this message is harmless)
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Newtonsoft.Json.dll (this message is harmless)
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\System.Data.dll (this message is harmless)
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\System.Runtime.Serialization.dll (this message is harmless)
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\System.Xml.Linq.dll (this message is harmless)
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\protobuf-net.dll (this message is harmless)
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Oxide.Core.CSharp.dll (this message is harmless)
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Mono.Cecil.dll (this message is harmless)
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Mono.Posix.dll (this message is harmless)
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Oxide.Core.JavaScript.dll (this message is harmless)
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Jint.dll (this message is harmless)
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Oxide.Core.Lua.dll (this message is harmless)
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\NLua.dll (this message is harmless)
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\KeraLua.dll (this message is harmless)
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Oxide.Core.MySql.dll (this message is harmless)
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\MySql.Data.dll (this message is harmless)
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Oxide.Core.Python.dll (this message is harmless)
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Microsoft.Scripting.dll (this message is harmless)
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\IronPython.dll (this message is harmless)
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Microsoft.Dynamic.dll (this message is harmless)
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Microsoft.Scripting.Core.dll (this message is harmless)
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\IronPython.Modules.dll (this message is harmless)
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Oxide.Core.SQLite.dll (this message is harmless)
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\System.Data.SQLite.dll (this message is harmless)
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Oxide.Core.Unity.dll (this message is harmless)
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Oxide.Game.RustLegacy.dll (this message is harmless)
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\System.Transactions.dll (this message is harmless)
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\System.Configuration.Install.dll (this message is harmless)
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Mono.Data.Tds.dll (this message is harmless)
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Oxide.Ext.Discord.dll (this message is harmless)
+Non platform assembly: data-13F34020 (this message is harmless)
+Non platform assembly: data-13F30020 (this message is harmless)
+Platform assembly: F:\Archivos Rust\Servidores\Rust Extened con oxide\rust_server_Data\Managed\Mono.Cecil.Rocks.dll (this message is harmless)
+Non platform assembly: data-1152EF68 (this message is harmless)
+Fallback handler could not load library F:/Archivos Rust/Servidores/Rust Extened con oxide/rust_server_Data/Mono/data-1152EF68.dll
+[Demo Plugin] RustExtended Hardware ID: afb7beb0bcfacb43dd56d0e9615842ae
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Demo Plugin] RustExtended Database Type: FILE
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Demo Plugin] RustExtended Information: 
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Demo Plugin]   - 75 Total Command(s)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Demo Plugin]   - 6 Total Rank(s)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+[Demo Plugin]   - 4 Total Kit(s)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+HDR RenderTexture format is not supported on this platform. This camera will render without HDR buffers.
+ 
+(Filename:  Line: 2452)
+

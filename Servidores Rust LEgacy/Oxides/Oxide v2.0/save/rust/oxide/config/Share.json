@@ -1,0 +1,9 @@
+{
+  "Messages: Added Share": "{0} was added to your sharelist",
+  "Messages: Already Sharing With": "You are already sharing with {0}",
+  "Messages: No Player Found": "Couldn't find the target player.",
+  "Messages: Not Sharing": "You don't share anything with anyone yet",
+  "Messages: Not Sharing With": "You are not sharing with: {0}",
+  "Messages: Removed Share": "{0} was removed from your share list",
+  "Messages: Share List": "Your share list:"
+}

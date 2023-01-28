@@ -1,0 +1,6 @@
+{
+  "delay_max":30,
+  "enabled":true,
+  "save_interval":310,
+  "delay":5
+}

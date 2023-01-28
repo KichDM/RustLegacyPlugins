@@ -1,0 +1,54 @@
+﻿{
+  "BroadcasterSettings": {
+    "Enabled": true,
+    "Interval": 30,
+    "ShowChatPrefix": true
+  },
+  "BroadCasterSettings": {
+    "BroadcastMessages": [
+      "☢ [color green]Para compra de vip... add o SKYPE:",
+      "☢ [color red]CONSTRUCOES EM CIDADES OU AREAS DE RADIACAO SERAO REMOVIDAS!!!!!",
+      "☢ [color green]use /rules para ver as regras do server!",
+	  "☢ [color green]Bem vindo ao server | Bem Vindo ao ☢NOME DO SERVE☢",
+	  "☢ [color green]Para Marcar home basta estar em sua [color yellow]fundacao com 4 pillares",
+	  "☢ [color green]Para ir ate seu amigo use /tpr nick",
+	  "☢ [color green]Com [color green]/share nick [color yellow]vc permite seu amigo a setar home em sua casa",
+	  "☢ [color green]Para seu amigo abrir sua porta basta por uma [color green]SENHA",
+	  "☢ [color green]Use /pm nick | para falar em privado com seu amigo e | [color yellow]/r pra responder",
+	  "☢ [color green]Server editado por [color yellow]|☢YT: Missel Gamer☢|.",
+	  "☢ [color red]NAO SEJA UM BEBE CHORAO! JOGUE COMO MACHO, N DEVOLVEMOS LOOT.",
+	  "☢ [color red]use /rules pra ver as regras.",
+	  "☢ [color red]use /addfriend nick Para NAO tomar [color yellow]DANO de seus amigos.",
+	  "☢ [color red]use /unfriend nick para DELETAR um amigo",
+	  "☢ [color green]Nosso [color yellow]TPR [color green]funciona com [color yellow]FICHAS [color green]que sao dadas a cada 30 minutos.",
+	  "☢ [color green]Respeitem os [color yellow][MODS] [color green]Eles podem banir e kickar!!!",
+	  "☢ [color green]Ponhem [color red]☢spikes,rampas,barricadas☢ [color green]em volta de suas casas para evitar [color yellow]bugs!!!"
+	  
+    ]
+  },
+  "ConnectionSettings": {
+    "Enabled": true,
+    "Log": true,
+    "ShowChatPrefix": true
+  },
+  "Messages": {
+    "PlayerJoined": "[color blue]✓  [color white][ {0} ] [color green]Um novo player ►► :)",
+    "PlayerLeft": "[color red]✖ [color white][ {0} ] [color yellow]Menos um  ◄◄ :("
+  },
+  "RulesSettings": {
+    "Enabled": true,
+    "Rules": [
+      "1. Nao usar HACKER no server.",
+      "2. No gringos.",
+	  "3. NAO FLODAR",
+      "5. Quando ADM diz salto, você perguntar quão alto.",
+	  "6. NAO SER UM BEBE CHORAO!",
+	  "7. Nao devolvemos LOOOOT NAO CHORE",
+      "Não cumprimento dessas regras pode resultar em uma proibição ou ban a qualquer momento."
+    ],
+    "ShowChatPrefix": true
+  },
+  "Settings": {
+    "ChatPrefix": "☢Nome do serve☢"
+  }
+}

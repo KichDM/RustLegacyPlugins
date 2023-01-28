@@ -1,0 +1,6 @@
+{
+  "broadcastMutes": true,
+  "defaultMuteTime": 5,
+  "hasBeenMuted": " [color yellow]has been muted",
+  "youAreMuted": "You are muted!."
+}

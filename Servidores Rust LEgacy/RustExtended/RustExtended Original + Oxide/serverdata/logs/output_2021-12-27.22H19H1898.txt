@@ -1,0 +1,63 @@
+Initialize engine version: 4.5.5f1 (7684ad0c5a44)
+Forcing GfxDevice: 4
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\I18N.dll (this message is harmless)
+Platform assembly: C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\I18N.West.dll (this message is harmless)
+Platform assembly: C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\Facepunch.Actor.dll (this message is harmless)
+Loading C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\Facepunch.Actor.dll into Unity Child Domain
+Platform assembly: C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\Facepunch.Cursor.dll (this message is harmless)
+Loading C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\Facepunch.Cursor.dll into Unity Child Domain
+Platform assembly: C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\Facepunch.Geometry.dll (this message is harmless)
+Loading C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\Facepunch.Geometry.dll into Unity Child Domain
+Platform assembly: C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\Facepunch.HitBox.dll (this message is harmless)
+Loading C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\Facepunch.HitBox.dll into Unity Child Domain
+Platform assembly: C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\Facepunch.ID.dll (this message is harmless)
+Loading C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\Facepunch.ID.dll into Unity Child Domain
+Platform assembly: C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\Facepunch.MeshBatch.dll (this message is harmless)
+Loading C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\Facepunch.MeshBatch.dll into Unity Child Domain
+Platform assembly: C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\Facepunch.Movement.dll (this message is harmless)
+Loading C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\Facepunch.Movement.dll into Unity Child Domain
+Platform assembly: C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\Facepunch.Prefetch.dll (this message is harmless)
+Loading C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\Facepunch.Prefetch.dll into Unity Child Domain
+Platform assembly: C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\Facepunch.Utility.dll (this message is harmless)
+Loading C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\Facepunch.Utility.dll into Unity Child Domain
+Platform assembly: C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\LitJSON.dll (this message is harmless)
+Loading C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\LitJSON.dll into Unity Child Domain
+Platform assembly: C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\UnityEngine.Cloud.Analytics.dll (this message is harmless)
+Loading C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\UnityEngine.Cloud.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\UnityEngine.Cloud.Analytics.Util.dll (this message is harmless)
+Loading C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\UnityEngine.Cloud.Analytics.Util.dll into Unity Child Domain
+Platform assembly: C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\Google.ProtocolBuffers.dll (this message is harmless)
+Loading C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\Google.ProtocolBuffers.dll into Unity Child Domain
+Platform assembly: C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\Google.ProtocolBuffers.Serialization.dll (this message is harmless)
+Loading C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\Google.ProtocolBuffers.Serialization.dll into Unity Child Domain
+Platform assembly: C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\uLink.dll (this message is harmless)
+Loading C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\uLink.dll into Unity Child Domain
+Platform assembly: C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\dfScriptLite.dll (this message is harmless)
+Loading C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\dfScriptLite.dll into Unity Child Domain
+Platform assembly: C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\EasyRoads3D.dll (this message is harmless)
+Loading C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\EasyRoads3D.dll into Unity Child Domain
+- Completed reload, in  0.089 seconds
+Platform assembly: C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\RustExtended.dll (this message is harmless)
+Loaded serverdata/cfg/server.cfg
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Platform assembly: C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\System.Configuration.dll (this message is harmless)
+Platform assembly: C:\Users\locom\Downloads\rust_server\rust_server_Data\Managed\System.Xml.dll (this message is harmless)

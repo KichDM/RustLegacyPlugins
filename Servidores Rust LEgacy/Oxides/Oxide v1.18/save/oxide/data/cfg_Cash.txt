@@ -1,0 +1,22 @@
+{
+  "Chatname":"Cash",
+  "Econ":{
+    "StartCash":0,
+    "Wolf":0,
+    "Stag":0,
+    "Chicken":0,
+    "Rabbit":0,
+    "Boar":0,
+    "Symbol":"₡",
+    "Bear":0,
+    "PorcentagemPorKill":0,
+    "ShowMoneyConnect":true
+  },
+  "Misc":{
+    "AutoSaveTime":2500
+  },
+  "Enabled":{
+    "Econ":true
+  },
+  "configVersion":"1"
+}

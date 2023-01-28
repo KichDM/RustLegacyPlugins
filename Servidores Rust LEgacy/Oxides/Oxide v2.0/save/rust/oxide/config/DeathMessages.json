@@ -1,0 +1,74 @@
+{
+  "BodyParts": {
+    "body": "corpo",
+    "hip": "quadril",
+    "torso": "tronco",
+    "chest": "peito",
+    "throat": "garganta",
+    "head": "mente",
+    "nose": "naris",
+    "face": "face",
+    "mouth": "boca",
+    "tonguefront": "lingua",
+    "heart": "coracao",
+    "brain": "cerebro",
+    "gut": "intestino",
+    "left lung": "pulmao esquerdo",
+    "right lung": "pulmao direito",
+    "left eye": "olho esquerdo",
+    "right eye": "olho direito",
+    "left shoulder": "ombro esquerdo",
+    "right shoulder": "ombro direito",
+    "left bicep": "biceps esquerdo",
+    "right bicep": "biceps direito",
+    "left wrist": "pulso esquerdo",
+    "right wrist": "pulso direito",
+    "left hand": "mao esquerda",
+    "right hand": "mao direita",
+    "left calve": "left calve",
+    "right calve": "right calve",
+    "left foot": "pe esquerdo",
+    "right foot": "pe direito"
+  },
+  "Messages": {
+    "Suicide": {
+      "Default": [
+        "[color blue][ {killed} ] [color red]Se Matou"
+      ],
+      "Radiation": [
+        "[color blue][ {killed} ] Foi Morto Pela [color red]Radiação ☠."
+      ],
+      "Falling": [
+        "[color blue][ {killed} ] Caiu De Um Lugar [color green]Muito Alto e [color red]Morreu ☠"
+      ],
+      "Bleeding": [
+        "[color blue][ {killed} ] [color red]Morreu Sangrando."
+      ],
+      "Water": [
+        "[color blue][ {killed} ] Ficou Com [color green]Sede e [color red]Morreu ☠"
+      ]
+    },
+    "PvP": {
+      "Default": [
+        "[color aqua][ {killer} ] [color green]Matou [color aqua][ {killed} ] [color green]Usando [color aqua][ {weapon} ] [color green]Acertou a [color aqua][ {bodypart} ] [color green]Na Distancia [color aqua][ {distance}m ]"
+      ],
+      "Weapon.Explosive Charge": [
+        "[color blue][ {killer} ] [color green]Matou {killed} [color red]Foi Troxa e Morreu Na C4"
+      ],
+      "Weapon.F1 Grenade": [
+        "[color blue][ {killer} ] [color green]Matou {killed} [color red]Usando {weapon}"
+      ],
+      "Weapon.M4": [
+        "[color blue][ {killer} ] [color green]Matou [ {killed} ] [color red]Usando A {weapon}"
+      ]
+
+    },
+
+  },
+  "Settings": {
+    "ChatName": "☠Morte☠",
+    "DisabledMessages": [
+      "Suicide.Default"
+    ]
+  }
+}

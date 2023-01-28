@@ -1,0 +1,39 @@
+14:26 [Info] Loading Oxide Core v2.0.0...
+14:26 [Info] Loading extensions...
+14:26 [Info] Loaded extension CSharp v1.0.0 by Oxide Team
+14:26 [Info] Loaded extension JavaScript v1.0.2755 by Oxide Team
+14:26 [Info] Loaded extension Lua v1.0.2755 by Oxide Team
+14:26 [Info] Loaded extension MySql v1.0.2755 by Oxide Team
+14:26 [Info] Loaded extension Python v1.0.2755 by Oxide Team
+14:26 [Info] Loaded extension SQLite v1.0.2755 by Oxide Team
+14:26 [Info] Loaded extension Unity v1.0.2755 by Oxide Team
+14:26 [Info] Loaded extension RustLegacy v1.0.2755 by Oxide Team
+14:26 [Error] Failed to load extension Oxide.Ext.Discord (ReflectionTypeLoadException: The classes in the module cannot be loaded.)
+14:26 [Debug]   at (wrapper managed-to-native) System.Reflection.Assembly:GetTypes (bool)
+  at System.Reflection.Assembly.GetExportedTypes () [0x00000] in <filename unknown>:0 
+  at Oxide.Core.Extensions.ExtensionManager.LoadExtension (System.String filename) [0x00000] in <filename unknown>:0 
+14:26 [Info] Using Covalence provider for game 'Rust Legacy'
+14:26 [Debug] Cleanup file: F:\Archivos Rust\Servidores\Rust Extened con oxide\msvcr120.dll
+14:26 [Warning] Failed to cleanup file: F:\Archivos Rust\Servidores\Rust Extened con oxide\msvcr120.dll
+14:26 [Debug] Cleanup file: F:\Archivos Rust\Servidores\Rust Extened con oxide\LumaEmu.ini
+14:26 [Warning] Failed to cleanup file: F:\Archivos Rust\Servidores\Rust Extened con oxide\LumaEmu.ini
+14:26 [Info] Loading plugins...
+14:26 [Info] Loaded plugin Unity Core v1.0.2755 by Oxide Team
+14:26 [Info] Loaded plugin Rust Legacy v1.0.2755 by Oxide Team
+14:26 [Info] Loaded plugin RustExtended (LUA) Example v1.0.0 by Breaker
+14:26 [Error] Failed to initialize plugin 'RustExtended_Lua v1.0.0'
+File: RustExtended_Lua.lua Line: 24 attempt to index global 'RustExtended' (a nil value):
+  at NLua.Lua.ThrowExceptionFromError (Int32 oldTop) [0x00000] in <filename unknown>:0 
+  at NLua.Lua.CallFunction (System.Object function, System.Object[] args, System.Type[] returnTypes) [0x00000] in <filename unknown>:0 
+  at NLua.Lua.CallFunction (System.Object function, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at NLua.LuaFunction.Call (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Oxide.Core.Lua.Plugins.LuaPlugin.OnCallHook (System.String hookname, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Oxide.Core.Lua.Plugins.LuaPlugin.HandleAddedToManager (Oxide.Core.Plugins.PluginManager manager) [0x00000] in <filename unknown>:0 
+  at Oxide.Core.Plugins.PluginManager.AddPlugin (Oxide.Core.Plugins.Plugin plugin) [0x00000] in <filename unknown>:0 
+  at Oxide.Core.OxideMod.PluginLoaded (Oxide.Core.Plugins.Plugin plugin) [0x00000] in <filename unknown>:0 
+2:26 PM [Warning] Ignored obsolete game extension reference 'Oxide.Ext.RustLegacy' in plugin 'CopyPaste'
+14:26 [Info] BugFix, CopyPaste, RustExtendedCS and Trader were compiled successfully in 1864ms
+14:26 [Info] Loaded plugin BugFix v1.2.2 by XBOCT
+14:26 [Info] Loaded plugin Copy Paste v1.0.0 by Reneb
+14:26 [Info] Loaded plugin RustExtended (C#) Example v1.0.0 by Breaker
+14:26 [Info] Loaded plugin Trader v1.0.3 by XBOCT

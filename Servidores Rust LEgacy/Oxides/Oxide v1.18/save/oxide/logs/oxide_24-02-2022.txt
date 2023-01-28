@@ -1,0 +1,58 @@
+5:47 AM: Loading at E:\Archivos Rust\Servidores\Oxide 1.18\Servidor DarkRust v2.0 - Completo\Servidor DarkRust v2.0\1.18\save\oxide...
+5:47 AM: Loading standard library...
+5:47 AM: Loading plugins...
+5:47 AM: Loading Admin Door V: 1.0.5...
+5:47 AM: automessage plugin loaded
+5:47 AM: -----------------------
+5:47 AM: Flags (1.2.3) plugin loaded
+5:47 AM: Auto-Save v0.1.3 loaded!
+5:47 AM: *****************
+5:47 AM: [DokiTV] Plugin de ajuda inicializando ...
+5:47 AM: Obrigado por usar meu plugin :)
+5:47 AM: Plugin de ajuda carregado com sucesso!
+5:47 AM: **********************************************************
+5:47 AM: DarkRust (3.0.0) plugins carregados com o ID: 425
+5:47 AM: DarkRust: Arquivo de configuraçao criado
+5:47 AM: DarkRust: Loaded Essentials CONFIG file
+5:47 AM: DarkRust: Generated default LOG file.
+5:47 AM: DarkRust: Tabela de economia carregado.
+5:47 AM: DarkRust: Flags adicionadas.
+5:47 AM: DarkRust: Essentials API bound!
+5:47 AM: **********************************************************
+5:47 AM: Cash (1.0.0) Carregada com o ID: 425
+5:47 AM: Cash: Arquivo de configuracao criado
+5:47 AM: Cash: Config encontrada
+5:47 AM: Cash: Tabela de cash carregado.
+5:47 AM: Cash: Flags adicionadas.
+5:47 AM: Cash: API Iniciada!
+5:47 AM: **********************************************************
+5:47 AM: Loading Decay Control mod...
+5:47 AM: Decay Control: Decay has been enabled.
+5:47 AM: d-Restartkit - DokiTV v2.0.0: starting...
+5:47 AM: Name of kits:vip3, vip2, vip1, vip
+5:47 AM: Nbr of kits:4
+5:47 AM: d-Restartkit - DokiTV v2.0.0: successfully initialized!
+5:47 AM: **********************************************************
+5:47 AM: Loja (1.0.0) Carregada com o ID: 425
+5:47 AM: Loja: Arquivo de configuracao criado
+5:47 AM: Loja: Config encontrada
+5:47 AM: Loja: Tabela de economia carregado.
+5:47 AM: Loja: Flags adicionadas.
+5:47 AM: Loja: API Iniciada!
+5:47 AM: **********************************************************
+5:47 AM: Enhanced Ban System v1.0.1 loaded.
+5:47 AM: Loading Global Stats...
+5:47 AM: 0 users are tracked by GobalStats!
+5:47 AM: Loading Oxmin...
+5:47 AM: 1 users are tracked by Oxmin!
+5:47 AM: Door Closer: initiating save timer
+5:47 AM: Anti RockGlitch: Couldnt load RockGlitch database, creating a new one.
+5:47 AM: r-sethome: No ecnonomy plugins found
+5:47 AM: r-sethome: doorshare plugin not found
+5:47 AM: r-sethome: factions plugin not found
+5:47 AM: Reload v0.1.0 loaded!
+5:47 AM: Resource Manager v0.9.4 Loading...
+5:47 AM: Resource Manager: Settings file loaded. 
+5:47 AM: Resource Manager: cangive oxmin flag successfully added!
+5:47 AM: Resource Manager v0.9.4 Loaded.
+5:47 AM: Shutdown v0.1.7 loaded!

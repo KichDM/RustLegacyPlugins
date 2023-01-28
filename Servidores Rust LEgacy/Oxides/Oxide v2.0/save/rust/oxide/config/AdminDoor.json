@@ -1,0 +1,6 @@
+{
+  "Messages: Activated": "Admin Door: Activated",
+  "Messages: Deactivated": "Admin Door: Deactivated",
+  "Settings: Check for Doors every X seconds": 0.2,
+  "Settings: Check for Doors in a X meter radius": 3.0
+}

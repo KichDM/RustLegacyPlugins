@@ -1,0 +1,1698 @@
+{
+  "Spawnlists": {
+    "0": {
+      "position_x": 5009.64551,
+      "position_y": 532.5045,
+      "position_z": -2855.88379,
+      "radius": 250.0,
+      "spawnList": [
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":chicken_prefab",
+          "targetPopulation": 4
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":rabbit_prefab_a",
+          "targetPopulation": 4
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":boar_prefab",
+          "targetPopulation": 4
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":stag_prefab",
+          "targetPopulation": 4
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_woodpile",
+          "targetPopulation": 8
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_ore_1",
+          "targetPopulation": 3
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_ore_2",
+          "targetPopulation": 3
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":wolf_prefab",
+          "targetPopulation": 4
+        }
+      ],
+      "thinkDelay": 900.0
+    },
+    "1": {
+      "position_x": 5901.74756,
+      "position_y": 319.20047,
+      "position_z": -5163.10059,
+      "radius": 100.0,
+      "spawnList": [
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_woodpile",
+          "targetPopulation": 3
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_ore_1",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_ore_2",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_ore_3",
+          "targetPopulation": 2
+        }
+      ],
+      "thinkDelay": 600.0
+    },
+    "10": {
+      "position_x": 4641.24658,
+      "position_y": 496.932343,
+      "position_z": -4629.288,
+      "radius": 150.0,
+      "spawnList": [
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":chicken_prefab",
+          "targetPopulation": 4
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":rabbit_prefab_a",
+          "targetPopulation": 4
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":boar_prefab",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":stag_prefab",
+          "targetPopulation": 1
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_woodpile",
+          "targetPopulation": 6
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_ore_1",
+          "targetPopulation": 1
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_ore_2",
+          "targetPopulation": 1
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":wolf_prefab",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_ore_3",
+          "targetPopulation": 2
+        }
+      ],
+      "thinkDelay": 600.0
+    },
+    "11": {
+      "position_x": 6432.90771,
+      "position_y": 391.855042,
+      "position_z": -3464.13916,
+      "radius": 150.0,
+      "spawnList": [
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_woodpile",
+          "targetPopulation": 3
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_ore_1",
+          "targetPopulation": 3
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_ore_2",
+          "targetPopulation": 3
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_ore_3",
+          "targetPopulation": 3
+        }
+      ],
+      "thinkDelay": 600.0
+    },
+    "12": {
+      "position_x": 5634.07373,
+      "position_y": 423.9127,
+      "position_z": -3757.04956,
+      "radius": 100.0,
+      "spawnList": [
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":mutant_bear",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":mutant_wolf",
+          "targetPopulation": 2
+        }
+      ],
+      "thinkDelay": 300.0
+    },
+    "13": {
+      "position_x": 6430.256,
+      "position_y": 402.036469,
+      "position_z": -3243.57813,
+      "radius": 100.0,
+      "spawnList": [
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":mutant_bear",
+          "targetPopulation": 3
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":mutant_wolf",
+          "targetPopulation": 3
+        }
+      ],
+      "thinkDelay": 300.0
+    },
+    "14": {
+      "position_x": 5693.59033,
+      "position_y": 419.7471,
+      "position_z": -3521.37476,
+      "radius": 150.0,
+      "spawnList": [
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":chicken_prefab",
+          "targetPopulation": 8
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":rabbit_prefab_a",
+          "targetPopulation": 8
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":boar_prefab",
+          "targetPopulation": 3
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":stag_prefab",
+          "targetPopulation": 3
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_woodpile",
+          "targetPopulation": 8
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_ore_1",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_ore_2",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_ore_3",
+          "targetPopulation": 2
+        }
+      ],
+      "thinkDelay": 600.0
+    },
+    "15": {
+      "position_x": 6349.34326,
+      "position_y": 428.7732,
+      "position_z": -2545.81665,
+      "radius": 250.0,
+      "spawnList": [
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":chicken_prefab",
+          "targetPopulation": 4
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":rabbit_prefab_a",
+          "targetPopulation": 4
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":boar_prefab",
+          "targetPopulation": 3
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":stag_prefab",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_woodpile",
+          "targetPopulation": 6
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_ore_1",
+          "targetPopulation": 3
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_ore_2",
+          "targetPopulation": 3
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":wolf_prefab",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":bear_prefab",
+          "targetPopulation": 1
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_ore_3",
+          "targetPopulation": 2
+        }
+      ],
+      "thinkDelay": 600.0
+    },
+    "16": {
+      "position_x": 6405.578,
+      "position_y": 372.5663,
+      "position_z": -4683.203,
+      "radius": 50.0,
+      "spawnList": [
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":mutant_bear",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":mutant_wolf",
+          "targetPopulation": 2
+        }
+      ],
+      "thinkDelay": 300.0
+    },
+    "17": {
+      "position_x": 6868.39258,
+      "position_y": 382.64505,
+      "position_z": -3453.44458,
+      "radius": 60.0,
+      "spawnList": [
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_woodpile",
+          "targetPopulation": 3
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_ore_1",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_ore_2",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_ore_3",
+          "targetPopulation": 2
+        }
+      ],
+      "thinkDelay": 600.0
+    },
+    "18": {
+      "position_x": 5576.2793,
+      "position_y": 465.416321,
+      "position_z": -3643.07642,
+      "radius": 100.0,
+      "spawnList": [
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_woodpile",
+          "targetPopulation": 3
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_ore_1",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_ore_2",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_ore_3",
+          "targetPopulation": 2
+        }
+      ],
+      "thinkDelay": 600.0
+    },
+    "19": {
+      "position_x": 6611.74463,
+      "position_y": 381.515045,
+      "position_z": -3606.063,
+      "radius": 200.0,
+      "spawnList": [
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":chicken_prefab",
+          "targetPopulation": 4
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":rabbit_prefab_a",
+          "targetPopulation": 4
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":boar_prefab",
+          "targetPopulation": 3
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":stag_prefab",
+          "targetPopulation": 3
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_woodpile",
+          "targetPopulation": 6
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_ore_1",
+          "targetPopulation": 3
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_ore_2",
+          "targetPopulation": 3
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":wolf_prefab",
+          "targetPopulation": 1
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_ore_3",
+          "targetPopulation": 2
+        }
+      ],
+      "thinkDelay": 600.0
+    },
+    "2": {
+      "position_x": 6723.48535,
+      "position_y": 385.555817,
+      "position_z": -3226.80957,
+      "radius": 100.0,
+      "spawnList": [
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":mutant_bear",
+          "targetPopulation": 3
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":mutant_wolf",
+          "targetPopulation": 3
+        }
+      ],
+      "thinkDelay": 300.0
+    },
+    "20": {
+      "position_x": 6286.57373,
+      "position_y": 372.0,
+      "position_z": -4814.52,
+      "radius": 40.0,
+      "spawnList": [
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":mutant_bear",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":mutant_wolf",
+          "targetPopulation": 2
+        }
+      ],
+      "thinkDelay": 300.0
+    },
+    "21": {
+      "position_x": 6882.77539,
+      "position_y": 385.555817,
+      "position_z": -3435.86133,
+      "radius": 50.0,
+      "spawnList": [
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":mutant_bear",
+          "targetPopulation": 3
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":mutant_wolf",
+          "targetPopulation": 3
+        }
+      ],
+      "thinkDelay": 300.0
+    },
+    "22": {
+      "position_x": 6346.766,
+      "position_y": 360.741333,
+      "position_z": -4602.27539,
+      "radius": 8.0,
+      "spawnList": [
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":mutant_wolf",
+          "targetPopulation": 2
+        }
+      ],
+      "thinkDelay": 300.0
+    },
+    "23": {
+      "position_x": 4761.10156,
+      "position_y": 390.16507,
+      "position_z": -5416.0,
+      "radius": 350.0,
+      "spawnList": [
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":chicken_prefab",
+          "targetPopulation": 4
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":rabbit_prefab_a",
+          "targetPopulation": 4
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":boar_prefab",
+          "targetPopulation": 3
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":stag_prefab",
+          "targetPopulation": 3
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_woodpile",
+          "targetPopulation": 8
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_ore_1",
+          "targetPopulation": 4
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_ore_2",
+          "targetPopulation": 4
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":wolf_prefab",
+          "targetPopulation": 4
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":bear_prefab",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_ore_2",
+          "targetPopulation": 2
+        }
+      ],
+      "thinkDelay": 600.0
+    },
+    "24": {
+      "position_x": 6096.344,
+      "position_y": 378.2292,
+      "position_z": -4650.93,
+      "radius": 200.0,
+      "spawnList": [
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":chicken_prefab",
+          "targetPopulation": 4
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":rabbit_prefab_a",
+          "targetPopulation": 4
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":boar_prefab",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":stag_prefab",
+          "targetPopulation": 1
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_woodpile",
+          "targetPopulation": 6
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_ore_1",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_ore_2",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":wolf_prefab",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_3",
+          "targetPopulation": 2
+        }
+      ],
+      "thinkDelay": 600.0
+    },
+    "25": {
+      "position_x": 5012.528,
+      "position_y": 390.16507,
+      "position_z": -4915.637,
+      "radius": 150.0,
+      "spawnList": [
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":chicken_prefab",
+          "targetPopulation": 4
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":rabbit_prefab_a",
+          "targetPopulation": 4
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":boar_prefab",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":stag_prefab",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_woodpile",
+          "targetPopulation": 6
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_ore_1",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_ore_2",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ":wolf_prefab",
+          "targetPopulation": 3
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_ore_3",
+          "targetPopulation": 2
+        }
+      ],
+      "thinkDelay": 600.0
+    },
+    "26": {
+      "position_x": 5379.56,
+      "position_y": 428.283936,
+      "position_z": -2770.95166,
+      "radius": 150.0,
+      "spawnList": [
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_woodpile",
+          "targetPopulation": 3
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_ore_1",
+          "targetPopulation": 3
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_ore_2",
+          "targetPopulation": 3
+        },
+        {
+          "numToSpawnPerTick": 10,
+          "prefabName": ";res_ore_3",
+          "targetPopulation": 2
+        }
+      ],
+      "thinkDelay": 900.0
+    },
+    "27": {
+      "position_x": 5610.637,
+      "position_y": 476.233826,
+      "position_z": -2423.10742,
+      "radius": 250.0,
+      "spawnList": [
+        {
+          "numToSpawnPerTick": 3,
+          "prefabName": ":chicken_prefab",
+          "targetPopulation": 3
+        },
+        {
+          "numToSpawnPerTick": 3,
+          "prefabName": ":rabbit_prefab_a",
+          "targetPopulation": 3
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":boar_prefab",
+          "targetPopulation": 3
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":stag_prefab",
+          "targetPopulation": 3
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_woodpile",
+          "targetPopulation": 6
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_1",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_2",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":wolf_prefab",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":bear_prefab",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_3",
+          "targetPopulation": 2
+        }
+      ],
+      "thinkDelay": 900.0
+    },
+    "28": {
+      "position_x": 6134.42529,
+      "position_y": 359.9891,
+      "position_z": -4601.513,
+      "radius": 50.0,
+      "spawnList": [
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":mutant_bear",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":mutant_wolf",
+          "targetPopulation": 2
+        }
+      ],
+      "thinkDelay": 120.0
+    },
+    "29": {
+      "position_x": 6573.572,
+      "position_y": 388.675659,
+      "position_z": -4071.374,
+      "radius": 100.0,
+      "spawnList": [
+        {
+          "numToSpawnPerTick": 2,
+          "prefabName": ";res_woodpile",
+          "targetPopulation": 3
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_1",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_2",
+          "targetPopulation": 3
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_3",
+          "targetPopulation": 2
+        }
+      ],
+      "thinkDelay": 600.0
+    },
+    "3": {
+      "position_x": 6639.26172,
+      "position_y": 368.059448,
+      "position_z": -3601.09131,
+      "radius": 100.0,
+      "spawnList": [
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":mutant_bear",
+          "targetPopulation": 3
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":mutant_wolf",
+          "targetPopulation": 3
+        }
+      ],
+      "thinkDelay": 300.0
+    },
+    "30": {
+      "position_x": 6023.1123,
+      "position_y": 402.036469,
+      "position_z": -3717.35059,
+      "radius": 80.0,
+      "spawnList": [
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":mutant_bear",
+          "targetPopulation": 3
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":mutant_wolf",
+          "targetPopulation": 3
+        }
+      ],
+      "thinkDelay": 300.0
+    },
+    "31": {
+      "position_x": 5890.54834,
+      "position_y": 406.6541,
+      "position_z": -3719.793,
+      "radius": 100.0,
+      "spawnList": [
+        {
+          "numToSpawnPerTick": 2,
+          "prefabName": ";res_woodpile",
+          "targetPopulation": 5
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_1",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_2",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_3",
+          "targetPopulation": 2
+        }
+      ],
+      "thinkDelay": 600.0
+    },
+    "32": {
+      "position_x": 5202.591,
+      "position_y": 435.754,
+      "position_z": -4154.56934,
+      "radius": 200.0,
+      "spawnList": [
+        {
+          "numToSpawnPerTick": 3,
+          "prefabName": ":chicken_prefab",
+          "targetPopulation": 4
+        },
+        {
+          "numToSpawnPerTick": 3,
+          "prefabName": ":rabbit_prefab_a",
+          "targetPopulation": 4
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":boar_prefab",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":stag_prefab",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_woodpile",
+          "targetPopulation": 8
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_1",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_2",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":wolf_prefab",
+          "targetPopulation": 1
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":bear_prefab",
+          "targetPopulation": 1
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_3",
+          "targetPopulation": 2
+        }
+      ],
+      "thinkDelay": 600.0
+    },
+    "33": {
+      "position_x": 5481.943,
+      "position_y": 390.785126,
+      "position_z": -5333.11,
+      "radius": 200.0,
+      "spawnList": [
+        {
+          "numToSpawnPerTick": 2,
+          "prefabName": ";res_woodpile",
+          "targetPopulation": 6
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_1",
+          "targetPopulation": 4
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_2",
+          "targetPopulation": 4
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_3",
+          "targetPopulation": 2
+        }
+      ],
+      "thinkDelay": 600.0
+    },
+    "34": {
+      "position_x": 6814.117,
+      "position_y": 365.860779,
+      "position_z": -3112.9043,
+      "radius": 200.0,
+      "spawnList": [
+        {
+          "numToSpawnPerTick": 3,
+          "prefabName": ":chicken_prefab",
+          "targetPopulation": 4
+        },
+        {
+          "numToSpawnPerTick": 3,
+          "prefabName": ":rabbit_prefab_a",
+          "targetPopulation": 4
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":boar_prefab",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":stag_prefab",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_woodpile",
+          "targetPopulation": 7
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_1",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_2",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":wolf_prefab",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":bear_prefab",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_3",
+          "targetPopulation": 2
+        }
+      ],
+      "thinkDelay": 600.0
+    },
+    "35": {
+      "position_x": 6752.449,
+      "position_y": 378.2292,
+      "position_z": -4289.431,
+      "radius": 200.0,
+      "spawnList": [
+        {
+          "numToSpawnPerTick": 3,
+          "prefabName": ":chicken_prefab",
+          "targetPopulation": 5
+        },
+        {
+          "numToSpawnPerTick": 3,
+          "prefabName": ":rabbit_prefab_a",
+          "targetPopulation": 5
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":boar_prefab",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":stag_prefab",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_woodpile",
+          "targetPopulation": 6
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_1",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_2",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":wolf_prefab",
+          "targetPopulation": 1
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":bear_prefab",
+          "targetPopulation": 1
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_3",
+          "targetPopulation": 2
+        }
+      ],
+      "thinkDelay": 600.0
+    },
+    "36": {
+      "position_x": 7038.923,
+      "position_y": 344.9792,
+      "position_z": -3827.94043,
+      "radius": 200.0,
+      "spawnList": [
+        {
+          "numToSpawnPerTick": 3,
+          "prefabName": ":chicken_prefab",
+          "targetPopulation": 4
+        },
+        {
+          "numToSpawnPerTick": 3,
+          "prefabName": ":rabbit_prefab_a",
+          "targetPopulation": 4
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":boar_prefab",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":stag_prefab",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_woodpile",
+          "targetPopulation": 6
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_1",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_2",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":wolf_prefab",
+          "targetPopulation": 1
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_3",
+          "targetPopulation": 2
+        }
+      ],
+      "thinkDelay": 300.0
+    },
+    "37": {
+      "position_x": 4549.28125,
+      "position_y": 560.752563,
+      "position_z": -3910.9187,
+      "radius": 200.0,
+      "spawnList": [
+        {
+          "numToSpawnPerTick": 3,
+          "prefabName": ":chicken_prefab",
+          "targetPopulation": 4
+        },
+        {
+          "numToSpawnPerTick": 3,
+          "prefabName": ":rabbit_prefab_a",
+          "targetPopulation": 4
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":boar_prefab",
+          "targetPopulation": 3
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":stag_prefab",
+          "targetPopulation": 3
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_woodpile",
+          "targetPopulation": 6
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_1",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_2",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":bear_prefab",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_3",
+          "targetPopulation": 2
+        }
+      ],
+      "thinkDelay": 600.0
+    },
+    "38": {
+      "position_x": 6033.4585,
+      "position_y": 402.036469,
+      "position_z": -3975.16431,
+      "radius": 120.0,
+      "spawnList": [
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":mutant_bear",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":mutant_wolf",
+          "targetPopulation": 2
+        }
+      ],
+      "thinkDelay": 300.0
+    },
+    "39": {
+      "position_x": 5312.021,
+      "position_y": 435.754,
+      "position_z": -4534.242,
+      "radius": 200.0,
+      "spawnList": [
+        {
+          "numToSpawnPerTick": 3,
+          "prefabName": ":chicken_prefab",
+          "targetPopulation": 4
+        },
+        {
+          "numToSpawnPerTick": 3,
+          "prefabName": ":rabbit_prefab_a",
+          "targetPopulation": 4
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":boar_prefab",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":stag_prefab",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_woodpile",
+          "targetPopulation": 6
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_1",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_2",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":wolf_prefab",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":bear_prefab",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_3",
+          "targetPopulation": 2
+        }
+      ],
+      "thinkDelay": 600.0
+    },
+    "4": {
+      "position_x": 5186.53125,
+      "position_y": 376.408539,
+      "position_z": -4740.89648,
+      "radius": 20.0,
+      "spawnList": [
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":mutant_bear",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":mutant_wolf",
+          "targetPopulation": 2
+        }
+      ],
+      "thinkDelay": 300.0
+    },
+    "40": {
+      "position_x": 6099.023,
+      "position_y": 400.6516,
+      "position_z": -4190.153,
+      "radius": 100.0,
+      "spawnList": [
+        {
+          "numToSpawnPerTick": 2,
+          "prefabName": ";res_woodpile",
+          "targetPopulation": 3
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_1",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_2",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_3",
+          "targetPopulation": 2
+        }
+      ],
+      "thinkDelay": 600.0
+    },
+    "41": {
+      "position_x": 5283.71875,
+      "position_y": 368.3028,
+      "position_z": -4863.63,
+      "radius": 50.0,
+      "spawnList": [
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":mutant_bear",
+          "targetPopulation": 3
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":mutant_wolf",
+          "targetPopulation": 3
+        }
+      ],
+      "thinkDelay": 300.0
+    },
+    "42": {
+      "position_x": 6397.44629,
+      "position_y": 360.741333,
+      "position_z": -4674.96973,
+      "radius": 50.0,
+      "spawnList": [
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":mutant_bear",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":mutant_wolf",
+          "targetPopulation": 2
+        }
+      ],
+      "thinkDelay": 300.0
+    },
+    "43": {
+      "position_x": 5818.9834,
+      "position_y": 428.7732,
+      "position_z": -1896.3125,
+      "radius": 250.0,
+      "spawnList": [
+        {
+          "numToSpawnPerTick": 3,
+          "prefabName": ":chicken_prefab",
+          "targetPopulation": 4
+        },
+        {
+          "numToSpawnPerTick": 3,
+          "prefabName": ":rabbit_prefab_a",
+          "targetPopulation": 4
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":boar_prefab",
+          "targetPopulation": 5
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":stag_prefab",
+          "targetPopulation": 3
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_woodpile",
+          "targetPopulation": 8
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_1",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_2",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":wolf_prefab",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":bear_prefab",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_3",
+          "targetPopulation": 2
+        }
+      ],
+      "thinkDelay": 900.0
+    },
+    "44": {
+      "position_x": 5791.83,
+      "position_y": 428.7732,
+      "position_z": -1433.273,
+      "radius": 250.0,
+      "spawnList": [
+        {
+          "numToSpawnPerTick": 3,
+          "prefabName": ":chicken_prefab",
+          "targetPopulation": 4
+        },
+        {
+          "numToSpawnPerTick": 3,
+          "prefabName": ":rabbit_prefab_a",
+          "targetPopulation": 4
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":boar_prefab",
+          "targetPopulation": 5
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":stag_prefab",
+          "targetPopulation": 5
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_woodpile",
+          "targetPopulation": 6
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_1",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_2",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_3",
+          "targetPopulation": 2
+        }
+      ],
+      "thinkDelay": 900.0
+    },
+    "45": {
+      "position_x": 6138.20361,
+      "position_y": 402.036469,
+      "position_z": -3244.48975,
+      "radius": 100.0,
+      "spawnList": [
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":mutant_bear",
+          "targetPopulation": 3
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":mutant_wolf",
+          "targetPopulation": 3
+        }
+      ],
+      "thinkDelay": 300.0
+    },
+    "5": {
+      "position_x": 6378.467,
+      "position_y": 361.7949,
+      "position_z": -4470.49561,
+      "radius": 80.0,
+      "spawnList": [
+        {
+          "numToSpawnPerTick": 2,
+          "prefabName": ";res_woodpile",
+          "targetPopulation": 3
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_1",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_2",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_3",
+          "targetPopulation": 2
+        }
+      ],
+      "thinkDelay": 600.0
+    },
+    "6": {
+      "position_x": 5945.745,
+      "position_y": 419.7471,
+      "position_z": -3398.37256,
+      "radius": 150.0,
+      "spawnList": [
+        {
+          "numToSpawnPerTick": 3,
+          "prefabName": ":chicken_prefab",
+          "targetPopulation": 8
+        },
+        {
+          "numToSpawnPerTick": 3,
+          "prefabName": ":rabbit_prefab_a",
+          "targetPopulation": 8
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":boar_prefab",
+          "targetPopulation": 3
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":stag_prefab",
+          "targetPopulation": 3
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_woodpile",
+          "targetPopulation": 8
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_1",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_2",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":bear_prefab",
+          "targetPopulation": 3
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_3",
+          "targetPopulation": 2
+        }
+      ],
+      "thinkDelay": 600.0
+    },
+    "7": {
+      "position_x": 4910.328,
+      "position_y": 435.754,
+      "position_z": -3860.69,
+      "radius": 200.0,
+      "spawnList": [
+        {
+          "numToSpawnPerTick": 3,
+          "prefabName": ":chicken_prefab",
+          "targetPopulation": 4
+        },
+        {
+          "numToSpawnPerTick": 3,
+          "prefabName": ":rabbit_prefab_a",
+          "targetPopulation": 4
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":boar_prefab",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":stag_prefab",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_woodpile",
+          "targetPopulation": 8
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_1",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_2",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":wolf_prefab",
+          "targetPopulation": 3
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":bear_prefab",
+          "targetPopulation": 3
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_3",
+          "targetPopulation": 2
+        }
+      ],
+      "thinkDelay": 60.0
+    },
+    "8": {
+      "position_x": 6049.84375,
+      "position_y": 433.221558,
+      "position_z": -3976.82056,
+      "radius": 170.0,
+      "spawnList": [
+        {
+          "numToSpawnPerTick": 3,
+          "prefabName": ":chicken_prefab",
+          "targetPopulation": 4
+        },
+        {
+          "numToSpawnPerTick": 3,
+          "prefabName": ":rabbit_prefab_a",
+          "targetPopulation": 4
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":boar_prefab",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":stag_prefab",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_woodpile",
+          "targetPopulation": 6
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_1",
+          "targetPopulation": 4
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_2",
+          "targetPopulation": 4
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ";res_ore_3",
+          "targetPopulation": 3
+        }
+      ],
+      "thinkDelay": 600.0
+    },
+    "9": {
+      "position_x": 6580.267,
+      "position_y": 372.0,
+      "position_z": -4528.677,
+      "radius": 40.0,
+      "spawnList": [
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":mutant_bear",
+          "targetPopulation": 2
+        },
+        {
+          "numToSpawnPerTick": 1,
+          "prefabName": ":mutant_wolf",
+          "targetPopulation": 2
+        }
+      ],
+      "thinkDelay": 300.0
+    }
+  }
+}

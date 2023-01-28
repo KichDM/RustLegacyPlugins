@@ -1,0 +1,13 @@
+{
+  "Settings":{
+    "ChatName":"DarkRust",
+    "HelpChatName":"DarkRust",
+    "Broadcast":"false",
+    "Time":"1800"
+  },
+  "Messages":{
+    "Saved":"Um airdrop automatico foi chamado!",
+    "HelpText":"Digite /save para salvar o servidor.",
+    "NoPermission":"Sem permissoes!"
+  }
+}

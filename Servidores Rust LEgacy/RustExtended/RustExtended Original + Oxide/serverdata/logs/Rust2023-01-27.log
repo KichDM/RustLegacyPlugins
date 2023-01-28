@@ -1,0 +1,15 @@
+20:36:02: Server started on 127.0.0.1:28015
+20:36:02: Connecting to authentication server #1 ...
+20:36:07[ERROR]: Connecting to authentication server #1 - Failed: The request timed out
+20:36:07: Connecting to authentication server #2 ...
+20:36:13[ERROR]: Connecting to authentication server #2 - Failed: The request timed out
+20:36:13: Connecting to authentication server #3 ...
+20:36:13: Server external IP: 91.66.159.171
+20:36:13: Receiving authentication data from server #3 ...
+20:36:14: Hardware ID: f3347684270cb6565ab471fa197bb5fb
+20:36:14: RustExtended Version 4.22.62.53350 (BETA5K)
+20:36:14: All assembly versions has successfully verified.
+20:36:15: This server has been marked as modified.
+20:36:16: [RustProtect] Successfully Initialized.
+20:36:16: [RustProtect] Encryption Key Successfully Generated.
+20:36:16: [RustProtect] Native Library Successfully Initialized.

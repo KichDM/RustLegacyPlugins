@@ -1,0 +1,5 @@
+{
+  "Settings: activate plugin": true,
+  "Settings: dont remove if being looted": true,
+  "Settings: time before removing the loot sack": 2000
+}

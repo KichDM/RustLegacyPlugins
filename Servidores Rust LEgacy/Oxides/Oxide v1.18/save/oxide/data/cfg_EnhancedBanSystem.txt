@@ -1,0 +1,14 @@
+{
+  "Settings":{
+    "BroadcastBans":"true",
+    "LogToConsole":"true",
+    "CheckForEveryone":"true",
+    "CollectDataForRustDB":"true"
+  },
+  "ChatCommands":{
+    "ban":"ebsban",
+    "unban":"ebsunban",
+    "kick":"ebskick",
+    "check":"ebscheck"
+  }
+}

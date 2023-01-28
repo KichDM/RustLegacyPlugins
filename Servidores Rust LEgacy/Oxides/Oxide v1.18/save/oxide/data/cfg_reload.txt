@@ -1,0 +1,13 @@
+{
+  "Settings":{
+    "ChatName":"DarkRust",
+    "ChatCommand":"reload",
+    "ChatEnabled":"true",
+    "NoticeEnabled":"true"
+  },
+  "Messages":{
+    "Reloaded":"Plugin recarregado!",
+    "Invalid":"Nome invalido ou plugin nao encontrado.",
+    "NoPermission":"Sem permissoes!"
+  }
+}

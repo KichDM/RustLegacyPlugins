@@ -1,0 +1,10 @@
+{
+  "Settings: Cancel teleportation if player is hurt": true,
+  "Settings: Cooldown before being able to use TPR again": 30,
+  "Settings: TPR Teleportation delay": 30,
+  "Tokens: activated": true,
+  "Tokens: give free token every": 600.0,
+  "Tokens: give free tokens": true,
+  "Tokens: give free tokens max": 6,
+  "Tokens: start tokens": 6
+}

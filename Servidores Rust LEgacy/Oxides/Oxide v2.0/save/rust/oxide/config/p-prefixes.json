@@ -1,0 +1,27 @@
+{
+  "AdminSettings": {
+    "Permission": "adminprefix",
+    "Prefix": "[ADMIN]",
+    "TextColor": "[color red]"
+  },
+  "Custom1Settings": {
+    "Permission": "custom1prefix",
+    "Prefix": "♨ [YTuber]",
+    "TextColor": "[color blue]"
+  },
+  "Custom2Settings": {
+    "Permission": "custom2prefix",
+    "Prefix": "♨ [DONO]",
+    "TextColor": "[color yellow]"
+  },
+  "ModSettings": {
+    "Permission": "modprefix",
+    "Prefix": "[MOD]",
+    "TextColor": "[color orange]"
+  },
+  "VipSettings": {
+    "Permission": "vipprefix",
+    "Prefix": "[VIP]",
+    "TextColor": "[color green]"
+  }
+}

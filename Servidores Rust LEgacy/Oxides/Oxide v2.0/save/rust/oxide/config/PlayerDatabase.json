@@ -1,0 +1,10 @@
+{
+  "Mysql: activated": false,
+  "Mysql: database": "databasename",
+  "Mysql: host": "localhost",
+  "Mysql: password": "password",
+  "Mysql: port": 3306,
+  "Mysql: table": "playerdatabase",
+  "Mysql: username": "username",
+  "Settings: SteamAPI Key http://steamcommunity.com/dev/apikey": ""
+}

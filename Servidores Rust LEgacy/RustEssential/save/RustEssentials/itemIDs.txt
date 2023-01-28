@@ -1,0 +1,245 @@
+1: Bolt Action Rifle
+2: Bolt Action Rifle Blueprint
+3: 556 Ammo
+4: 9mm Ammo
+5: 556 Ammo Blueprint
+6: 9mm Ammo Blueprint
+7: Handmade Shell Blueprint
+8: Shotgun Shells Blueprint
+9: 556 Casing Blueprint
+10: 9mm Casing Blueprint
+11: Empty Shotgun Shell Blueprint
+12: Primed 556 Casing Blueprint
+13: Primed 9mm Casing Blueprint
+14: Primed Shotgun Shell Blueprint
+15: Empty 556 Casing
+16: Empty 9mm Casing
+17: Empty Shotgun Shell
+18: Primed 556 Casing
+19: Primed 9mm Casing
+20: Primed Shotgun Shell
+21: Handmade Shell
+22: Shotgun Shells
+23: Cloth Boots BP
+24: Cloth Helmet BP
+25: Cloth Pants BP
+26: Cloth Vest BP
+27: Kevlar Boots BP
+28: Kevlar Helmet BP
+29: Kevlar Pants BP
+30: Kevlar Vest BP
+31: Leather Boots BP
+32: Leather Helmet BP
+33: Leather Pants BP
+34: Leather Vest BP
+35: Rad Suit Boots BP
+36: Rad Suit Helmet BP
+37: Rad Suit Pants BP
+38: Rad Suit Vest BP
+39: Cloth Boots
+40: Cloth Helmet
+41: Cloth Pants
+42: Cloth Vest
+43: Invisible Boots
+44: Invisible Helmet
+45: Invisible Pants
+46: Invisible Vest
+47: Kevlar Boots
+48: Kevlar Helmet
+49: Kevlar Pants
+50: Kevlar Vest
+51: Leather Boots
+52: Leather Helmet
+53: Leather Pants
+54: Leather Vest
+55: Armor Part 1
+56: Armor Part 2
+57: Armor Part 3
+58: Armor Part 4
+59: Armor Part 5
+60: Armor Part 6
+61: Armor Part 7
+62: Armor Part 1 BP
+63: Armor Part 2 BP
+64: Armor Part 3 BP
+65: Armor Part 4 BP
+66: Armor Part 5 BP
+67: Armor Part 6 BP
+68: Armor Part 7 BP
+69: Rad Suit Boots
+70: Rad Suit Helmet
+71: Rad Suit Pants
+72: Rad Suit Vest
+73: Arrow
+74: Arrow Blueprint
+75: Anti-Radiation Pills
+76: Can of Beans
+77: Can of Tuna
+78: Chocolate Bar
+79: Cooked Chicken Breast
+80: Granola Bar
+81: Raw Chicken Breast
+82: Small Rations
+83: Small Water Bottle
+84: Bed
+85: Bed Blueprint
+86: Camp Fire Blueprint
+87: Explosive Charge Blueprint
+88: Furnace Blueprint
+89: Large Spike Wall Blueprint
+90: Large Wood Storage Blueprint
+91: Metal Door Blueprint
+92: Metal Window Bars Blueprint
+93: Repair Bench Blueprint
+94: Sleeping Bag Blueprint
+95: Small Stash Blueprint
+96: Spike Wall Blueprint
+97: Wood Barricade Blueprint
+98: Wood Gate Blueprint
+99: Wood Gateway Blueprint
+100: Wood Shelter Blueprint
+101: Wood Storage Box Blueprint
+102: Wooden Door Blueprint
+103: Workbench Blueprint
+104: Metal Ceiling BP
+105: Metal Doorway BP
+106: Metal Foundation BP
+107: Metal Pillar BP
+108: Metal Ramp BP
+109: Metal Stairs BP
+110: Metal Wall BP
+111: Metal Window BP
+112: Metal Ceiling
+113: Metal Doorway
+114: Metal Foundation
+115: Metal Pillar
+116: Metal Ramp
+117: Metal Stairs
+118: Metal Wall
+119: Metal Window
+120: Wood Ceiling BP
+121: Wood Doorway BP
+122: Wood Foundation BP
+123: Wood Pillar BP
+124: Wood Ramp BP
+125: Wood Stairs BP
+126: Wood Wall BP
+127: Wood Window BP
+128: Wood Ceiling
+129: Wood Doorway
+130: Wood Foundation
+131: Wood Pillar
+132: Wood Ramp
+133: Wood Stairs
+134: Wood Wall
+135: Wood Window
+136: Camp Fire
+137: Explosive Charge
+138: Furnace
+139: Large Spike Wall
+140: Large Wood Storage
+141: Metal Door
+142: Metal Window Bars
+143: Repair Bench
+144: Sleeping Bag
+145: Small Stash
+146: Spike Wall
+147: Wood Barricade
+148: Wood Gate
+149: Wood Gateway
+150: Wood Shelter
+151: Wood Storage Box
+152: Wooden Door
+153: Workbench
+154: Explosives
+155: Gunpowder
+156: Bandage
+157: Bandage Blueprint
+158: Large Medkit Blueprint
+159: Small Medkit Blueprint
+160: Large Medkit
+161: Small Medkit
+162: Explosives Blueprint
+163: Flare
+164: Flare Blueprint
+165: Gunpowder Blueprint
+166: Paper Blueprint
+167: Torch
+168: Torch Blueprint
+169: Animal Fat
+170: Blood
+171: Low Grade Fuel Blueprint
+172: Low Quality Metal Blueprint
+173: Wood Planks Blueprint
+174: Charcoal
+175: Cloth
+176: Leather
+177: Low Grade Fuel
+178: Low Quality Metal
+179: Metal Fragments
+180: Metal Ore
+181: Paper
+182: Stones
+183: Sulfur
+184: Sulfur Ore
+185: Wood
+186: Wood Planks
+187: Blood Draw Kit
+188: Blood Draw Kit Blueprint
+189: Handmade Lockpick Blueprint
+190: Research Kit Blueprint
+191: Handmade Lockpick
+192: Recycle Kit 1
+193: Research Kit 1
+194: 9mm Pistol
+195: 9mm Pistol Blueprint
+196: F1 Grenade Blueprint
+197: Hatchet Blueprint
+198: Hunting Bow Blueprint
+199: M4 Blueprint
+200: MP5A4 Blueprint
+201: P250 Blueprint
+202: Pick Axe Blueprint
+203: Shotgun Blueprint
+204: Stone Hatchet Blueprint
+205: F1 Grenade
+206: Hatchet
+207: Hunting Bow
+208: M4
+209: Flashlight Mod BP
+210: Holo sight BP
+211: Laser Sight BP
+212: Silencer BP
+213: Flashlight Mod
+214: Holo sight
+215: Laser Sight
+216: Silencer
+217: MP5A4
+218: P250
+219: Weapon Part 1 BP
+220: Weapon Part 2 BP
+221: Weapon Part 3 BP
+222: Weapon Part 4 BP
+223: Weapon Part 5 BP
+224: Weapon Part 6 BP
+225: Weapon Part 7 BP
+226: Weapon Part 1
+227: Weapon Part 2
+228: Weapon Part 3
+229: Weapon Part 4
+230: Weapon Part 5
+231: Weapon Part 6
+232: Weapon Part 7
+233: Pick Axe
+234: Rock
+235: Shotgun
+236: Stone Hatchet
+237: Supply Signal
+238: Uber Hatchet
+239: Uber Hunting Bow
+240: HandCannon
+241: HandCannon Blueprint
+242: Pipe Shotgun
+243: Pipe Shotgun Blueprint
+244: Revolver
+245: Revolver Blueprint

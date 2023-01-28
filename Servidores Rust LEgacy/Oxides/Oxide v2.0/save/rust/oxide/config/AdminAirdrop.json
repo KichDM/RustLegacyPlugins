@@ -1,0 +1,18 @@
+{
+  "Messages: Airdrop na posicao": "Airdrop chamado @ {0}",
+  "Messages: Airdrop on player position": "Airdrop called @ {0} - {1}'s position",
+  "Messages: Airdrop on position": "Airdrop called @ {0}",
+  "Messages: Called 1 airdrop": "Called airdrop...",
+  "Messages: Cancelled the airdrop calls": "{0} Airdrops cancelled...",
+  "Messages: Chamado 1 airdrop": "airdrop chamado...",
+  "Messages: Destroyed all crates": "{0} Supply crates destroyed...",
+  "Messages: Help 1": "/airdrop => to call an airdrop",
+  "Messages: Help 2": "/airdrop cancel => to cancel all airdrop planes",
+  "Messages: Help 3": "/airdrop destroy => to destroy all crates",
+  "Messages: Help 4": "/airdrop PLAYER => to send an airdrop on the player",
+  "Messages: Help 5": "/airdrop X Z => to send an airdrop on this location",
+  "Messages: Help 6": "/airdrop XX => to send XX random airdrops",
+  "Messages: Mass airdrop call": "Calling {0} airdrops ...",
+  "Messages: Not Allowed": "You are not allowed to use this command.",
+  "Messages: Wrong Arguments": "Wrong arguments, or target player doesn't exist"
+}

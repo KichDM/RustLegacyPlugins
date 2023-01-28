@@ -1,0 +1,192 @@
+{
+  "dv": {
+    "cooldown": 1200.0,
+    "description": "(Kit Youtuber-Divulgador)",
+    "items": {
+      "belt": [],
+      "main": [
+        {
+          "cloth pants": 1
+        },
+        {
+          "cloth vest": 1
+        },
+        {
+          "hunting bow": 1
+        },
+        {
+          "arrow": 10
+        },
+        {
+          "arrow": 10
+        },
+        {
+          "arrow": 10
+        },
+        {
+          "p250": 1
+        },
+        {
+          "9mm ammo": 120
+        },
+        {
+          "small medkit": 3
+        },
+        {
+          "leather helmet": 1
+        },
+        {
+          "leather boots": 1
+        },
+        {
+          "holo sight": 1
+        },
+        {
+          "low quality metal": 40
+        }
+      ],
+      "wear": []
+    },
+    "ytdv": true
+  },
+  "home": {
+    "description": "kit casa",
+    "items": {
+      "belt": [],
+      "main": [
+        {
+          "wood wall": 3
+        },
+        {
+          "wood pillar": 4
+        },
+        {
+          "wood doorway": 1
+        },
+        {
+          "wood foundation": 1
+        },
+        {
+          "metal door": 1
+        },
+        {
+          "furnace": 1
+        },
+        {
+          "wood storage box": 1
+        },
+        {
+          "sleeping bag": 1
+        },
+        {
+          "wood ceiling": 1
+        }
+      ],
+      "wear": []
+    },
+    "max": 1
+  },
+  "starter": {
+    "cooldown": 150.0,
+    "description": "Kit Iniciante",
+    "items": {
+      "belt": [],
+      "main": [
+        {
+          "hatchet": 1
+        },
+        {
+          "cooked chicken breast": 8
+        },
+        {
+          "bandage": 5
+        },
+        {
+          "torch": 1
+        }
+      ],
+      "wear": []
+    },
+    "max": 100
+  },
+  "vip": {
+    "cooldown": 3600.0,
+    "description": "(KIT SUPREMO)",
+    "items": {
+      "belt": [],
+      "main": [
+        {
+          "kevlar boots": 1
+        },
+        {
+          "kevlar helmet": 1
+        },
+        {
+          "kevlar pants": 1
+        },
+        {
+          "bolt action rifle": 1
+        },
+        {
+          "kevlar vest": 1
+        },
+        {
+          "9mm ammo": 250
+        },
+        {
+          "556 ammo": 250
+        },
+        {
+          "556 ammo": 10
+        },
+        {
+          "shotgun shells": 100
+        },
+        {
+          "wood planks": 150
+        },
+        {
+          "explosive charge": 2
+        },
+        {
+          "holo sight": 1
+        },
+        {
+          "holo sight": 1
+        },
+        {
+          "laser sight": 1
+        },
+        {
+          "silencer": 1
+        },
+        {
+          "large medkit": 5
+        },
+        {
+          "large medkit": 5
+        },
+        {
+          "research kit 1": 1
+        },
+        {
+          "low quality metal": 1
+        },
+        {
+          "m4": 1
+        },
+        {
+          "mp5a4": 1
+        },
+        {
+          "p250": 1
+        },
+        {
+          "shotgun": 1
+        }
+      ],
+      "wear": []
+    },
+    "vip": true
+  }
+}
