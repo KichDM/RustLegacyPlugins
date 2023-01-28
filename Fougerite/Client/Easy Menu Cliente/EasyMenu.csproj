@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>EasyMenu</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net35</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Reference Include="Facepunch.ID">
+      <HintPath>..\..\Desktop\Rust_RustBuster2018-2.0.4\Rust_RustBuster2016\rust_Data\Managed\Facepunch.ID.dll</HintPath>
+    </Reference>
+    <Reference Include="RustBuster2016">
+      <HintPath>..\..\Desktop\Rust_RustBuster2018-2.0.4\Rust_RustBuster2016\rust_Data\Managed\RustBuster2016.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\Desktop\Rust_RustBuster2018-2.0.4\Rust_RustBuster2016\rust_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\Desktop\Rust_RustBuster2018-2.0.4\Rust_RustBuster2016\rust_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
