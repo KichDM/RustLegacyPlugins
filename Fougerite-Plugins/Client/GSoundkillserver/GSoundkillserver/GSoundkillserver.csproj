@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7BFDBE8A-7361-4E44-83D7-F71C2F4F772C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GSoundkillserver</RootNamespace>
+    <AssemblyName>GSoundkillserver</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AgileDotNet.VMRuntime">
+      <HintPath>..\..\..\..\..\Desktop\csharp fougerite\csharp fougerite\dllfougerite\AgileDotNet.VMRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\..\Desktop\csharp fougerite\csharp fougerite\dllfougerite\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Facepunch.Actor">
+      <HintPath>..\..\..\..\..\Desktop\csharp fougerite\csharp fougerite\AutoDownloader\AutoDownloader\bin\Debug\Facepunch.Actor.dll</HintPath>
+    </Reference>
+    <Reference Include="Facepunch.Cursor">
+      <HintPath>..\..\..\..\..\Desktop\csharp fougerite\csharp fougerite\AutoDownloader\AutoDownloader\bin\Debug\Facepunch.Cursor.dll</HintPath>
+    </Reference>
+    <Reference Include="Facepunch.Geometry">
+      <HintPath>..\..\..\..\..\Desktop\csharp fougerite\csharp fougerite\AutoDownloader\AutoDownloader\bin\Debug\Facepunch.Geometry.dll</HintPath>
+    </Reference>
+    <Reference Include="Facepunch.HitBox">
+      <HintPath>..\..\..\..\..\Desktop\csharp fougerite\csharp fougerite\AutoDownloader\AutoDownloader\bin\Debug\Facepunch.HitBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Facepunch.ID">
+      <HintPath>..\..\..\..\..\Downloads\Rust_RustBuster2016_RaidersLand\Rust_RustBuster2016\rust_Data\Managed\Facepunch.ID.dll</HintPath>
+    </Reference>
+    <Reference Include="Facepunch.MeshBatch">
+      <HintPath>..\..\..\..\..\Desktop\csharp fougerite\csharp fougerite\dllfougerite\Facepunch.MeshBatch.dll</HintPath>
+    </Reference>
+    <Reference Include="Fougerite">
+      <HintPath>..\..\..\..\..\Desktop\csharp fougerite\csharp fougerite\dllfougerite\Fougerite.dll</HintPath>
+    </Reference>
+    <Reference Include="Jint">
+      <HintPath>..\..\..\..\..\Desktop\csharp fougerite\csharp fougerite\dllfougerite\Jint.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>..\..\..\..\..\Desktop\csharp fougerite\csharp fougerite\dllfougerite\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\..\..\Desktop\csharp fougerite\csharp fougerite\dllfougerite\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.CF">
+      <HintPath>..\..\..\..\..\Desktop\csharp fougerite\csharp fougerite\dllfougerite\MySql.Data.CF.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity">
+      <HintPath>..\..\..\..\..\Desktop\csharp fougerite\csharp fougerite\dllfougerite\MySql.Data.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Web">
+      <HintPath>..\..\..\..\..\Desktop\csharp fougerite\csharp fougerite\dllfougerite\MySql.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\..\..\Desktop\csharp fougerite\csharp fougerite\dllfougerite\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json.Schema">
+      <HintPath>..\..\..\..\..\Desktop\csharp fougerite\csharp fougerite\dllfougerite\Newtonsoft.Json.Schema.dll</HintPath>
+    </Reference>
+    <Reference Include="RustBuster2016Server">
+      <HintPath>..\..\..\..\..\Desktop\csharp fougerite\csharp fougerite\dllfougerite\RustBuster2016Server.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="uLink">
+      <HintPath>..\..\..\..\..\Desktop\csharp fougerite\csharp fougerite\dllfougerite\uLink.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\..\Desktop\csharp fougerite\csharp fougerite\dllfougerite\UnityEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GSoundkillserver.cs" />
+    <Compile Include="GSoundkillserver_Mono.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
