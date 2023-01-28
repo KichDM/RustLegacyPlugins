@@ -1,0 +1,478 @@
+Version 1.5 Beta
+Datum 14.3.2014
+
+[Deutsch]
+
+Konfig:
+
+[Settings]
+enable=true  //Plugin aktiviert. => Default: true
+language=de  //Sprache: de => Deutsch, en => Englisch, es => Spanish => . => Default: de
+auto_timer_enable=true  //Timer aktiviert. => Default: true
+
+[Cooldown]
+enable=true  //Kommando aktiviert. => Default: true
+attack_cooldown_in_second=30 //Teleportsperre im kampf in sekunden. => Default: 30
+cooldown_in_second=30 //Teleportsperre beim einsatz in sekunden. => Default: 30
+
+[Summon]
+enable=true  //Kommando aktiviert. => Default: true
+good_animal_distance=0  //Friedliche Tire Abstand. => Default: 0
+evil_animal_distance=10  //Wilde Tire Abstand. => Default: 10
+object_distance=5  //Gegenstände Abstand. => Default: 5
+box_distance=2  //Kisten Abstand. => Default: 2
+plane_distance=0  //Flugzeug Abstand. => Default: 0
+
+[Time]
+enable=true  //Kommando aktiviert. => Default: true
+day_time=6  //Tag Zeit (0 - 23). => Default: 6
+night_time=20  //Nacht Zeit (0 - 23). => Default: 20
+time_pm_am=false  //Zeigt 12/24 std. an. => Default: false
+auto_display=true  //Zeigt die Zeit automatisch an => Default: true
+
+[Airdrop]
+enable=true  //Kommando aktiviert. => Default: true
+max_amount=100  //Max. Airdrop rufen. => Default: 100
+
+[AirdropTimer]
+enable=true  /Kommando aktiviert. => Default: true 
+call_airdrop_per_minutes=60  //Airdrop jede XX Minute rufen. => Default: 60
+airdrop_amount=1  //Wenn Airdrop kommt, dann wie viele kommen sollen. => Default: 1
+airdrop_to_player=false  //"airdrop_amount" airdrop`s zum Player?. Default: false
+
+[Find]
+enable=true  //Kommando aktiviert. => Default: true
+
+[Home]
+enable=true  //Kommando aktiviert. => Default: true
+
+[SetHome]
+enable=true  //Kommando aktiviert. => Default: true
+max_homes=3  //Maximale Anzahl, die man setzten kann. => Default: 3
+
+[DelHome]
+enable=true  //Kommando aktiviert. => Default: true
+
+[Spawn]
+enable=true  //Kommando aktiviert. => Default: true
+
+[SetSpawn]
+enable=true  //Kommando aktiviert. => Default: true
+
+[DelSpawn]
+enable=true  //Kommando aktiviert. => Default: true
+
+[Clan]
+enable=true //Kommando aktiviert. => Default: true
+
+[Player]
+enable=true //Kommando aktiviert. => Default: true
+
+[RealTime]
+enable=true //Kommando aktiviert. => Default: true
+real_day_length=720
+real_night_length=720
+
+[SaveZone]
+enable=true //Kommando aktiviert. => Default: true
+max_zone=5  //Maximale Anzahl, die man setzten kann. => Default: 5
+pvp=false  //Ob kämpfen unter Spieler erlaubt ist. => Default: false
+set_home_allowed=false  //Home setzten erlaubt? => Default: false
+set_spawn_allowed=false  //Spawn setzten erlaubt? => Default: false
+teleport=false  //Ist Teleport erlaubt? => Default: false
+
+
+
+Kommandos:
+
+Help:
+
+/achelp => Kommandos liste.
+
+Airdrops
+
+/airdrop *X* (X = Anzahl der Airdrop's.) => Ruft eine anzahl von Airdrop's (Anzahl von 1 - 100).
+/airdrop *NAME* *X* (NAME = Name der User, X = Anzahl der Airdrop's.) => Ruft eine anzahl von Airdrop's an den empfänger (Anzahl von 1 - 100).
+/airdrop self *X* ("self" bist du selbst, X = Anzahl der Airdrop's.) => Ruft eine anzahl von Airdrop's an dich selbst (Anzahl von 1 - 100).
+
+AirdropTimer
+
+/airdroptimer show => Zeigt dir an, ob der Timer für Airdrop's Aktiviert/Deaktiviert ist.
+/airdroptimer start => Schaltet den Airdrop Timer ein (bei server neustart, startet sich der timer automatisch | bei "magma.reload" wird der timer deaktiviert).
+/airdroptimer stop => Schaltet den Airdrop Timer aus.
+
+Spawn
+
+/summon help => ID-Info.
+/summon *NAME* *ID* *COUNT* (NAME = Name der User, ID = ID findest du unter "/summon help", COUNT = wie viele herbeigerufen werden soll(max. 50)) => spawnt ein Gegenstand/Tiere zu den empfänger.
+
+Time
+
+/time day => Stellt die Uhrzeit auf 6 Uhr.
+/time night => Stellt die Uhrzeit auf 20 Uhr.
+/time set *ZEIT* (*ZEIT* = Uhrzeit in stunden.) => Stellt die Uhrzeit auf eine beliebige Zeit ein (0 - 23).
+/time say => Zeigt die Uhrzeit an (bsp. 15:03/3:03 PM).
+/time start => Startet die automatische Uhrzeit anzeige.
+/time stop => Stopt die automatische Uhrzeit anzeige.
+
+Timer
+
+/timer start => Startet den Timer.
+/timer stop => Stopt den Timer.
+/timer show => Zeigt an, ob der Timer Aktiviert ist.
+
+Home
+
+/sethome *NAME* (*NAME* = Home Name.) => Setzt einen Home punkt. Kann mehrere erstellt werden.
+/delhome *NAME* (*NAME* = Home Name.) => Entfernt einen Home punkt.
+/sethome all => Entfernt alle Home punkte.
+/home *NAME* (*NAME* = Home Name.) => Teleportiert dich zum Home, den man mit /sethome *NAME* gesetzt hat.
+
+Spawn
+
+/setspawn => Überschreibt deinen Spawn-Punkt. Kann nur einen erstellt werden.
+/delspawn => Entfernt deinen Spawn-Punkt.
+/spawn => Teleportiert dich zum Spawn.
+
+Clan
+
+/clan create *CLANNAME* (*CLANNAME* = Clan name) => Erstellt einen Clan.
+/clan add *NAME* (*NAME* = Name der User) => Schickt eine Einladung zum Spieler.
+/clan kick *NAME* (*NAME* = Name der User) => Kickt den Spieler aus dem Clan.
+/clan list => Spielerliste.
+/clan who => Onlineliste.
+/clan delete => Löscht deinen Clan.    
+/clan message *TEXT* (*TEXT* = Text Nachricht) => Schicket jeden Clan-Spieler eine Nachricht.  
+/clan accept => Akzeptiert die Einladung.
+/clan delete => Lehnt die Einladung ab.
+
+Player
+
+/player info => Zeigt die Spielerinfo an.
+/player best => Top5 Bestenliste.
+
+RealTime:
+
+/realtime real => stellt die zeit zyklus auf die reale zeit ein.
+/realtime default => stellt die zeit zyklus auf die standard zeit ein.
+/realtime => zeigt Tag/Nacht länge an.
+
+SaveZone:
+
+/savezone start *NAME* (*NAME* = Name der User) => Startet die Difinierung der SaveZone.
+/savezone del *NAME* (*NAME* = Name der User) => Löscht einen SaveZone.
+/savezone info => Zeigt eine liste der SaveZone an.
+/start => Difiniert den Start-Punkt der SaveZone.
+/end => Difiniert den End-Punkt der SaveZone.
+/stop => Stoppt die Difinierung der SaveZone.
+
+Sonstiges
+
+/find *NAME* (NAME = Name der User) => Ob dieser User Online/Offline ist.
+/getp *NAME* (NAME = Name der User) => Teleport zum Spieler der letzten Offline Location.
+
+
+[English]
+
+Config:
+
+[Settings]
+enable=true  //Command activate. => Default: true
+language=de  //Language: de => Deutsch, en => Englisch, es => Spanish. => Default: de
+auto_timer_enable=true  //Timer activate. => Default: true
+
+[Summon]
+enable=true  //Command activate. => Default: true
+good_animal_distance=0  //Good Animal Distance. => Default: 0
+evil_animal_distance=10  //Evil Animal Distance. => Default: 10
+object_distance=5  //Object Distance. => Default: 5
+box_distance=2  //Box Distance. => Default: 2
+plane_distance=0  //Plane Distance. => Default: 0
+
+[Time]
+enable=true  //Command activate. => Default: true
+day_time=6  //Day Time. => Default: 6
+night_time=20  //Night Time. => Default: 20
+time_pm_am=false  //Display to 12/24 std. => Default: false
+auto_display=true  //Display the Time automatically => Default: true
+
+[Airdrop]
+enable=true  //Command activate. => Default: true
+max_amount=100  //Max. Airdrop called. => Default: 100
+
+[AirdropTimer]
+enable=true  /Command activate. => Default: true
+call_airdrop_per_hour=60  //Call Airdrop every XX minutes. => Default: 60
+airdrop_amount=1  //If Airdrop comes, how many are to come. => Default: 1
+airdrop_to_player=false  //"airdrop_amount" airdrop`s to player?. Default: false
+
+[Find]
+enable=true  //Command activate. => Default: true
+
+[Home]
+enable=true  //Command activate. => Default: true
+attack_cooldown_in_second=30 //Teleport lock in the fight in seconds. => Default: 30
+
+[SetHome]
+enable=true  //Command activate. => Default: true
+max_homes=3  //Maximum number that can be set. => Default: 3
+
+[DelHome]
+enable=true  //Command activate. => Default: true
+
+[Spawn]
+enable=true  //Command activate. => Default: true
+attack_cooldown_in_second=30 //Teleport lock in the fight in seconds. => Default: 30
+
+[SetSpawn]
+enable=true  //Command activate. => Default: true
+
+[DelSpawn]
+enable=true  //Command activate. => Default: true
+
+[Clan]
+enable=true //Command activate. => Default: true
+
+[Player]
+enable=true //Command activate. => Default: true
+
+[RealTime]
+enable=true //Command activate. => Default: true
+real_day_length=720
+real_night_length=720
+
+[Save Zone] 
+enable=true //Command activate. => Default: true 
+max_zone=5 //Maximum number that can be translated. => Default: 5 
+pvp=false //Whether fighting allowed under players. => Default: false 
+set_home_allowed=false //Home sat allowed? => Default: false 
+set_spawn_allowed=false //Spawn translated allowed? => Default: false 
+teleport=false //if teleport allowed? => Default: false
+
+
+
+Commands:
+
+Help:
+
+/achelp => Help Command.
+
+Airdrops
+
+/airdrop *X* (X = Number the Airdrop's.) => Gets a number of Airdrop (Number 1 - 100).
+/airdrop *NAME* *X* (NAME = Name the User, X = Number the Airdrop's.) => Gets a number of airdrops to the recipient (Number 1 - 100).
+/airdrop self *X* ("self" is yourself, X = Number the Airdrop's.) => Gets a number of airdrops in yourself (Number 1 - 100).
+
+AirdropTimer 
+
+/airdroptimer show => Shows you whether the timer for Airdrop's Enabled/Disabled is. 
+/airdroptimer start => Turns on the Airdrop timer (for server reboot, to start the timer automatically | at "magma.reload", the timer disabled). 
+/airdroptimer stop => Turns off the Airdrop timer.
+
+Spawn
+
+/summon help => ID-Info.
+/summon *NAME* *ID* *COUNT* (NAME = Name the User, ID = ID can be found under "/summon help", COUNT = how many you want to summon(max. 50)) => Spawns an object/animal to the recipient.
+
+Time
+
+/time day => Sets the time at 6 clock.
+/time night => Sets the time at 20 clock.
+/time set *ZEIT* (*ZEIT* = Uhrzeit in Hour.) => Sets the time to any time a (0 - 23).
+/time say => Displays the time (bsp. 15:03/3:03 PM).
+/time start => Starts the automatic display time. 
+/time stop => Stops the automatic display time.
+
+Timer
+
+/timer start => Starts the Timer. 
+/timer stop => Stops the Timer. 
+/timer to show => Indicates whether the Timer is Enabled. 
+
+Home 
+
+/sethome *NAME* (*NAME* = Home name.) => Set a Home point. Can more be created. 
+/delhome *NAME* (*NAME* = Home name.) => Delete a Home point. 
+/delhome all => Delete all Home points. 
+/home *NAME* (*NAME* = Home name.) => Teleports you to the Home, the player has placed with /sethome *NAME*.
+
+Spawn 
+
+/setspawn => Overrides your spawn point. Can only one be created. 
+/delspawn => Delete your spawn point. 
+/spawn => Teleport to spawn.
+
+Clan
+
+/clan create *CLANNAME* (*CLANNAME* = Clan name) => Creates a clan. 
+/clan add *NAME* (*NAME* = name of the user) => Sends an invitation to the player. 
+/clan kick *NAME* (*NAME* = name of the user) => Kicks a player from the clan. 
+/clan list => roster. 
+/clan delete => delete your clan.
+/clan message *TEXT* (*TEXT* = text message) => Schicket each clan players a message. 
+/clan accept => Accepted the invitation. 
+/clan delete => declines the invitation.
+
+Player
+
+/player info => Displays the player info.
+/player best => Top5 Leaderboard.
+
+RealTime:
+
+/realtime real => the time cycle of the real-time.
+/realtime default => the time cycle of the standard time.
+/realtime => indicates day/night length.
+
+Save zone: 
+
+/save zone start *NAME* (*NAME* = name of the user) => Starts the definition the Sava zone. 
+/save zone del *NAME* (*NAME* = name of the user) => Deletes a save zone. 
+/save zoneinfo => Displays a list of the Sava zone. 
+/start => Defined the starting point of the Sava zone. 
+/end => Defined the end-point of the Sava zone. 
+/stop => Stops the definition the Sava zone.
+
+Sonstiges
+
+/find *NAME* (NAME = Name the User) => Whether this User Online/Offline is.
+/getp *NAME* (NAME = Name der User) => Teleport to players of the past Offline Location.
+
+
+
+[Español]
+
+Configuración:
+
+[Settings]
+enable=true  //Activar Comando. => Por Defecto: true
+language=es  //Idioma: de => Deutsch, en => Englisch, es => Spanish => Por Defecto: es
+auto_timer_enable=true  //Activar Temporizador => Por Defecto: true
+
+[Summon]
+enable=true  //Activar Comando. => Por Defecto: true
+good_animal_distance=0  //Distancia de Animales Pasivos. => Por Defecto: 0
+evil_animal_distance=10  //Distancia de Animales Salvajes. => Por Defecto: 10
+object_distance=5  //Distancia de Objetos. => Por Defecto: 5
+box_distance=2  //Distancia de Cajas. => Por Defecto: 2
+plane_distance=0  //Distancia de aeronave. => Default: 0
+
+
+[Time]
+enable=true  //Activar Comando. => Por Defecto: true
+day_time=6  //Tiempo de Día (0 - 23). => Por Defecto: 6
+night_time=20  //Tiempo de Noche (0 - 23). => Por Defecto: 20
+time_pm_am=false  //Formato de Hora 12/24 (15:03 HS o 3:03 PM). => Por Defecto: false
+auto_display=true  //Mostrar el Tiempo Automáticamente => Por Defecto: true
+
+[Airdrop]
+enable=true  //Activar Comando. => Por Defecto: true
+max_amount=100  //Máxima Cantidad de Airdrops llamados. => Por Defecto: 100
+
+[AirdropTimer]
+enable=true  /Activar Comando. => Por Defecto: true
+call_airdrop_to_clock=12  //Llama un Airdrop a XX hora. => Por Defecto: 12
+airdrop_amount=1  //Si viene un Airdrop, cuántos vienen. => Por Defecto: 1
+airdrop_to_player=false  //"airdrop_amount" airdrops al Jugador?. Por Defecto: false
+
+[Find]
+enable=true  //Activar Comando. => Por Defecto: true
+
+[Home]
+enable=true  //Activar Comando. => Por Defecto: true
+attack_cooldown_in_second=30 //Bloqueo de Teletransportación en una pelea en segundos. => Por Defecto: 30
+
+[SetHome]
+enable=true  //Activar Comando. => Por Defecto: true
+max_homes=3  //Máxima Cantidad de Casas que pueden ser establecidas. => Default: 3
+
+[DelHome]
+enable=true  //Activar Comando. => Por Defecto: true
+
+[Spawn]
+enable=true  //Activar Comando. => Por Defecto: true
+attack_cooldown_in_second=30 //Bloqueo de Teletransportación en una pelea en segundos. => Por Defecto: 30
+
+[SetSpawn]
+enable=true  //Activar Comando. => Por Defecto: true
+
+[DelSpawn]
+enable=true  //Activar Comando. => Por Defecto: true
+
+[Clan]
+enable=true  //Activar Comando. => Por Defecto: true
+
+[Player]
+enable=true  //Activar Comando. => Por Defecto: true
+
+
+
+Comandos:
+
+Ayuda:
+
+/achelp => Comando de Ayuda.
+
+Airdrops
+
+/airdrop *X* (X = Número de Airdrop.) => Obtiene un número de Airdrop (Número de 1 - 100).
+/airdrop *NAME* *X* (NAME = Nombre de Usuario, X = Número de Airdrop.) => Obtiene el Airdrop del Número X al Jugador (Número de 1 - 100).
+/airdrop self *X* ("self" es uno mismo, X = Número de Airdrop.) => Obtiene el Airdrop del Número X a uno mismo. (Number 1 - 100).
+
+Temporizador de Airdrops
+
+/airdroptimer show => Muestra el temporizador para el Airdrop si esta previamente Activado/Desactivado. 
+/airdroptimer start => Inicia el Temporizador del Airdrop (En el Reinicio del Servidor el Temporizador inicia automáticamente. | Si se reincicia el MAGMA, el temporizador queda desactivado. 
+/airdroptimer stop => Detiene el Temporizador del Airdrop.
+
+Aparición
+
+/summon help => ID-Info.
+/summon *NAME* *ID* *COUNT* (NAME = Nombre de Usuario, ID = ID Donde se encuentra "/summon help", COUNT = Cantidad (max. 50)) => Spawnea un objeto/animal al Usuario.
+
+Tiempo
+
+/time day => Establece el tiempo de Día (6hs por Defecto).
+/time night => Establece el tiempo de Noche. (20hs por Defecto).
+/time set *ZEIT* (*TIEMPO* = Tiempo en horas.) => Establece la hora a una hora indicada (0 a 23).
+/time say => Muestra la Hora 12/24 (15:03 HS o 3:03 PM).
+/time start => Inicia automáticamente mostrar la hora.
+/time stop => Detiene automáticamente mostrar la hora.
+
+Temporizador
+
+/timer start => Inicia el Temporizador. 
+/timer stop => Detiene el Temporizador. 
+/timer to show => Indica si el temporizador está activado. 
+
+Casa 
+
+/sethome *NAME* (*NOMBRE* = Nombre de la Casa.) => Estable un Punto X como Casa. Se pueden crear más (Máximo 3 por Defecto). 
+/delhome *NAME* (*NOMBRE* = Nombre de la Casa.) => Elimina un Punto X como Casa. 
+/delhome all => Elimina Todos los Puntos X como Casa. 
+/home *NAME* (*NOMBRE* = Nombre de la Casa.) => Teletransporta al Juagor a la Casa Indicada. Previamente el Jugador debe marcar una ubicación con el comando /sethome *NOMBRE*, para que esto funcione.
+
+Aparición
+
+/setspawn => Sobreescribe tu punto de aparición. Solo uno puede ser creado.
+/delspawn => Elimina tu punto de aparición. 
+/spawn => Teletransporta a tu punto de aparición.
+
+Clan
+
+/clan create *CLANNAME* (*NOMBREdelCLAN* = Nombre del Clan) => Crea un clan. 
+/clan add *NAME* (*NOMBRE* = Nombre del Usuario) => Envia una invitación al Usuario para Unirse al Clan. 
+/clan kick *NAME* (*NOMBRE* = Nombre del Usuario) => Elimina a un Usuario del Clan. 
+/clan list => roster. (Lista de Integrantes) => Muestra la Lista de Integrantes del Clan.
+/clan delete => delete your clan. (Solo el Creador) => Elimina el Clan creado.
+/clan message *TEXT* (*MENSAJE* = Texto del Mensaje) => Envia un mensaje entre los miembros del Clan. 
+/clan accept => Accepted the invitation. (Acepta la invitación al Clan) 
+/clan delete => declines the invitation. (Rechaza la invitación al Clan)
+
+Otros
+
+/find *NAME* (NOMBRE = Nombre de Usuario) => Busca a un Usuario e indica si este usuario se encuentra en línea o fuera de línea.
+
+
+
+MfG Ruppi

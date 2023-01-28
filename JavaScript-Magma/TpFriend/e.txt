@@ -1,0 +1,10 @@
+Complemento de teletransporte | TpFriend te permite enviar una solicitud de teletransporte a un jugador específico.
+
+Comandos de TpFriend
+
+/ tpcount : muestra el número actual de solicitudes / máx.
+/ tpa PlayerName : envía una solicitud para teletransportar al jugador. Ejemplo : / tpa Vasya007
+/ tpaccept : solicitud recibida .
+/ tpdeny : rechaza la solicitud.
+/ tphelp : información de ayuda.
+/ tpresettime : para que los administradores restablezcan el tiempo de teletransportación.

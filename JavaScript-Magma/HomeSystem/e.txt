@@ -1,0 +1,25 @@
+Sistema Rust House para mod Fougerite con Anti Glitches y Jams.
+
+Este complemento ignora Beds, por lo que no tendrá ningún problema técnico de incursión con el nuevo truco llamado Dizzy. Además, este complemento admite múltiples casas (múltiples casas) y tiene una solución como en el complemento TpFriend .
+
+Ajustes plug-in HomeSystem para Fougerite
+
+run_timer = 2 // Hora en que el temporizador comprueba los jugadores que fueron teletransportados, debes dejar aquí el valor 2. (Depende de si el número tpdelay se divide con él)
+Enfriamiento = 1200000 // 20 minutos = 20 * 1000 * 60 = 1200000
+safetpcheck = 2 // Segundos para teletransportar al jugador a la misma posición, para que no experimente fallas
+Maxhomes = 2 // Número máximo de casas
+Antihack = 1 // Evita la colocación de la cama y el saco de dormir para que no te piratee el problema técnico.
+tpdelay = 10 // Retraso de teletransportación
+DistanceCheck=0
+Distancia = 20 // Si DistanceCheck se establece en 1, exploramos si hay casas cercanas dentro de un radio de 20 metros (un comando para WhiteListing está disponible)
+movecheck = 0 // Comprueba si el jugador se mueve después de usar el comando de teletransportación
+homesystemname = [HomeSystem] // Prefix (Prefix) name
+
+// Estas configuraciones a continuación funcionan solo si antiroofdizzy está configurado en 1
+antiroofdizzy = 0 // esto permite el bypass si es 1
+randomlocnumber = 10 // He agregado 10 ubicaciones aleatorias hasta ahora
+rejoincd = 15 // Tiempo de recuperación para reconectar
+jointpdelay = 10 // Retrasa la teletransportación para poner al jugador en su casa, recomiendo que el valor sea 10, así que básicamente todo el mundo necesita 6-7 segundos para unirse al juego. (Creo que depende de la computadora)
+
+¿Qué es el anti-mareo?
+Antiroofdizzy permite a los jugadores teletransportarse inmediatamente a sus hogares después de unirse al servidor (requiere / setdefaulthome o serán teletransportados a una ubicación aleatoria). Esta opción te permite proteger a los jugadores de piratear la redada, de fallas dentro del techo, usando Dizzy. Comandos HomeSystem para Fougerite / home Comando adicional para administradores: / deletebeds Elimina todas las almohadas y camas para dormir del servidor. Puede producir retrasos durante un par de segundos. Solo se puede usar cuando Antihack = 1 .

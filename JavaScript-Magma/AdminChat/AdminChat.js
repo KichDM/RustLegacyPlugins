@@ -1,5 +1,12 @@
+/**
+ * Name : AdminChat
+ * File : AdminChat.js
+ * Author : Snake
+ * Creation : 2014.07.10
+ * Version : 1.0
+ */
 
-//Funcion de enviar texto solo a admins
+//Function to send text only to admins
 function sendAdminText(name, text){
     startIni();
     var ini = Plugin.GetIni("adminchat");
@@ -11,7 +18,7 @@ function sendAdminText(name, text){
     }
 }
 
-//Función para iniciar el complemento ini en caso de que no exista 
+//Function to init plugin ini in case it doesn't exists
 function startIni(){
     if(!Plugin.IniExists("adminchat")){
         var ini = Plugin.CreateIni("adminchat");
@@ -20,7 +27,7 @@ function startIni(){
     }
 }
 
-//Función para verificar si la cadena es hexadecimal
+//Function to check if string is hex
 function isHex(string){
     var i;
     if (string.length!=6){
@@ -34,27 +41,26 @@ function isHex(string){
     return true;
 }
 
-//El nucleo tt
+//Core of the plugin
 function On_Command(Player, cmd, args) {
-    cmd = Data.ToLower(cmd);
     if (Player.Admin) {
         var n = "AdminChat";
         cmd = Data.ToLower(cmd);
         if (cmd == "adminchat") {
             switch (args.Length) {
                 case 0:
-                    Player.MessageFrom(n, "AdminChat 2.0 Novaland Zero");
+                    Player.MessageFrom(n, "AdminChat 1.0 by Snake");
                     Player.MessageFrom(n, "---------------------------------");
-                    Player.MessageFrom(n, "Usa '/ac texto' para chatear con los admins");
-                    Player.MessageFrom(n, "Usa '/adminchat' para ver la info");
-                    Player.MessageFrom(n, "Usa '/adminchat color 00FF00' para cambiar el color del chat (hex)");
+                    Player.MessageFrom(n, "Use '/ac text' to chat with admins");
+                    Player.MessageFrom(n, "Use '/adminchat' to see this info");
+                    Player.MessageFrom(n, "Use '/adminchat color 00FF00' to change the color (hex)");
                     break;
 
-                /** para el futuro
+                /** On Planning Stage
                 case 1:
                     switch(args[0]){
                         case "colorlist":
-                            Player.MessageFrom(n, "Lista de colores para el chat admin");
+                            Player.MessageFrom(n, "List of Colors for AdminChat");
                             Player.MessageFrom(n, "[color#00FFFF]Cyan [color#32CD32]Lime [color#ADD8E6]LightBlue")
                             break;
                     }
@@ -70,15 +76,15 @@ function On_Command(Player, cmd, args) {
                             var color = "[color#" + args[1] + "]" + args[1];
                             ini.AddSetting("settings", "color", args[1]);
                             ini.Save();
-                            Player.MessageFrom(n, "Color fue aplicado a " + color);
+                            Player.MessageFrom(n, "Color changed to " + color);
                         }
                         else{
-                            Player.MessageFrom(n, "No es un color hexadecimal válido");
+                            Player.MessageFrom(n, "Not a valid hexadecimal color");
                         }
                     }
 
                 default:
-                    Player.MessageFrom(n, "Comando invalido");
+                    Player.MessageFrom(n, "Invalid command");
                     break;
             }
         }
@@ -93,7 +99,7 @@ function On_Command(Player, cmd, args) {
                 sendAdminText(Player.Name, text);
             }
             else{
-                Player.MessageFrom(n, "No se proporcionó texto");
+                Player.MessageFrom(n, "No text was provided");
             }
         }
     }

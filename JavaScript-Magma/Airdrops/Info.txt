@@ -1,0 +1,65 @@
+Version 0.9
+
+Config:
+
+airdropMinPlayer // Minimun player required to autorize the automatic airdrop. // Default = 4
+
+timeBetweenAirdrop // Time between the automatic airdrop (in milliseconds). // Default = 7200000 (2 hour) // 3600000 (1 hour) // 1800000 (30 minute)
+
+airdropDuringNight // Allow airdrop to be call during the night. // Options: false/true // Default = false
+
+nbAirdrop // Number of airdrop to call each time the time run out
+
+timeleftAdminOnly // true = Only allow admin to use the /airdroptimeleft command false = the opposite :)  all user can use the command
+
+
+Commands:
+
+Airdrops
+
+/airdrop X // (X = Number of Airdrop between 1 and 5) Call a number of airdrop // ADMIN ONLY
+
+/airdroptimeleft // Display the time left in minutes before the next airdrop // ALL USER
+
+Installation Info:
+Make a folder named "Airdrops" in your magma folder 
+place the .js and the .cfg files in it
+Restart the server
+
+///////////////////// USE AT YOUR OWN RISK///////////////////
+Sometimes, because of a magma core issue or a rust core issue, the airdrop will not be call and will cause
+the console to be spam by errors and can cause lag on the server
+
+Changelog 0.8 --> 0.9
+Fix airdrop comming during night when airdropDuringNight is at true
+
+Changelog 0.7 --> 0.8
+Fix the /airdroptimeleft command showing 1439 min left some times
+
+Changelog 0.6 --> 0.7
+Fix the connect message, I HOPE SOO
+Fix the adminflag for the /airdroptimeleft command
+
+Changelog 0.5 --> 0.6
+Added the option to allow only admin to use the /airdroptimeleft command
+
+Changelog 0.4 --> 0.5
+Stability improved
+Really fix the connect message that wasnt fix in V0.4 (sorry :(   )
+Fix an issue with the /airdroptimeleft command that display over 700 min when irl time switch from 12 AM to 1 PM
+Fix an issue with the /airdroptimeleft command that display negative min left when switch from 12 PM to 1 AM
+
+Changelog 0.3 --> 0.4
+Fix connect message when not enough player
+
+Changelog 0.2 --> 0.3 
+Add cfg file for a easy configuration
+Add a info.txt file (this file XD) with some info on the plugin (duuuhhh!!)
+Fix the time displayed with the /airdroptimeleft command when the delayed airdrop is called
+IMPORTANT FIX: The admin command /airdrop X was a little bit buggy, i fixed it
+
+Changelog 0.1 --> 0.2 
+Forgot a variable (nbAirdrop)
+
+
+Made by Reaper

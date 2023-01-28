@@ -11,19 +11,30 @@ function On_DoorUse(Player, DoorUseEvent)
 
 function On_Command(Player, cmd, args)
 {
-	if(Data.ToLower(cmd) == "admindoors" || Data.ToLower(cmd) == "doors" || Data.ToLower(cmd) == "puertas")
+	if(Data.ToLower(cmd) == "admindoors" || Data.ToLower(cmd) == "ad")
 	{
 		if(args.Length <= 0)
 		{
-			if(Player.Admin || allowed(Player))
+			if((Player.Admin || allowed(Player)) && Data.ToLower(cmd) != "ad")
 			{
-				Player.MessageFrom("AdminDoors", "/AdminDoors Allow  -  /AdminDoors UnAllow  -  /AdminDoors Toggle");
+				Player.MessageFrom("AdminDoors", "/AdminDoors Allow  -  /AdminDoors UnAllow  -  /AdminDoors Toggle  -  /AdminDoors Info");
+				Player.MessageFrom("AdminDoors", "/AD can also be used.");
+			}
+			else
+			{
+				Player.MessageFrom("AdminDoors", "/AD Allow  -  /AD UnAllow  -  /AD toggle  -  /AD Info");
+				Player.MessageFrom("AdminDoors", "/AdminDoors can also be used.");
 			}
 		}
 		if(Data.ToLower(args[0]) == "allow")
 		{
 			if(Player.Admin || allowed(Player))
 			{
+				if(args.Length == 1)
+				{
+					Player.MessageFrom("AdminDoors", "/AdminDoors Allow <PlayerName>");
+					return;
+				}
 				if(args.Length == 2)
 				{
 					var targetByArgs = args[1];
@@ -39,6 +50,10 @@ function On_Command(Player, cmd, args)
 				if(args.Length == 5)
 				{
 					var targetByArgs = args[1] + " " + args[2] + " " + args[3] + " " + args[4];
+				}
+				if(args.Length == 6)
+				{
+					var targetByArgs = args[1] + " " + args[2] + " " + args[3] + " " + args[4] + " " + args[5];
 				}
 				var target = Magma.Player.FindByName(targetByArgs);
 				if(target == null)
@@ -69,6 +84,11 @@ function On_Command(Player, cmd, args)
 		{
 			if(Player.Admin || allowed(Player))
 			{
+				if(args.Length == 1)
+				{
+					Player.MessageFrom("AdminDoors", "/AdminDoors UnAllow <PlayerName>");
+					return;
+				}
 				if(args.Length == 2)
 				{
 					var targetByArgs = args[1];
@@ -84,6 +104,10 @@ function On_Command(Player, cmd, args)
 				if(args.Length == 5)
 				{
 					var targetByArgs = args[1] + " " + args[2] + " " + args[3] + " " + args[4];
+				}
+				if(args.Length == 6)
+				{
+					var targetByArgs = args[1] + " " + args[2] + " " + args[3] + " " + args[4] + " " + args[5];
 				}
 				var target = Magma.Player.FindByName(targetByArgs);
 				if(target == null)
@@ -120,6 +144,10 @@ function On_Command(Player, cmd, args)
 			{
 				Player.MessageFrom("AdminDoors", "You do not have permission for this.");
 			}
+		}
+		if(Data.ToLower(args[0]) == "info")
+		{
+			Player.MessageFrom("AdminDoors", "Plugin version 3.0 by EternalxFear.");
 		}
 	}
 }
